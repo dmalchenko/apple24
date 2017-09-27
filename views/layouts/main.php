@@ -18,60 +18,64 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?= Html::csrfMetaTags() ?>
+	<?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
-    <?php $this->head() ?>
+	<?php $this->head() ?>
+    <link href="/apple/web/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link href="/apple/web/favicon.ico" type="image/x-icon" rel="icon">
+    <script type="text/javascript" src="/apple/web/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/apple/web/js/jquery.formstyler.min.js"></script>
+    <script type="text/javascript" src="/apple/web/js/jquery.actual.js"></script>
+    <script type="text/javascript" src="/apple/web/js/slick.min.js"></script>
+    <script type="text/javascript" src="/apple/web/js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="/apple/web/js/mask.js"></script>
+    <script type="text/javascript" src="/apple/web/js/script.js"></script>
 </head>
 <body>
 <?php $this->beginBody() ?>
+<div id="wrapper" class="wrapper">
+    <header>
+        <div class="container">
+            <div class="burger-button">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="http://apple24.online" class="logo"></a>
+            <ul class="burger-menu">
+                <li>
+                    <a class="scrollto cat" href="/#catalog">Каталог</a>
+                    <ul class="mobile_category_opened">
+                        <li><a href="#phone-3" class="active  scrollto">iPhone 5S</a></li>
+                        <li><a href="#phone-5" class="active  scrollto">iPhone 6</a></li>
+                        <li><a href="#phone-6" class="active  scrollto">iPhone 6 plus</a></li>
+                        <li><a href="#phone-7" class="active  scrollto">iPhone 6S</a></li>
+                        <li><a href="#phone-26" class="active  scrollto">iPhone 6S plus</a></li>
+                        <li><a href="#phone-25" class="active  scrollto">iPhone 7</a></li>
+                        <li><a href="#phone-27" class="active  scrollto">iPhone 7 plus</a></li>
+                        <li><a href="#phone-28" class="active  scrollto">iPhone SE</a></li>
+                        <li><a href="http://apple24.online/aksessuary/" class="active  scrollto">Аксессуары</a></li>
+                    </ul>
+                </li>
+                <li><a class="scrollto" href="/#guaranty">Гарантия</a></li>
+                <!--<li><a class="scrollto" href="/#press-block">О нас</a></li>-->
+                <li><a class="scrollto" href="/#delivery">Доставка и оплата</a></li>
+                <li><a href="http://apple24.online/news/">Новости</a></li>
+                <!--<li><a href="http://apple24.online/list/">Стат</a></li>-->
+                <li><a href="http://apple24.online/otzyvy-apple-24-online/">Отзывы</a></li>
+                <li><a href="http://apple24.online/contacts/">Контакты</a></li>
+            </ul>
+            <div class="phone"><a href="tel: +7 (499) 705-03-88"><span class="lptracker_phone">+7 (499) 705-03-88</span></a>
+            </div>
 
-<div class="wrap">
-    <?php
-    NavBar::begin([
-        'brandLabel' => 'My Company',
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
-        ],
-    ]);
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
-            Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
-            ) : (
-                '<li>'
-                . Html::beginForm(['/site/logout'], 'post')
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->username . ')',
-                    ['class' => 'btn btn-link logout']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
-        ],
-    ]);
-    NavBar::end();
-    ?>
+        </div>
+    </header>
 
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-        <?= $content ?>
-    </div>
+	<?= $content ?>
+
+
 </div>
 
-<footer class="footer">
-    <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
-
-        <p class="pull-right"><?= Yii::powered() ?></p>
-    </div>
-</footer>
 
 <?php $this->endBody() ?>
 </body>
