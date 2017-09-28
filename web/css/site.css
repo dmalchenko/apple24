@@ -1991,6 +1991,12 @@ section.content_block .thk-img img {
         display:block!important;
         height:auto!important;
     }
+    .container {
+        max-width:100%;
+        box-sizing:border-box;
+        padding:0;
+        width: 1280px;
+    }
 }
 @media (max-width: 1200px) {
     .container {

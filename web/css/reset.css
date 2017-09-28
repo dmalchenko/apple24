@@ -1,0 +1,49 @@
+html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset,input {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul, li, ol {
+    list-style:none;
+}
+img {
+    border:0
+}
+hr {
+    height: 1px;
+    border: 1px dotted #000;
+    background: none;
+}
+.clr {
+    clear:both
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.center {
+    text-align:center;
+}
+.text-left {
+    text-align:left;
+}
+.text-right {
+    text-align:right;
+}
+.animation, a, a span, button, .button {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.animation:hover, a:hover, a:hover span, button:hover, .button:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+input.error, textarea.error, .jq-selectbox.error .jq-selectbox__select, .jq-checkbox.error {
+    border: 1px solid #ff6e6e!important;
+}

@@ -530,14 +530,16 @@ function dinamPhones(attr) {
 
 		function returnChanngePage(colorName, sizeId, category) {
 			$('#phone-' + category).find('.buttons').fadeOut();
+            var csrfToken = $('meta[name="csrf-token"]').attr("content");
 			$.ajax({
 				type: 'POST',
 				dataType: 'json',
-				url: '/product/changePage/',
+				url: 'site/change',
 				data: {
 					category: category,
 					colorName: colorName,
-					sizeId: sizeId
+					sizeId: sizeId,
+                    _csrf : csrfToken
 				},
 				success: function(result){
 					if(result.prodId) {
@@ -550,8 +552,8 @@ function dinamPhones(attr) {
 							$('#phone-' + result.cat).find('input[name="prod_id"]').val(result.prodId);
 							//         $('.price_' + result.cat).fadeIn();
 							//
-							$('#phone-' + result.cat).find('.sale-price span').text(result.price2);
-							$('#phone-' + result.cat).find('.standart-price span').text(result.price);
+							$('#phone-' + result.cat).find('.sale-price span').text(result.price1);
+							$('#phone-' + result.cat).find('.standart-price span').text(result.price2);
 
 							$('#phone-' + category).find('.buttons').fadeIn();
 						}

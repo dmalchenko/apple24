@@ -1,6 +1,8 @@
 <?php
 
 /* @var $this yii\web\View */
+/* @var $prices array */
+/* @param $prices array */
 
 $this->title = 'My Yii Application';
 ?>
@@ -33,52 +35,52 @@ $this->title = 'My Yii Application';
                 <img src="/apple/web/uploads/category/x250/260ec7360e0d0049e0ba29ec356b6324.jpg" alt="Купить iPhone 5S"
                      title="Купить iPhone 5S"/>
                 <span>iPhone 5S</span>
-                от 12 999 руб.
+                от <?= $prices['iPhone5s']['16Gb']['price1']?> руб.
             </a>
             <a href="#phone-5" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
                      title="Купить iPhone 6"/>
                 <span>iPhone 6</span>
-                от 18 999 руб.
+                от <?= $prices['iPhone6']['16Gb']['price1']?> руб.
             </a>
             <a href="#phone-6" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/1479ebb99f8f7b44114f5674d8b3ee41.jpg"
                      alt="Купить iPhone 6 plus"
                      title="Купить iPhone 6 plus"/>
                 <span>iPhone 6 plus</span>
-                от 21 999 руб.
+                от <?= $prices['iPhone6plus']['16Gb']['price1']?> руб.
             </a>
             <a href="#phone-7" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/ca4dae544f8ae4afb53199cbc1eae718.jpg" alt="Купить iPhone 6S"
                      title="Купить iPhone 6S"/>
                 <span>iPhone 6S</span>
-                от 21 999 руб.
+                от <?= $prices['iPhone6s']['16Gb']['price1']?> руб.
             </a>
             <a href="#phone-26" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/4317c2894aafa3a058208477e276fb55.jpg"
                      alt="Купить iPhone 6S plus"
                      title="Купить iPhone 6S plus"/>
                 <span>iPhone 6S plus</span>
-                от 26 999 руб.
+                от <?= $prices['iPhone6sPlus']['16Gb']['price1']?> руб.
             </a>
             <a href="#phone-25" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/bbad48acb74d77cd7587c46fa1b332fb.jpg" alt="Купить iPhone 7"
                      title="Купить iPhone 7"/>
                 <span>iPhone 7</span>
-                от 33 499 руб.
+                от <?= $prices['iPhone7']['32Gb']['price1']?> руб.
             </a>
             <a href="#phone-27" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/c2176883977d9bdd03041770ef31cde6.jpg"
                      alt="Купить iPhone 7 plus"
                      title="Купить iPhone 7 plus"/>
                 <span>iPhone 7 plus</span>
-                от 43 499 руб.
+                от <?= $prices['iPhone7plus']['32Gb']['price1']?> руб.
             </a>
             <a href="#phone-28" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/1e702de4369bb2567f349ca4dfd3bf35.jpg" alt="Купить iPhone SE"
                      title="Купить iPhone SE"/>
                 <span>iPhone SE</span>
-                от 21 499 руб.
+                от <?= $prices['iPhoneSE']['16Gb']['price1']?> руб.
             </a>
         </div>
     </div>
@@ -240,10 +242,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span> 15 599</span> руб.
+                                <span><?= $prices['iPhone5s']['16Gb']['price2']?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span>12 999</span> руб.
+                                <span><?= $prices['iPhone5s']['16Gb']['price1']?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -408,10 +410,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span> 22 799</span> руб.
+                                <span><?= $prices['iPhone6']['16Gb']['price2']?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span>18 999</span> руб.
+                                <span><?= $prices['iPhone6']['16Gb']['price1']?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -576,10 +578,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span> 26 399</span> руб.
+                                <span><?= $prices['iPhone6plus']['16Gb']['price2']?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span>21 999</span> руб.
+                                <span><?= $prices['iPhone6plus']['16Gb']['price1']?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -749,10 +751,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span> 26 399</span> руб.
+                                <span><?= $prices['iPhone6s']['16Gb']['price2']?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span>21 999</span> руб.
+                                <span><?= $prices['iPhone6s']['16Gb']['price1']?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -922,10 +924,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span> 32 399</span> руб.
+                                <span><?= $prices['iPhone6sPlus']['16Gb']['price2']?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span>26 999</span> руб.
+                                <span><?= $prices['iPhone6sPlus']['16Gb']['price1']?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -1113,10 +1115,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span> 36 849</span> руб.
+                                <span><?= $prices['iPhone7']['32Gb']['price2']?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span>33 499</span> руб.
+                                <span><?= $prices['iPhone7']['32Gb']['price1']?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -1305,10 +1307,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span> 47 849</span> руб.
+                                <span><?= $prices['iPhone7plus']['32Gb']['price2']?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span>43 499</span> руб.
+                                <span><?= $prices['iPhone7plus']['32Gb']['price1']?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -1480,10 +1482,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span> 25 799</span> руб.
+                                <span><?= $prices['iPhoneSE']['16Gb']['price2']?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span>21 499</span> руб.
+                                <span><?= $prices['iPhoneSE']['16Gb']['price1']?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -1709,24 +1711,24 @@ $this->title = 'My Yii Application';
 <noscript>
     <div><img src="https://mc.yandex.ru/watch/45609294" style="position:absolute; left:-9999px;" alt=""/></div>
 </noscript> <!-- /Yandex.Metrika counter -->
-<script async type="text/javascript">function loadscript(e, t) {
-        var n = document.createElement("script");
-        n.src = "//lptracker.net.ru/" + e;
-        n.onreadystatechange = t;
-        n.onload = t;
-        document.head.appendChild(n);
-        return 1
-    }
-    var init_lstats = function () {
-        lstats.site_id = 42082;
-        lstats.vk_catched = true;
-        lstats.referer()
-    };
-    var jquery_lstats = function () {
-        jQstat.noConflict();
-        loadscript("stats.js", init_lstats)
-    };
-    loadscript("jquery-1.10.2.min.js", jquery_lstats);</script>
+<!--<script async type="text/javascript">function loadscript(e, t) {-->
+<!--        var n = document.createElement("script");-->
+<!--        n.src = "//lptracker.net.ru/" + e;-->
+<!--        n.onreadystatechange = t;-->
+<!--        n.onload = t;-->
+<!--        document.head.appendChild(n);-->
+<!--        return 1-->
+<!--    }-->
+<!--    var init_lstats = function () {-->
+<!--        lstats.site_id = 42082;-->
+<!--        lstats.vk_catched = true;-->
+<!--        lstats.referer()-->
+<!--    };-->
+<!--    var jquery_lstats = function () {-->
+<!--        jQstat.noConflict();-->
+<!--        loadscript("stats.js", init_lstats)-->
+<!--    };-->
+<!--    loadscript("jquery-1.10.2.min.js", jquery_lstats);</script>-->
 <!--<link rel="stylesheet" href="https://cdn.callbackkiller.com/widget/cbk.css">-->
 <!--<script type="text/javascript"-->
 <!--        src="https://cdn.callbackkiller.com/widget/cbk.js?wcb_code=ca1c0efa648be74ca523ac2c8317c1dc" charset="UTF-8"-->
@@ -1896,20 +1898,20 @@ $this->title = 'My Yii Application';
     <div class="clr"></div>
 
 </div>
-<script type="text/javascript">
-    (function (_, r, e, t, a, i, l) {
-        _['retailCRMObject'] = a;
-        _[a] = _[a] || function () {
-                (_[a].q = _[a].q || []).push(arguments)
-            };
-        _[a].l = 1 * new Date();
-        l = r.getElementsByTagName(e)[0];
-        i = r.createElement(e);
-        i.async = !0;
-        i.src = t;
-        l.parentNode.insertBefore(i, l)
-    })(window, document, 'script', 'https://collector.retailcrm.pro/w.js', '_rc');
-
-    _rc('create', 'RC-96552641146-2');
-    _rc('send', 'pageView');
-</script>
+<!--<script type="text/javascript">-->
+<!--    (function (_, r, e, t, a, i, l) {-->
+<!--        _['retailCRMObject'] = a;-->
+<!--        _[a] = _[a] || function () {-->
+<!--                (_[a].q = _[a].q || []).push(arguments)-->
+<!--            };-->
+<!--        _[a].l = 1 * new Date();-->
+<!--        l = r.getElementsByTagName(e)[0];-->
+<!--        i = r.createElement(e);-->
+<!--        i.async = !0;-->
+<!--        i.src = t;-->
+<!--        l.parentNode.insertBefore(i, l)-->
+<!--    })(window, document, 'script', 'https://collector.retailcrm.pro/w.js', '_rc');-->
+<!---->
+<!--    _rc('create', 'RC-96552641146-2');-->
+<!--    _rc('send', 'pageView');-->
+<!--</script>-->

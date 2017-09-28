@@ -21,15 +21,17 @@ AppAsset::register($this);
 	<?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
 	<?php $this->head() ?>
-    <link href="/apple/web/favicon.ico" type="image/x-icon" rel="shortcut icon">
-    <link href="/apple/web/favicon.ico" type="image/x-icon" rel="icon">
-    <script type="text/javascript" src="/apple/web/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/apple/web/js/jquery.formstyler.min.js"></script>
-    <script type="text/javascript" src="/apple/web/js/jquery.actual.js"></script>
-    <script type="text/javascript" src="/apple/web/js/slick.min.js"></script>
-    <script type="text/javascript" src="/apple/web/js/jquery.fancybox.js"></script>
-    <script type="text/javascript" src="/apple/web/js/mask.js"></script>
-    <script type="text/javascript" src="/apple/web/js/script.js"></script>
+	<?php $path = \yii\helpers\Url::to('@web'); ?>
+    <link href="<?= $path?>/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link href="<?= $path?>/favicon.ico" type="image/x-icon" rel="icon">
+    <script type="text/javascript" src="<?= $path?>/js/jquery.min.js"></script>
+    <script type="text/javascript" src="<?= $path?>/js/jquery.formstyler.min.js"></script>
+    <script type="text/javascript" src="<?= $path?>/js/jquery.actual.js"></script>
+    <script type="text/javascript" src="<?= $path?>/js/slick.min.js"></script>
+    <script type="text/javascript" src="<?= $path?>/js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="<?= $path?>/js/mask.js"></script>
+    <script type="text/javascript" src="<?= $path?>/js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 <body>
 <?php $this->beginBody() ?>
@@ -44,7 +46,7 @@ AppAsset::register($this);
             <a href="http://apple24.online" class="logo"></a>
             <ul class="burger-menu">
                 <li>
-                    <a class="scrollto cat" href="/#catalog">Каталог</a>
+                    <a class="scrollto cat" href="<?= $path?>/#catalog">Каталог</a>
                     <ul class="mobile_category_opened">
                         <li><a href="#phone-3" class="active  scrollto">iPhone 5S</a></li>
                         <li><a href="#phone-5" class="active  scrollto">iPhone 6</a></li>
@@ -54,23 +56,21 @@ AppAsset::register($this);
                         <li><a href="#phone-25" class="active  scrollto">iPhone 7</a></li>
                         <li><a href="#phone-27" class="active  scrollto">iPhone 7 plus</a></li>
                         <li><a href="#phone-28" class="active  scrollto">iPhone SE</a></li>
-                        <li><a href="http://apple24.online/aksessuary/" class="active  scrollto">Аксессуары</a></li>
                     </ul>
                 </li>
-                <li><a class="scrollto" href="/#guaranty">Гарантия</a></li>
+                <li><a class="scrollto" href="<?= $path?>/#guaranty">Гарантия</a></li>
                 <!--<li><a class="scrollto" href="/#press-block">О нас</a></li>-->
-                <li><a class="scrollto" href="/#delivery">Доставка и оплата</a></li>
-                <li><a href="http://apple24.online/news/">Новости</a></li>
+                <li><a class="scrollto" href="<?= $path?>/#delivery">Доставка и оплата</a></li>
+                <li><a href="<?= $path?>/news/">Новости</a></li>
                 <!--<li><a href="http://apple24.online/list/">Стат</a></li>-->
-                <li><a href="http://apple24.online/otzyvy-apple-24-online/">Отзывы</a></li>
-                <li><a href="http://apple24.online/contacts/">Контакты</a></li>
+                <li><a href="<?= $path?>/otzyvy-apple-24-online/">Отзывы</a></li>
+                <li><a href="<?= $path?>/contacts/">Контакты</a></li>
             </ul>
             <div class="phone"><a href="tel: +7 (499) 705-03-88"><span class="lptracker_phone">+7 (499) 705-03-88</span></a>
             </div>
 
         </div>
     </header>
-
 	<?= $content ?>
 
 
