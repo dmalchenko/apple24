@@ -364,7 +364,7 @@ $(document).ready(function () {
 			$(this).find("[name=phone]").addClass("error");
 		} 
 		if ($(this).find(".error").length < 1) {
-            document.location.href = "/thanks-for-review/";
+            document.location.href = "/apple/web/review";
 
             // $.post("order_mail.php", $(this).serialize()).done(function() {
 			// 	$.fancybox.close();

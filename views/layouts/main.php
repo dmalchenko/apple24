@@ -43,7 +43,7 @@ AppAsset::register($this);
                 <span></span>
                 <span></span>
             </div>
-            <a href="http://apple24.online" class="logo"></a>
+            <a href="/apple/web/" class="logo"></a>
             <ul class="burger-menu">
                 <li>
                     <a class="scrollto cat" href="<?= $path?>/#catalog">Каталог</a>
@@ -61,10 +61,10 @@ AppAsset::register($this);
                 <li><a class="scrollto" href="<?= $path?>/#guaranty">Гарантия</a></li>
                 <!--<li><a class="scrollto" href="/#press-block">О нас</a></li>-->
                 <li><a class="scrollto" href="<?= $path?>/#delivery">Доставка и оплата</a></li>
-                <li><a href="<?= $path?>/news/">Новости</a></li>
+                <li><a href="<?= $path?>/news">Новости</a></li>
                 <!--<li><a href="http://apple24.online/list/">Стат</a></li>-->
-                <li><a href="<?= $path?>/otzyvy-apple-24-online/">Отзывы</a></li>
-                <li><a href="<?= $path?>/contacts/">Контакты</a></li>
+                <li><a href="<?= $path?>/otzyvy">Отзывы</a></li>
+                <li><a href="<?= $path?>/contact">Контакты</a></li>
             </ul>
             <div class="phone"><a href="tel: +7 (499) 705-03-88"><span class="lptracker_phone">+7 (499) 705-03-88</span></a>
             </div>

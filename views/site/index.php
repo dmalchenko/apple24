@@ -35,52 +35,52 @@ $this->title = 'My Yii Application';
                 <img src="/apple/web/uploads/category/x250/260ec7360e0d0049e0ba29ec356b6324.jpg" alt="Купить iPhone 5S"
                      title="Купить iPhone 5S"/>
                 <span>iPhone 5S</span>
-                от <?= $prices['iPhone5s']['16Gb']['price1']?> руб.
+                от <?= $prices['iPhone5s']['16Gb']['price1'] ?> руб.
             </a>
             <a href="#phone-5" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
                      title="Купить iPhone 6"/>
                 <span>iPhone 6</span>
-                от <?= $prices['iPhone6']['16Gb']['price1']?> руб.
+                от <?= $prices['iPhone6']['16Gb']['price1'] ?> руб.
             </a>
             <a href="#phone-6" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/1479ebb99f8f7b44114f5674d8b3ee41.jpg"
                      alt="Купить iPhone 6 plus"
                      title="Купить iPhone 6 plus"/>
                 <span>iPhone 6 plus</span>
-                от <?= $prices['iPhone6plus']['16Gb']['price1']?> руб.
+                от <?= $prices['iPhone6plus']['16Gb']['price1'] ?> руб.
             </a>
             <a href="#phone-7" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/ca4dae544f8ae4afb53199cbc1eae718.jpg" alt="Купить iPhone 6S"
                      title="Купить iPhone 6S"/>
                 <span>iPhone 6S</span>
-                от <?= $prices['iPhone6s']['16Gb']['price1']?> руб.
+                от <?= $prices['iPhone6s']['16Gb']['price1'] ?> руб.
             </a>
             <a href="#phone-26" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/4317c2894aafa3a058208477e276fb55.jpg"
                      alt="Купить iPhone 6S plus"
                      title="Купить iPhone 6S plus"/>
                 <span>iPhone 6S plus</span>
-                от <?= $prices['iPhone6sPlus']['16Gb']['price1']?> руб.
+                от <?= $prices['iPhone6sPlus']['16Gb']['price1'] ?> руб.
             </a>
             <a href="#phone-25" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/bbad48acb74d77cd7587c46fa1b332fb.jpg" alt="Купить iPhone 7"
                      title="Купить iPhone 7"/>
                 <span>iPhone 7</span>
-                от <?= $prices['iPhone7']['32Gb']['price1']?> руб.
+                от <?= $prices['iPhone7']['32Gb']['price1'] ?> руб.
             </a>
             <a href="#phone-27" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/c2176883977d9bdd03041770ef31cde6.jpg"
                      alt="Купить iPhone 7 plus"
                      title="Купить iPhone 7 plus"/>
                 <span>iPhone 7 plus</span>
-                от <?= $prices['iPhone7plus']['32Gb']['price1']?> руб.
+                от <?= $prices['iPhone7plus']['32Gb']['price1'] ?> руб.
             </a>
             <a href="#phone-28" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/1e702de4369bb2567f349ca4dfd3bf35.jpg" alt="Купить iPhone SE"
                      title="Купить iPhone SE"/>
                 <span>iPhone SE</span>
-                от <?= $prices['iPhoneSE']['16Gb']['price1']?> руб.
+                от <?= $prices['iPhoneSE']['16Gb']['price1'] ?> руб.
             </a>
         </div>
     </div>
@@ -106,7 +106,7 @@ $this->title = 'My Yii Application';
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="http://apple24.online/iphone-5s/">iPhone 5 <span>s</span></a>
+                            <a href="#phone-3">iPhone 5 <span>s</span></a>
                         </div>
                         <div class="image">
                             <img src="/apple/web/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png"
@@ -242,10 +242,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone5s']['16Gb']['price2']?></span> руб.
+                                <span><?= $prices['iPhone5s']['16Gb']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone5s']['16Gb']['price1']?></span> руб.
+                                <span><?= $prices['iPhone5s']['16Gb']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -266,7 +266,7 @@ $this->title = 'My Yii Application';
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="http://apple24.online/iphone-6/">iPhone 6 </a>
+                            <a href="#phone-5">iPhone 6 </a>
                         </div>
                         <div class="image">
                             <img src="/apple/web/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png"
@@ -410,10 +410,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6']['16Gb']['price2']?></span> руб.
+                                <span><?= $prices['iPhone6']['16Gb']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone6']['16Gb']['price1']?></span> руб.
+                                <span><?= $prices['iPhone6']['16Gb']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -434,7 +434,7 @@ $this->title = 'My Yii Application';
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="http://apple24.online/iphone-6-plus/">iPhone 6 plus</a>
+                            <a href="#phone-6">iPhone 6 plus</a>
                         </div>
                         <div class="image">
                             <img src="/apple/web/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png"
@@ -578,10 +578,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6plus']['16Gb']['price2']?></span> руб.
+                                <span><?= $prices['iPhone6plus']['16Gb']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone6plus']['16Gb']['price1']?></span> руб.
+                                <span><?= $prices['iPhone6plus']['16Gb']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -602,7 +602,7 @@ $this->title = 'My Yii Application';
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="http://apple24.online/iphone-6s/">iPhone 6 <span>s</span></a>
+                            <a href="#phone-7">iPhone 6 <span>s</span></a>
                         </div>
                         <div class="image">
                             <img src="/apple/web/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png"
@@ -751,10 +751,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6s']['16Gb']['price2']?></span> руб.
+                                <span><?= $prices['iPhone6s']['16Gb']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone6s']['16Gb']['price1']?></span> руб.
+                                <span><?= $prices['iPhone6s']['16Gb']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -775,7 +775,7 @@ $this->title = 'My Yii Application';
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="http://apple24.online/iphone-6s-plus/">iPhone 6 <span>s</span> plus</a>
+                            <a href="#phone-26">iPhone 6 <span>s</span> plus</a>
                         </div>
                         <div class="image">
                             <img src="/apple/web/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png"
@@ -924,10 +924,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6sPlus']['16Gb']['price2']?></span> руб.
+                                <span><?= $prices['iPhone6sPlus']['16Gb']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone6sPlus']['16Gb']['price1']?></span> руб.
+                                <span><?= $prices['iPhone6sPlus']['16Gb']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -948,7 +948,7 @@ $this->title = 'My Yii Application';
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="http://apple24.online/iphone-7/">iPhone 7 </a>
+                            <a href="#phone-25">iPhone 7 </a>
                         </div>
                         <div class="image">
                             <img src="/apple/web/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png"
@@ -1115,10 +1115,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone7']['32Gb']['price2']?></span> руб.
+                                <span><?= $prices['iPhone7']['32Gb']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone7']['32Gb']['price1']?></span> руб.
+                                <span><?= $prices['iPhone7']['32Gb']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -1139,7 +1139,7 @@ $this->title = 'My Yii Application';
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="http://apple24.online/iphone-7-plus/">iPhone 7 plus</a>
+                            <a href="#phone-27">iPhone 7 plus</a>
                         </div>
                         <div class="image">
                             <img src="/apple/web/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png"
@@ -1307,10 +1307,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone7plus']['32Gb']['price2']?></span> руб.
+                                <span><?= $prices['iPhone7plus']['32Gb']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone7plus']['32Gb']['price1']?></span> руб.
+                                <span><?= $prices['iPhone7plus']['32Gb']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -1331,7 +1331,7 @@ $this->title = 'My Yii Application';
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="http://apple24.online/iphone-se/">iPhone <span>se</span></a>
+                            <a href="#phone-28">iPhone <span>se</span></a>
                         </div>
                         <div class="image">
                             <img src="/apple/web/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png"
@@ -1482,10 +1482,10 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhoneSE']['16Gb']['price2']?></span> руб.
+                                <span><?= $prices['iPhoneSE']['16Gb']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhoneSE']['16Gb']['price1']?></span> руб.
+                                <span><?= $prices['iPhoneSE']['16Gb']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
@@ -1654,6 +1654,35 @@ $this->title = 'My Yii Application';
             </dl>
         </div>
     </div>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            var customMapType = new google.maps.StyledMapType([], {
+                name: 'map'
+            });
+            var customMapTypeId = 'custom_style';
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                zoomControl: false,
+
+                center: new google.maps.LatLng(55.838967, 37.653970),
+                mapTypeControlOptions: {
+                    mapTypeIds: []
+                }
+            });
+            var marker = new google.maps.Marker({
+                map: map,
+                position: new google.maps.LatLng(55.838967, 37.653970),
+                icon: '/apple/web/images/map-icon.png',
+            });
+
+            map.mapTypes.set(customMapTypeId, customMapType);
+            map.setMapTypeId(customMapTypeId);
+
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0b3I2YrKGz0t60VRkeMBRcY0xFqf99EE&signed_in=true&callback=initMap"
+            async defer></script>
 </section>
 
 <script>
@@ -1735,7 +1764,8 @@ $this->title = 'My Yii Application';
 <!--        async></script>-->
 <footer>
     <div class="container">
-        © Apple 24 online</br>
+		<?= Yii::$app->params['shopName']; ?>
+        </br>
     </div>
 </footer>
 </div>
