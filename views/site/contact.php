@@ -44,7 +44,7 @@ $this->title = 'Контакты';
                         <div class="block">
                             <input class="input-phone" name="input-phone" type="text" placeholder="Ваш телефон:"/>
                         </div>
-                        <textarea placeholder="Текст вашего вопроса:"></textarea>
+                        <textarea name="rev_text" placeholder="Текст вашего вопроса:"></textarea>
                         <div class="center">
                             <!--                            <a href="" class="order-button">Отправить заявку</a>-->
                             <button class="order-button"> Отправить заявку</button>

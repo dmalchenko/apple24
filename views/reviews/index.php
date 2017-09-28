@@ -13,10 +13,10 @@ $this->params['breadcrumbs'][] = $this->title;
 <section class="content_block pager">
     <div class="container">
         <div class="name reviews">
-            <?= Html::encode($this->title) ?>
+			<?= Html::encode($this->title) ?>
         </div>
         <p>
-			<?= Html::a('Create Reviews', ['create'], ['class' => 'btn btn-success']) ?>
+<!--			--><?//= Html::a('Create Reviews', ['create'], ['class' => 'btn btn-success']) ?>
         </p>
 		<?= GridView::widget([
 			'dataProvider' => $dataProvider,
@@ -27,7 +27,13 @@ $this->params['breadcrumbs'][] = $this->title;
 				'name',
 				'tel',
 				'review',
-				'created_at',
+				[
+					'attribute' => 'created_at',
+					'value' => function ($model, $index, $widget) {
+						$date = date('Y-m-d H:i:s', ($model->created_at));
+						return $date;
+					}
+				],
 				// 'updated_at',
 
 				['class' => 'yii\grid\ActionColumn'],

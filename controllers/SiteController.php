@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Reviews;
 use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -162,8 +163,21 @@ class SiteController extends Controller {
 		return $this->render('otzyvy');
 	}
 
+	public function actionReviewRaw() {
+		$review = new Reviews();
+		$review->name = Yii::$app->request->get('name');
+		$review->tel = Yii::$app->request->get('tel');
+		$review->review = Yii::$app->request->get('text');
+		$review->save();
+		return $this->redirect('questions');
+	}
+
 	public function actionReview() {
 		return $this->render('review');
+	}
+
+	public function actionQuestions() {
+		return $this->render('questions');
 	}
 
 	public function actionContact() {

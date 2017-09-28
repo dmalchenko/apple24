@@ -35,8 +35,20 @@ $this->params['breadcrumbs'][] = $this->title;
 				'name',
 				'tel',
 				'review',
-				'created_at',
-				'updated_at',
+				[
+					'attribute' => 'created_at',
+					'value' => function ($model, $index, $widget) {
+						$date = date('Y-m-d H:i:s', ($model->created_at));
+						return $date;
+					}
+				],
+				[
+					'attribute' => 'updated_at',
+					'value' => function ($model, $index, $widget) {
+						$date = date('Y-m-d H:i:s', ($model->updated_at));
+						return $date;
+					}
+				],
 			],
 		]) ?>
 

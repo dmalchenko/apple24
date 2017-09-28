@@ -364,16 +364,8 @@ $(document).ready(function () {
 			$(this).find("[name=phone]").addClass("error");
 		} 
 		if ($(this).find(".error").length < 1) {
-            document.location.href = "/apple/web/review";
-
-            // $.post("order_mail.php", $(this).serialize()).done(function() {
-			// 	$.fancybox.close();
-			// 	$.fancybox.open({
-			// 		href  : '#success',
-			// 		padding: 0,
-			// 	});
-			// })
-		};
+            document.location.href = "/apple/web/review-raw?name=" + $(this).find("[name=name]").val() + "&tel=" + $(this).find("[name=phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
+        }
 	});
 
 	$("#contact_form").submit(function (event) {
@@ -382,22 +374,15 @@ $(document).ready(function () {
 		if (($(this).find("[name=input-name]").val()).trim().length < 3) {
 			$(this).find("[name=input-name]").addClass("error")
 		}
-		if (($(this).find("[name=input-phone]").val()).trim().length < 3) {
-			$(this).find("[name=input-phone]").addClass("error")
+		if (($(this).find("[name=rev_text]").val()).trim().length < 3) {
+			$(this).find("[name=rev_text]").addClass("error")
 		}
 		if (!checkPhone($(this).find("[name=input-phone]"))) {
 			$(this).find("[name=input-phone]").addClass("error");
 		}
 		if ($(this).find(".error").length < 1) {
-            document.location.href = "/thanks-for-zayavka/";
-            // $.post("order_mail.php", $(this).serialize()).done(function() {
-			// 	$.fancybox.close();
-			// 	$.fancybox.open({
-			// 		href  : '#success',
-			// 		padding: 0,
-			// 	});
-			// })
-		};
+            document.location.href = "/apple/web/review-raw?name=" + $(this).find("[name=input-name]").val() + "&tel=" + $(this).find("[name=input-phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
+        }
 	});
  
 	// $("#order_form").submit(function (event) {
