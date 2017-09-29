@@ -32,52 +32,52 @@ $this->title = 'Apple';
         </div>
         <div class="select-phone">
             <a href="#phone-7" class="block scrollto">
-                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/bbad48acb74d77cd7587c46fa1b332fb.jpg" alt="Купить iPhone 7"
+                <img src="/uploads/category/x250/bbad48acb74d77cd7587c46fa1b332fb.jpg" alt="Купить iPhone 7"
                      title="Купить iPhone 7"/>
                 <span>iPhone 7</span>
                 от <?= $prices['iPhone7']['32Gb']['jet-black']['price1'] ?> руб.
             </a>
             <a href="#phone-7-plus" class="block scrollto">
-                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/c2176883977d9bdd03041770ef31cde6.jpg"
+                <img src="/uploads/category/x250/c2176883977d9bdd03041770ef31cde6.jpg"
                      alt="Купить iPhone 7 plus"
                      title="Купить iPhone 7 plus"/>
                 <span>iPhone 7 plus</span>
                 от <?= $prices['iPhone7plus']['32Gb']['jet-black']['price1'] ?> руб.
             </a>
             <a href="#phone-SE" class="block scrollto">
-                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/1e702de4369bb2567f349ca4dfd3bf35.jpg" alt="Купить iPhone SE"
+                <img src="/uploads/category/x250/1e702de4369bb2567f349ca4dfd3bf35.jpg" alt="Купить iPhone SE"
                      title="Купить iPhone SE"/>
                 <span>iPhone SE</span>
                 от <?= $prices['iPhoneSE']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-6s" class="block scrollto">
-                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/ca4dae544f8ae4afb53199cbc1eae718.jpg" alt="Купить iPhone 6S"
+                <img src="/uploads/category/x250/ca4dae544f8ae4afb53199cbc1eae718.jpg" alt="Купить iPhone 6S"
                      title="Купить iPhone 6S"/>
                 <span>iPhone 6S</span>
                 от <?= $prices['iPhone6s']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-6s-plus" class="block scrollto">
-                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/4317c2894aafa3a058208477e276fb55.jpg"
+                <img src="/uploads/category/x250/4317c2894aafa3a058208477e276fb55.jpg"
                      alt="Купить iPhone 6S plus"
                      title="Купить iPhone 6S plus"/>
                 <span>iPhone 6S plus</span>
                 от <?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-6" class="block scrollto">
-                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
+                <img src="/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
                 title="Купить iPhone 6"/>
                 <span>iPhone 6</span>
                 от <?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-6-plus" class="block scrollto">
-                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/1479ebb99f8f7b44114f5674d8b3ee41.jpg"
+                <img src="/uploads/category/x250/1479ebb99f8f7b44114f5674d8b3ee41.jpg"
                      alt="Купить iPhone 6 plus"
                 title="Купить iPhone 6 plus"/>
                 <span>iPhone 6 plus</span>
                 от <?= $prices['iPhone6plus']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-5s" class="block scrollto">
-                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/260ec7360e0d0049e0ba29ec356b6324.jpg" alt="Купить iPhone 5S"
+                <img src="/uploads/category/x250/260ec7360e0d0049e0ba29ec356b6324.jpg" alt="Купить iPhone 5S"
                      title="Купить iPhone 5S"/>
                 <span>iPhone 5S</span>
                 от <?= $prices['iPhone5s']['16Gb']['space-gray']['price1'] ?> руб.
@@ -109,7 +109,7 @@ $this->title = 'Apple';
                             <a href="#phone-7">iPhone 7 </a>
                         </div>
                         <div class="image">
-                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png"
+                            <img src="/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png"
                                  alt="Купить iPhone 7 32Gb jet black" title="Купить iPhone 7 32Gb jet black"/>
                         </div>
                         <div class="info-phone">
@@ -209,7 +209,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Черный оникс"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png">
+                                 vallink="/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png">
                                 <div style="position:relative;">
                                     <span style="background: #000000" class="color_item"></span>
                                 </div>
@@ -217,7 +217,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Черный" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/cf0b9c2b5ea3c588d96d1d125aa621d6.png">
+                                 vallink="/uploads/params/sources/cf0b9c2b5ea3c588d96d1d125aa621d6.png">
                                 <div style="position:relative;">
                                     <span style="background: #a3a3a3" class="color_item"></span>
                                 </div>
@@ -225,7 +225,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/44d5d775acd267b5d60da2b8903548ea.png">
+                                 vallink="/uploads/params/sources/44d5d775acd267b5d60da2b8903548ea.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -233,7 +233,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/b0ba5944f9110ccb52f8d72b750e2c08.png">
+                                 vallink="/uploads/params/sources/b0ba5944f9110ccb52f8d72b750e2c08.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -241,7 +241,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/1cea16a59fd0755f8549b2bb6a6858cb.png">
+                                 vallink="/uploads/params/sources/1cea16a59fd0755f8549b2bb6a6858cb.png">
                                 <div style="position:relative;">
                                     <span style="background: #f0c8c2" class="color_item"></span>
                                 </div>
@@ -249,7 +249,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Красный" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/6aa59bb599842285e1279f0a4e97e015.png">
+                                 vallink="/uploads/params/sources/6aa59bb599842285e1279f0a4e97e015.png">
                                 <div style="position:relative;">
                                     <span style="background: #f00" class="color_item"></span>
                                 </div>
@@ -296,7 +296,7 @@ $this->title = 'Apple';
                             <a href="#phone-7-plus">iPhone 7 plus</a>
                         </div>
                         <div class="image">
-                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png"
+                            <img src="/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png"
                                  alt="Купить iPhone 7 plus 32Gb jet black"
                                  title="Купить iPhone 7 plus 32Gb jet black"/>
                         </div>
@@ -397,7 +397,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Черный оникс"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png">
+                                 vallink="/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png">
                                 <div style="position:relative;">
                                     <span style="background: #000000" class="color_item"></span>
                                 </div>
@@ -405,7 +405,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Черный" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/a0d3b22fff1ef72ad1511d0c204c21e8.png">
+                                 vallink="/uploads/params/sources/a0d3b22fff1ef72ad1511d0c204c21e8.png">
                                 <div style="position:relative;">
                                     <span style="background: #a3a3a3" class="color_item"></span>
                                 </div>
@@ -413,7 +413,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/73adff69d8b26937f42efe74fe443295.png">
+                                 vallink="/uploads/params/sources/73adff69d8b26937f42efe74fe443295.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -421,7 +421,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/c98580c4d5c8078963532dd9c3adec65.png">
+                                 vallink="/uploads/params/sources/c98580c4d5c8078963532dd9c3adec65.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -429,7 +429,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/35a574c4b31b7967abc42ea6a9acdee6.png">
+                                 vallink="/uploads/params/sources/35a574c4b31b7967abc42ea6a9acdee6.png">
                                 <div style="position:relative;">
                                     <span style="background: #f0c8c2" class="color_item"></span>
                                 </div>
@@ -437,7 +437,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Красный" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/ecd3091fbbe2756d403c6bec58755601.png">
+                                 vallink="/uploads/params/sources/ecd3091fbbe2756d403c6bec58755601.png">
                                 <div style="position:relative;">
                                     <span style="background: #f00" class="color_item"></span>
                                 </div>
@@ -484,7 +484,7 @@ $this->title = 'Apple';
                             <a href="#phone-SE">iPhone <span>se</span></a>
                         </div>
                         <div class="image">
-                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png"
+                            <img src="/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png"
                                  alt="Купить iPhone SE 16Gb space-gray" title="Купить iPhone SE 16Gb space-gray"/>
                         </div>
                         <div class="info-phone">
@@ -587,7 +587,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Серый космос"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png">
+                                 vallink="/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png">
                                 <div style="position:relative;">
                                     <span style="background: #898989" class="color_item"></span>
                                 </div>
@@ -595,7 +595,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/88ec47566646454062f4dac05471f460.png">
+                                 vallink="/uploads/params/sources/88ec47566646454062f4dac05471f460.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -603,7 +603,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/5fd01cab94005f7e7ff42f2204870695.png">
+                                 vallink="/uploads/params/sources/5fd01cab94005f7e7ff42f2204870695.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -611,7 +611,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/b53dd2ec60e8f008a26d553813776e99.png">
+                                 vallink="/uploads/params/sources/b53dd2ec60e8f008a26d553813776e99.png">
                                 <div style="position:relative;">
                                     <span style="background: #f0c8c2" class="color_item"></span>
                                 </div>
@@ -655,7 +655,7 @@ $this->title = 'Apple';
                             <a href="#phone-6s">iPhone 6 <span>s</span></a>
                         </div>
                         <div class="image">
-                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png"
+                            <img src="/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png"
                                  alt="Купить iPhone 6S 16Gb space-gray" title="Купить iPhone 6S 16Gb space-gray"/>
                         </div>
                         <div class="info-phone">
@@ -753,7 +753,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Серый космос"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png">
+                                 vallink="/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png">
                                 <div style="position:relative;">
                                     <span style="background: #898989" class="color_item"></span>
                                 </div>
@@ -761,7 +761,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/9bdf7bd0b2b58fad292125edb081b642.png">
+                                 vallink="/uploads/params/sources/9bdf7bd0b2b58fad292125edb081b642.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -769,7 +769,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/dbd11d8ea228cd4faf2120530640d8fe.png">
+                                 vallink="/uploads/params/sources/dbd11d8ea228cd4faf2120530640d8fe.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -777,7 +777,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/a2d00ed0aa3683a6be6bb25525710113.png">
+                                 vallink="/uploads/params/sources/a2d00ed0aa3683a6be6bb25525710113.png">
                                 <div style="position:relative;">
                                     <span style="background: #f0c8c2" class="color_item"></span>
                                 </div>
@@ -824,7 +824,7 @@ $this->title = 'Apple';
                             <a href="#phone-6s-plus">iPhone 6 <span>s</span> plus</a>
                         </div>
                         <div class="image">
-                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png"
+                            <img src="/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png"
                                  alt="Купить iPhone 6S plus 16Gb space-gray"
                                  title="Купить iPhone 6S plus 16Gb space-gray"/>
                         </div>
@@ -922,7 +922,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Серый космос"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png">
+                                 vallink="/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png">
                                 <div style="position:relative;">
                                     <span style="background: #898989" class="color_item"></span>
                                 </div>
@@ -930,7 +930,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/9440e220070656eecefce03537bf6b3e.png">
+                                 vallink="/uploads/params/sources/9440e220070656eecefce03537bf6b3e.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -938,7 +938,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/f558a002ec5b0be13119a9be31951a78.png">
+                                 vallink="/uploads/params/sources/f558a002ec5b0be13119a9be31951a78.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -946,7 +946,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/28c2aaa6b6c825059e4fc6300b599aa4.png">
+                                 vallink="/uploads/params/sources/28c2aaa6b6c825059e4fc6300b599aa4.png">
                                 <div style="position:relative;">
                                     <span style="background: #f0c8c2" class="color_item"></span>
                                 </div>
@@ -993,7 +993,7 @@ $this->title = 'Apple';
                             <a href="#phone-6">iPhone 6 </a>
                         </div>
                         <div class="image">
-                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png"
+                            <img src="/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png"
                                  alt="Купить iPhone 6 16Gb space-gray" title="Купить iPhone 6 16Gb space-gray"/>
                         </div>
                         <div class="info-phone">
@@ -1094,7 +1094,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Серый космос"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png">
+                                 vallink="/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png">
                                 <div style="position:relative;">
                                     <span style="background: #898989" class="color_item"></span>
                                 </div>
@@ -1102,7 +1102,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/9bf680f1f20e4a31b46b51e2ff2e6ab0.png">
+                                 vallink="/uploads/params/sources/9bf680f1f20e4a31b46b51e2ff2e6ab0.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -1110,7 +1110,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/91a8089b025fd99688efff2bb86c5567.png">
+                                 vallink="/uploads/params/sources/91a8089b025fd99688efff2bb86c5567.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -1157,7 +1157,7 @@ $this->title = 'Apple';
                             <a href="#phone-6-plus">iPhone 6 plus</a>
                         </div>
                         <div class="image">
-                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png"
+                            <img src="/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png"
                                  alt="Купить iPhone 6 plus 16Gb space-gray"
                                  title="Купить iPhone 6 plus 16Gb space-gray"/>
                         </div>
@@ -1258,7 +1258,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Серый космос"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png">
+                                 vallink="/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png">
                                 <div style="position:relative;">
                                     <span style="background: #898989" class="color_item"></span>
                                 </div>
@@ -1266,7 +1266,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/c5a1e653c1e91cdff1d1c83074a6a962.png">
+                                 vallink="/uploads/params/sources/c5a1e653c1e91cdff1d1c83074a6a962.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -1274,7 +1274,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/8f45d6e170ee17bd13b8f0f027b6e767.png">
+                                 vallink="/uploads/params/sources/8f45d6e170ee17bd13b8f0f027b6e767.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -1321,7 +1321,7 @@ $this->title = 'Apple';
                             <a href="#phone-5s">iPhone 5 <span>s</span></a>
                         </div>
                         <div class="image">
-                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png"
+                            <img src="/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png"
                                  alt="Купить iPhone 5S 16Gb space-gray" title="Купить iPhone 5S 16Gb space-gray"/>
                         </div>
                         <div class="info-phone">
@@ -1414,7 +1414,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Серый космос"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png">
+                                 vallink="/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png">
                                 <div style="position:relative;">
                                     <span style="background: #898989" class="color_item"></span>
                                 </div>
@@ -1422,7 +1422,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/54df1c26da769a7dbd0839392b23f459.png">
+                                 vallink="/uploads/params/sources/54df1c26da769a7dbd0839392b23f459.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -1430,7 +1430,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/2941fb5bad32548698de90719c717a7c.png">
+                                 vallink="/uploads/params/sources/2941fb5bad32548698de90719c717a7c.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -1665,7 +1665,7 @@ $this->title = 'Apple';
 
     <div class="bay-popup">
         <div class="div-left">
-            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png" class="iphone-img"
+            <img src="/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png" class="iphone-img"
                  style="max-height: 300px; margin-bottom: 20px;"/>
         </div>
         <div class="div-right">

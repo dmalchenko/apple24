@@ -39,15 +39,19 @@ class PurchaseController extends Controller {
 		$id = intval(\Yii::$app->request->post('id'));
 		$result = [];
 		foreach ($prices as $modelId => $model) {
-			foreach ($model as $capacityId => $capacity) {
-				foreach ($capacity as $colorId => $color) {
-					if ($color['id'] == $id) {
-						$result = [
-							'id' => $id,
-							'price1' => sprintf('%s руб.', $color['price1']),
-							'price2' => sprintf('%s руб.', $color['price2']),
-							'name' => $model['name'] . " $capacityId $colorId"
-						];
+			if (is_array($model)) {
+				foreach ($model as $capacityId => $capacity) {
+					if (is_array($capacity)) {
+						foreach ($capacity as $colorId => $color) {
+							if ($color['id'] == $id) {
+								$result = [
+									'id' => $id,
+									'price1' => sprintf('%s руб.', $color['price1']),
+									'price2' => sprintf('%s руб.', $color['price2']),
+									'name' => $model['name'] . " $capacityId $colorId"
+								];
+							}
+						}
 					}
 				}
 			}
@@ -89,7 +93,7 @@ class PurchaseController extends Controller {
 	public function actionIndex() {
 		$dataProvider = new ActiveDataProvider([
 			'query' => Purchase::find(),
-			'sort'=> ['defaultOrder' => ['created_at' => SORT_DESC]]
+			'sort' => ['defaultOrder' => ['created_at' => SORT_DESC]]
 		]);
 
 		return $this->render('index', [

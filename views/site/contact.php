@@ -13,7 +13,7 @@ $this->title = 'Контакты';
 <section class="content_block pager">
     <div class="container">
         <div class="speedbar">
-            <a href="<?= \yii\helpers\Url::to('@web'); ?>/">Главная</a><i></i> <span>Контакты</span>
+            <a href="/">Главная</a><i></i> <span>Контакты</span>
         </div>
         <div class="name">Контакты</div>
         <div class="contact-block">
@@ -32,7 +32,7 @@ $this->title = 'Контакты';
                 </div>
                 <div class="block">
                     <div class="icon ico_4"></div>
-                    <a href="<?= \yii\helpers\Url::to('@web'); ?>/offerta" target="_blank">Публичная оферта</a>
+                    <a href="/offerta" target="_blank">Публичная оферта</a>
                 </div>
             </div>
             <div class="right">
@@ -73,7 +73,7 @@ $this->title = 'Контакты';
             var marker = new google.maps.Marker({
                 map: map,
                 position: new google.maps.LatLng(55.838967, 37.653970),
-                icon: '<?= \yii\helpers\Url::to('@web'); ?>/images/map-icon.png',
+                icon: '/images/map-icon.png',
             });
 
             map.mapTypes.set(customMapTypeId, customMapType);

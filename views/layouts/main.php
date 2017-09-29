@@ -22,16 +22,15 @@ AppAsset::register($this);
 	<?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
 	<?php $this->head() ?>
-	<?php $path = \yii\helpers\Url::to('@web'); ?>
-    <link href="<?= $path?>/favicon.ico" type="image/x-icon" rel="shortcut icon">
-    <link href="<?= $path?>/favicon.ico" type="image/x-icon" rel="icon">
-    <script type="text/javascript" src="<?= $path?>/js/jquery.min.js"></script>
-    <script type="text/javascript" src="<?= $path?>/js/jquery.formstyler.min.js"></script>
-    <script type="text/javascript" src="<?= $path?>/js/jquery.actual.js"></script>
-    <script type="text/javascript" src="<?= $path?>/js/slick.min.js"></script>
-    <script type="text/javascript" src="<?= $path?>/js/jquery.fancybox.js"></script>
-    <script type="text/javascript" src="<?= $path?>/js/mask.js"></script>
-    <script type="text/javascript" src="<?= $path?>/js/script.js"></script>
+    <link href="/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link href="/favicon.ico" type="image/x-icon" rel="icon">
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.formstyler.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.actual.js"></script>
+    <script type="text/javascript" src="/js/slick.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.fancybox.js"></script>
+    <script type="text/javascript" src="/js/mask.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 <body>
@@ -44,28 +43,28 @@ AppAsset::register($this);
                 <span></span>
                 <span></span>
             </div>
-            <a href="<?= \yii\helpers\Url::to('@web'); ?>" class="logo"></a>
+            <a href="/" class="logo"></a>
             <ul class="burger-menu">
                 <li>
-                    <a class="scrollto cat" href="<?= $path?>/#catalog-id">Каталог</a>
+                    <a class="scrollto cat" href="/#catalog-id">Каталог</a>
                     <ul class="mobile_category_opened">
-                        <li><a href="<?= $path?>#phone-7" class="active  scrollto">iPhone 7</a></li>
-                        <li><a href="<?= $path?>#phone-7-plus" class="active  scrollto">iPhone 7 plus</a></li>
-                        <li><a href="<?= $path?>#phone-SE" class="active  scrollto">iPhone SE</a></li>
-                        <li><a href="<?= $path?>#phone-6s" class="active  scrollto">iPhone 6S</a></li>
-                        <li><a href="<?= $path?>#phone-6s-plus" class="active  scrollto">iPhone 6S plus</a></li>
-                        <li><a href="<?= $path?>#phone-6" class="active  scrollto">iPhone 6</a></li>
-                        <li><a href="<?= $path?>#phone-6-plus" class="active  scrollto">iPhone 6 plus</a></li>
-                        <li><a href="<?= $path?>#phone-5s" class="active  scrollto">iPhone 5S</a></li>
+                        <li><a href="/#phone-7" class="active  scrollto">iPhone 7</a></li>
+                        <li><a href="/#phone-7-plus" class="active  scrollto">iPhone 7 plus</a></li>
+                        <li><a href="/#phone-SE" class="active  scrollto">iPhone SE</a></li>
+                        <li><a href="/#phone-6s" class="active  scrollto">iPhone 6S</a></li>
+                        <li><a href="/#phone-6s-plus" class="active  scrollto">iPhone 6S plus</a></li>
+                        <li><a href="/#phone-6" class="active  scrollto">iPhone 6</a></li>
+                        <li><a href="/#phone-6-plus" class="active  scrollto">iPhone 6 plus</a></li>
+                        <li><a href="/#phone-5s" class="active  scrollto">iPhone 5S</a></li>
                     </ul>
                 </li>
-                <li><a class="scrollto" href="<?= $path?>/#guaranty">Гарантия</a></li>
+                <li><a class="scrollto" href="/#guaranty">Гарантия</a></li>
                 <!--<li><a class="scrollto" href="/#press-block">О нас</a></li>-->
-                <li><a class="scrollto" href="<?= $path?>/#delivery">Доставка и оплата</a></li>
-                <li><a href="<?= $path?>/news">Новости</a></li>
+                <li><a class="scrollto" href="/#delivery">Доставка и оплата</a></li>
+                <li><a href="/news">Новости</a></li>
                 <!--<li><a href="http://apple24.online/list/">Стат</a></li>-->
-                <li><a href="<?= $path?>/otzyvy">Отзывы</a></li>
-                <li><a href="<?= $path?>/contact">Контакты</a></li>
+                <li><a href="/otzyvy">Отзывы</a></li>
+                <li><a href="/contact">Контакты</a></li>
             </ul>
             <div class="phone"><a href="tel:<?= Yii::$app->params['tel']; ?>"><span class="lptracker_phone"><?= Yii::$app->params['tel']; ?><span></a>
             </div>

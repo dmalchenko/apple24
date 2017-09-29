@@ -1,6 +1,4 @@
 $(document).ready(function () {
-    var basePath = '/apple/web';
-
 	/* прячем первый блок */
 	/*$(window).scroll(function() {
 		if ($(this).scrollTop() > 5) {
@@ -207,7 +205,7 @@ $(document).ready(function () {
 		$.ajax({
 			type: 'POST',
 			dataType: 'json',
-			url: basePath + '/purchase/get-info',
+			url: '/purchase/get-info',
 			data: {
 				id: $(this).parent().find('input[name="prod_id"]').val(),
                 _csrf: csrfToken
@@ -280,7 +278,7 @@ $(document).ready(function () {
 			$.ajax({
 				type: 'POST',
 				dataType: 'json',
-                url: basePath + '/purchase/accept',
+                url: '/purchase/accept',
                 data: {
                     data: $(this).serialize(),
                     prod: $('.popup').find(".cat-item-name").html(),
@@ -305,7 +303,7 @@ $(document).ready(function () {
 						// 	}
 						// });
 					}
-					document.location.href = basePath + "/thanks";
+					document.location.href = "/thanks";
 				}
 			});
 		};
@@ -381,7 +379,7 @@ $(document).ready(function () {
 			$(this).find("[name=phone]").addClass("error");
 		}
 		if ($(this).find(".error").length < 1) {
-            document.location.href = basePath + "/review-raw?name=" + $(this).find("[name=name]").val() + "&tel=" + $(this).find("[name=phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
+            document.location.href = "/review-raw?name=" + $(this).find("[name=name]").val() + "&tel=" + $(this).find("[name=phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
         }
 	});
 
@@ -398,7 +396,7 @@ $(document).ready(function () {
 			$(this).find("[name=input-phone]").addClass("error");
 		}
 		if ($(this).find(".error").length < 1) {
-            document.location.href = basePath + "/review-raw?name=" + $(this).find("[name=input-name]").val() + "&tel=" + $(this).find("[name=input-phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
+            document.location.href = "/questions-raw?name=" + $(this).find("[name=input-name]").val() + "&tel=" + $(this).find("[name=input-phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
         }
 	});
 

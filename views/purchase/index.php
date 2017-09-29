@@ -15,9 +15,6 @@ $this->params['breadcrumbs'][] = $this->title;
         <div class="name reviews">
 			<?= Html::encode($this->title) ?>
         </div>
-        <p>
-			<?= Html::a('Create Purchase', ['create'], ['class' => 'btn btn-success']) ?>
-        </p>
 		<?= GridView::widget([
 			'dataProvider' => $dataProvider,
 			'columns' => [
