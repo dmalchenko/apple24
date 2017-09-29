@@ -9,6 +9,7 @@
 
 return [
 	'iPhone5s' => [
+		'name' => 'iPhone 5S',
 		'16Gb' => [
 			'space-gray' => [
 				'id' => '1',
@@ -62,6 +63,7 @@ return [
 		],
 	],
 	'iPhone6' => [
+		'name' => 'iPhone 6',
 		'16Gb' => [
 			'space-gray' => [
 				'id' => '4',
@@ -115,6 +117,7 @@ return [
 		],
 	],
 	'iPhone6plus' => [
+		'name' => 'iPhone 6 Plus',
 		'16Gb' => [
 			'space-gray' => [
 				'id' => '48',
@@ -168,6 +171,7 @@ return [
 		],
 	],
 	'iPhone6s' => [
+		'name' => 'iPhone 6S',
 		'16Gb' => [
 			'space-gray' => [
 				'id' => '57',
@@ -236,6 +240,7 @@ return [
 		],
 	],
 	'iPhone6sPlus' => [
+		'name' => 'iPhone 6S Plus',
 		'16Gb' => [
 			'space-gray' => [
 				'id' => '69',
@@ -304,6 +309,7 @@ return [
 		],
 	],
 	'iPhone7' => [
+		'name' => 'iPhone 7',
 		'32Gb' => [
 			'jet-black' => [
 				'id' => '173',
@@ -402,6 +408,7 @@ return [
 		],
 	],
 	'iPhone7plus' => [
+		'name' => 'iPhone 7 Plus',
 		'32Gb' => [
 			'jet-black' => [
 				'id' => '174',
@@ -500,6 +507,7 @@ return [
 		],
 	],
 	'iPhoneSE' => [
+		'name' => 'iPhone SE',
 		'16Gb' => [
 			'space-gray' => [
 				'id' => '127',

@@ -28,7 +28,7 @@ $this->title = 'Контакты';
                 </div>
                 <div class="block">
                     <div class="icon ico_3"></div>
-                    <span class="lptracker_phone">+7 (499) 705-03-88</span>
+                    <span class="lptracker_phone"><?= Yii::$app->params['tel']; ?></span>
                 </div>
                 <div class="block">
                     <div class="icon ico_4"></div>
@@ -86,9 +86,9 @@ $this->title = 'Контакты';
 </section>
 <footer>
     <div class="container">
-        <p class="pull-left"><?= Yii::$app->params['shopName']; ?></p>
-        <p class="pull-center"><?= date('Y'); ?> г.</p>
-        <p class="pull-right"><?= Yii::$app->params['address']; ?></p>
+        <p class="pull-left"><?= Yii::$app->params['address']; ?></p>
+        <p class="pull-center"><?= Yii::$app->params['shopName']; ?></p>
+        <p class="pull-right"><?= Yii::$app->params['tel']; ?></p>
         <br>
     </div>
 </footer>

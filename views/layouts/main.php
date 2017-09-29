@@ -67,7 +67,7 @@ AppAsset::register($this);
                 <li><a href="<?= $path?>/otzyvy">Отзывы</a></li>
                 <li><a href="<?= $path?>/contact">Контакты</a></li>
             </ul>
-            <div class="phone"><span class="lptracker_phone">+7 (499) 705-03-88</span>
+            <div class="phone"><a href="tel:<?= Yii::$app->params['tel']; ?>"><span class="lptracker_phone"><?= Yii::$app->params['tel']; ?><span></a>
             </div>
 
         </div>

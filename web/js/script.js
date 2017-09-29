@@ -83,8 +83,13 @@ $(document).ready(function () {
 				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
 				if (target.length) {
 					$(this).addClass('active');
+                    if ($(window).width() <= 1185) {
+                    	var offs = target.offset().top -20;
+					} else {
+                        var offs = target.offset().top -80;
+					}
 					$('html,body').animate({
-					scrollTop: target.offset().top -80
+					scrollTop: offs
 
 				}, 300);
 					target.toggleClass('active');
@@ -471,10 +476,12 @@ $(document).ready(function () {
 	if ($(window).width() <= 1185) {
 		$('.burger-menu').addClass('mobile');
 		$('.cat').addClass('mobile_cat');
+		$('.closefancy').addClass('no-mobile');
 		$('.mobile_cat').removeClass('scrollto');
 	} else {
 		$('.burger-menu').removeClass('mobile');
         $('.cat').removeClass('mobile_cat');
+        $('.closefancy').removeClass('no-mobile');
     }
 
     $('body').on('click', '.mobile_cat', function() {

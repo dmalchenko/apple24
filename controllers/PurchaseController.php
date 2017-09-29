@@ -46,7 +46,7 @@ class PurchaseController extends Controller {
 							'id' => $id,
 							'price1' => sprintf('%s руб.', $color['price1']),
 							'price2' => sprintf('%s руб.', $color['price2']),
-							'name' => "$modelId $capacityId $colorId"
+							'name' => $model['name'] . " $capacityId $colorId"
 						];
 					}
 				}
