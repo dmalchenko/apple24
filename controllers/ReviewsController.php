@@ -22,7 +22,7 @@ class ReviewsController extends Controller
 		return [
 			'access' => [
 				'class' => AccessControl::className(),
-//				'only' => ['index', 'view', 'create', 'update', 'delete'],
+				'only' => ['index', 'view', 'create', 'update', 'delete'],
 				'rules' => [
 					[
 						'actions' => ['index', 'view', 'create', 'update', 'delete'],

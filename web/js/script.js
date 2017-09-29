@@ -9,7 +9,7 @@ $(document).ready(function () {
 			$('.main_block').removeClass('hidden');
 			$('body').removeClass('scroll');
 		}
-	});*/ 
+	});*/
 
 	$('.down').click(function() {
 		$('html, body').animate({scrollTop: $('.main_block').actual( 'height' )}, 300);
@@ -39,17 +39,17 @@ $(document).ready(function () {
 
 	/* запускаем стилизицию */
 	$('input, select').styler();
-		
+
 	/* проверяем согласен ли пользователь с правилами */
 	$('label').click(function() {
 		if ($('.jq-checkbox').hasClass('checked')){
-			$(this).parent().find('button').attr('disabled', false); 
+			$(this).parent().find('button').attr('disabled', false);
 		} else {
-			$(this).parent().find('button').attr('disabled', true); 
+			$(this).parent().find('button').attr('disabled', true);
 		}
 		return false;
 	});
-	
+
 	/* запускайем слайдер */
 	$('.main_slider').slick({
 		speed: 300,
@@ -83,7 +83,7 @@ $(document).ready(function () {
 					$(this).addClass('active');
 					$('html,body').animate({
 					scrollTop: target.offset().top -80
-					
+
 				}, 300);
 					target.toggleClass('active');
 				}
@@ -97,8 +97,8 @@ $(document).ready(function () {
 		$('.burger-menu').slideToggle("fast");
 		$('.burger-button').toggleClass('open');
 		return false;
-	});	
-	
+	});
+
 	/* функция акордена */
 	(function($) {
 		var allPanels = $('.accordions > dd');
@@ -108,8 +108,8 @@ $(document).ready(function () {
 			$this = $(this);
 			$target =  $this.parent().next();
 			if ($target.hasClass('active')){
-				$target.removeClass('active').slideUp(); 
-				$this.removeClass('active'); 
+				$target.removeClass('active').slideUp();
+				$this.removeClass('active');
 			} else {
 				allPanels.removeClass('active').slideUp();
 				allHead.removeClass('active');
@@ -120,9 +120,9 @@ $(document).ready(function () {
 		});
 
 	})(jQuery);
-	
+
 	/* КАЛЬКУЛЯТОР */
-	
+
 	/* выбор цвета */
 	$('.color-block').click(function() {
 		// $(this).parent().parent().find(".standart-price span").html($(this).attr('valsprice').replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
@@ -134,16 +134,17 @@ $(document).ready(function () {
 		$(this).parent().parent().find(".add-basket").attr('vallink', $(this).attr('vallink'));
 		$(this).parent().parent().find(".add-basket").attr('valmprice', $(this).attr('valprice').replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
 		$img = $(this).parent().parent().parent().find(".image img");
-		$imglink = $(this).parent().parent().parent().find(".image a");
-		if($(this).hasClass('selected')){
-			// $img.attr('src', 'content/'+$(this).attr('vallink')+'.png');
-			// $imglink.attr('href', 'content/'+$(this).attr('vallink')+'.png');
-			$img.attr('src', $(this).attr('vallink'));
-			$imglink.attr('href', $(this).attr('vallink'));
-		}
+        $imglink = $(this).parent().parent().parent().find(".image a");
+        if($(this).hasClass('selected')){
+            $img.attr('src', $(this).attr('vallink'));
+            $imglink.attr('href', $(this).attr('vallink'));
+            // $img.attr('src', 'content/'+$(this).attr('vallink')+'.png');
+            // $imglink.attr('href', 'content/'+$(this).attr('vallink')+'.png');
+            $('.popup').find(".div-left img").attr('src', vallink);
+        }
 		// $(this).parent().parent().find(".memory-block").first().addClass('selected');
 	});
-	
+
 	/* выбор памяти */
 	$('.memory-block').click(function() {
 		$this = $(this);
@@ -159,7 +160,7 @@ $(document).ready(function () {
 		$this.parent().parent().find(".bay-click").attr('valmprice', String(totalprice).replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
 		$this.parent().parent().find(".add-basket").attr('valmprice', String(totalprice).replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
 	});
-	
+
 	/* передаем данные в попапы */
 	// $('.bay-click, .add-basket').click(function(){
 	//     alert(12);
@@ -193,27 +194,32 @@ $(document).ready(function () {
     });
 
 	$('.bay-click').click(function(){
+        var buyImg = $(this).parent().parent().parent().find('img').attr('src');
+        $('.popup').find(".div-left img").attr('src', buyImg);
+        var csrfToken = $('meta[name="csrf-token"]').attr("content");
 		$.ajax({
 			type: 'POST',
 			dataType: 'json',
-			url: '/mail/addToCartClick/',
+			url: '/apple/web/purchase/get-info',
 			data: {
-				id: $(this).parent().find('input[name="prod_id"]').val()
-			},
-			success: function(result){
-				$('.popup').find(".model").html(result.prod.n);
-				$('.popup').find(".price").html(result.price);
-				$('.popup').find("input[name='prod']").val(result.prod.prod_id);
+				id: $(this).parent().find('input[name="prod_id"]').val(),
+                _csrf: csrfToken
+            },
+            success: function (result) {
+				$('.popup').find(".cat-item-new-price").html(result.price1);
+				$('.popup').find(".cat-item-old-price").html(result.price2);
+                $('.popup').find(".cat-item-name").html(result.name);
+				$('.popup').find("input[name='prod']").val(result.id);
 			}
 		});
 	});
-	
+
 	/* функция корзины */
 	$('.add-basket').click(function(){
 		$('body').find("header .cart").addClass('active');
 		$('body').find("header .cart-block").addClass('active');
 	});
-	
+
 	$('header .cart').click(function(){
 		$('body').find("header .cart-block").slideToggle("fast");
 		/*if ($(this).hasClass('active')){
@@ -223,16 +229,16 @@ $(document).ready(function () {
 		}*/
 		return false;
 	});
-	
+
 	$('header .block .delete').click(function() {
 		$(this).parent().parent().parent().find('.block').slideUp();
 		$('body').find("header .cart").removeClass('active');
 	});
-	
+
 	$('section.content_block .basket-block .block .delete').click(function() {
 		$(this).parent().slideUp();
 	});
-	
+
 	function checkPhone (phone) {
 		var reg = /^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/;
 		var _this = phone.val().trim()
@@ -242,7 +248,7 @@ $(document).ready(function () {
 			return false;
 		};
 	};
-	
+
 	// $("[name=phone]").mask("+7 (999) 999-99-99");
 	// $("[name=input-phone]").mask("+7 (999) 999-99-99");
 	$('input[name=phone], input[name="input-phone"]').inputmask("+7 (999) 999-99-99");
@@ -259,23 +265,27 @@ $(document).ready(function () {
 		// }
 		if (!checkPhone($(this).find("[name=phone]"))) {
 			$(this).find("[name=phone]").addClass("error");
-		} 
+		}
+        var csrfToken = $('meta[name="csrf-token"]').attr("content");
+
 		if ($(this).find(".error").length < 1) {
             $("#order_form button").hide();
 			$.ajax({
 				type: 'POST',
 				dataType: 'json',
-				url: '/mail/sendBayClick/',
-				data: {
-					data: $(this).serialize()
-				},
-				success: function(result){
-					if (result.prod) {
-						// _rc('send', 'order', {
-						// 	'name': result.name,
-						// 	'phone': result.phone,
-						// 	'itemId': result.prod,
-						// 	'customTransactionId': url('?transaction_id'),
+                url: '/apple/web/purchase/accept',
+                data: {
+                    data: $(this).serialize(),
+                    prod: $('.popup').find(".cat-item-name").html(),
+                    _csrf: csrfToken
+                },
+                success: function (result) {
+                    if (result) {
+                        // _rc('send', 'order', {
+                        // 	'name': result.name,
+                        // 	'phone': result.phone,
+                        // 	'itemId': result.prod,
+                        // 	'customTransactionId': url('?transaction_id'),
 						// 	'orderMethod': 'feedback',
 						// 	'callback': function(success, response) {
 						// 		// уведомляем пользователя о результате отправки формы
@@ -288,7 +298,7 @@ $(document).ready(function () {
 						// 	}
 						// });
 					}
-					document.location.href = "/thanks-for-order/";
+					document.location.href = "/apple/web/thanks";
 				}
 			});
 		};
@@ -310,7 +320,7 @@ $(document).ready(function () {
 		// } else {
 		// 	$("[name=rules]").parent().addClass('error');
 		// }
-		
+
 		if (!checkPhone($(this).find("[name=phone]"))) {
 			$(this).find("[name=phone]").addClass("error");
 		}
@@ -350,7 +360,7 @@ $(document).ready(function () {
 			});
 		}
 	});
-	
+
 	$("#review_form").submit(function (event) {
 		event.preventDefault()
 		$(".error").removeClass("error")
@@ -362,7 +372,7 @@ $(document).ready(function () {
 		}
 		if (!checkPhone($(this).find("[name=phone]"))) {
 			$(this).find("[name=phone]").addClass("error");
-		} 
+		}
 		if ($(this).find(".error").length < 1) {
             document.location.href = "/apple/web/review-raw?name=" + $(this).find("[name=name]").val() + "&tel=" + $(this).find("[name=phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
         }
@@ -384,7 +394,7 @@ $(document).ready(function () {
             document.location.href = "/apple/web/review-raw?name=" + $(this).find("[name=input-name]").val() + "&tel=" + $(this).find("[name=input-phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
         }
 	});
- 
+
 	// $("#order_form").submit(function (event) {
 	// 	event.preventDefault()
 	// 	$(".error").removeClass("error")
@@ -574,3 +584,38 @@ removeProdHead = function(id)
 		}
 	});
 }
+
+
+function SetValueModalOrder(modalSettings) {
+    $(".frmOrderTitle").html(modalSettings.Title);
+    $(".frmOrderText").html(modalSettings.Text);
+
+    $(".clientNameModal").attr("placeholder",modalSettings.inputNamePlaceholder);
+    $(".clientEmailModal").attr("placeholder",modalSettings.inputEmailPlaceholder);
+    $(".clientPhoneModal").attr("placeholder",modalSettings.inputPhonePlaceholder);
+    $(".clientMessageModal").attr("placeholder",modalSettings.inputMessagePlaceholder);
+
+    $(".btnActionModalOrder").html(modalSettings.btnActionText);
+    $(".btnActionModalOrder").attr("checkname", modalSettings.checkName);
+    $(".btnActionModalOrder").attr("checkphone", modalSettings.checkPhone);
+    $(".btnActionModalOrder").attr("checkemail", modalSettings.checkEmail);
+    $(".btnActionModalOrder").attr("checkmessage", modalSettings.checkMessage);
+    if (modalSettings.inputNameVisible) $(".frmOrderFieldName").show();
+    else $(".frmOrderFieldName").hide();
+    if (modalSettings.inputEmailVisible) $(".frmOrderFieldEmail").show();
+    else $(".frmOrderFieldEmail").hide();
+    if (modalSettings.inputPhoneVisible) $(".frmOrderFieldPhone").show();
+    else $(".frmOrderFieldPhone").hide();
+    if (modalSettings.inputMessageVisible) $(".frmOrderFieldMessage").show();
+    else $(".frmOrderFieldMessage").hide();
+}
+$(".btnOpenModalOrder").on("click", function () {
+    actionInfo = $(this).attr("valinfo");
+    //yaCounter11111111.reachGoal($(this).attr('id'));
+    $('.modal-popup .policy-order').css('background-position', '97px -2px').css('padding-left', '0px');
+    SetValueModalOrder(modalOrder);
+    $('#frmOrder').bPopup({
+        speed: 650,
+        transition: 'slideIn'
+    });
+});

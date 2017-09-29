@@ -4,7 +4,7 @@
 /* @var $prices array */
 /* @param $prices array */
 
-$this->title = 'My Yii Application';
+$this->title = 'Apple';
 ?>
 
 <div class="main_block">
@@ -35,52 +35,52 @@ $this->title = 'My Yii Application';
                 <img src="/apple/web/uploads/category/x250/260ec7360e0d0049e0ba29ec356b6324.jpg" alt="Купить iPhone 5S"
                      title="Купить iPhone 5S"/>
                 <span>iPhone 5S</span>
-                от <?= $prices['iPhone5s']['16Gb']['price1'] ?> руб.
+                от <?= $prices['iPhone5s']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-5" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
                      title="Купить iPhone 6"/>
                 <span>iPhone 6</span>
-                от <?= $prices['iPhone6']['16Gb']['price1'] ?> руб.
+                от <?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-6" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/1479ebb99f8f7b44114f5674d8b3ee41.jpg"
                      alt="Купить iPhone 6 plus"
                      title="Купить iPhone 6 plus"/>
                 <span>iPhone 6 plus</span>
-                от <?= $prices['iPhone6plus']['16Gb']['price1'] ?> руб.
+                от <?= $prices['iPhone6plus']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-7" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/ca4dae544f8ae4afb53199cbc1eae718.jpg" alt="Купить iPhone 6S"
                      title="Купить iPhone 6S"/>
                 <span>iPhone 6S</span>
-                от <?= $prices['iPhone6s']['16Gb']['price1'] ?> руб.
+                от <?= $prices['iPhone6s']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-26" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/4317c2894aafa3a058208477e276fb55.jpg"
                      alt="Купить iPhone 6S plus"
                      title="Купить iPhone 6S plus"/>
                 <span>iPhone 6S plus</span>
-                от <?= $prices['iPhone6sPlus']['16Gb']['price1'] ?> руб.
+                от <?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-25" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/bbad48acb74d77cd7587c46fa1b332fb.jpg" alt="Купить iPhone 7"
                      title="Купить iPhone 7"/>
                 <span>iPhone 7</span>
-                от <?= $prices['iPhone7']['32Gb']['price1'] ?> руб.
+                от <?= $prices['iPhone7']['32Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-27" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/c2176883977d9bdd03041770ef31cde6.jpg"
                      alt="Купить iPhone 7 plus"
                      title="Купить iPhone 7 plus"/>
                 <span>iPhone 7 plus</span>
-                от <?= $prices['iPhone7plus']['32Gb']['price1'] ?> руб.
+                от <?= $prices['iPhone7plus']['32Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-28" class="block scrollto">
                 <img src="/apple/web/uploads/category/x250/1e702de4369bb2567f349ca4dfd3bf35.jpg" alt="Купить iPhone SE"
                      title="Купить iPhone SE"/>
                 <span>iPhone SE</span>
-                от <?= $prices['iPhoneSE']['16Gb']['price1'] ?> руб.
+                от <?= $prices['iPhoneSE']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
         </div>
     </div>
@@ -242,20 +242,16 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone5s']['16Gb']['price2'] ?></span> руб.
+                                <span><?= $prices['iPhone5s']['16Gb']['space-gray']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone5s']['16Gb']['price1'] ?></span> руб.
+                                <span><?= $prices['iPhone5s']['16Gb']['space-gray']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="3">
                             <input type="hidden" name="prod_id" value="1">
-                            <a href="#add-basket" class="add-basket fancybox"
-                               vallink="/apple/web/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png">Добавить
-                                в
-                                корзину</a>
-                            <a href="#bay-click" class="bay-click fancybox">Купить в 1 клик</a>
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
                     </div>
                 </div>
@@ -410,20 +406,16 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6']['16Gb']['price2'] ?></span> руб.
+                                <span><?= $prices['iPhone6']['16Gb']['space-gray']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone6']['16Gb']['price1'] ?></span> руб.
+                                <span><?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="5">
                             <input type="hidden" name="prod_id" value="4">
-                            <a href="#add-basket" class="add-basket fancybox"
-                               vallink="/apple/web/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png">Добавить
-                                в
-                                корзину</a>
-                            <a href="#bay-click" class="bay-click fancybox">Купить в 1 клик</a>
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
                     </div>
                 </div>
@@ -578,20 +570,16 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6plus']['16Gb']['price2'] ?></span> руб.
+                                <span><?= $prices['iPhone6plus']['16Gb']['space-gray']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone6plus']['16Gb']['price1'] ?></span> руб.
+                                <span><?= $prices['iPhone6plus']['16Gb']['space-gray']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="6">
                             <input type="hidden" name="prod_id" value="48">
-                            <a href="#add-basket" class="add-basket fancybox"
-                               vallink="/apple/web/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png">Добавить
-                                в
-                                корзину</a>
-                            <a href="#bay-click" class="bay-click fancybox">Купить в 1 клик</a>
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
                     </div>
                 </div>
@@ -751,20 +739,16 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6s']['16Gb']['price2'] ?></span> руб.
+                                <span><?= $prices['iPhone6s']['16Gb']['space-gray']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone6s']['16Gb']['price1'] ?></span> руб.
+                                <span><?= $prices['iPhone6s']['16Gb']['space-gray']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="7">
                             <input type="hidden" name="prod_id" value="57">
-                            <a href="#add-basket" class="add-basket fancybox"
-                               vallink="/apple/web/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png">Добавить
-                                в
-                                корзину</a>
-                            <a href="#bay-click" class="bay-click fancybox">Купить в 1 клик</a>
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
                     </div>
                 </div>
@@ -924,20 +908,16 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6sPlus']['16Gb']['price2'] ?></span> руб.
+                                <span><?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone6sPlus']['16Gb']['price1'] ?></span> руб.
+                                <span><?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="26">
                             <input type="hidden" name="prod_id" value="69">
-                            <a href="#add-basket" class="add-basket fancybox"
-                               vallink="/apple/web/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png">Добавить
-                                в
-                                корзину</a>
-                            <a href="#bay-click" class="bay-click fancybox">Купить в 1 клик</a>
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
                     </div>
                 </div>
@@ -1115,20 +1095,16 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone7']['32Gb']['price2'] ?></span> руб.
+                                <span><?= $prices['iPhone7']['32Gb']['jet-black']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone7']['32Gb']['price1'] ?></span> руб.
+                                <span><?= $prices['iPhone7']['32Gb']['jet-black']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="25">
                             <input type="hidden" name="prod_id" value="173">
-                            <a href="#add-basket" class="add-basket fancybox"
-                               vallink="/apple/web/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png">Добавить
-                                в
-                                корзину</a>
-                            <a href="#bay-click" class="bay-click fancybox">Купить в 1 клик</a>
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
                     </div>
                 </div>
@@ -1307,20 +1283,16 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone7plus']['32Gb']['price2'] ?></span> руб.
+                                <span><?= $prices['iPhone7plus']['32Gb']['jet-black']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhone7plus']['32Gb']['price1'] ?></span> руб.
+                                <span><?= $prices['iPhone7plus']['32Gb']['jet-black']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="27">
                             <input type="hidden" name="prod_id" value="174">
-                            <a href="#add-basket" class="add-basket fancybox"
-                               vallink="/apple/web/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png">Добавить
-                                в
-                                корзину</a>
-                            <a href="#bay-click" class="bay-click fancybox">Купить в 1 клик</a>
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
                     </div>
                 </div>
@@ -1482,20 +1454,16 @@ $this->title = 'My Yii Application';
                                 тест-драйв.
                             </div>
                             <div class="standart-price" id="price">
-                                <span><?= $prices['iPhoneSE']['16Gb']['price2'] ?></span> руб.
+                                <span><?= $prices['iPhoneSE']['16Gb']['space-gray']['price2'] ?></span> руб.
                             </div>
                             <div class="sale-price">
-                                <span><?= $prices['iPhoneSE']['16Gb']['price1'] ?></span> руб.
+                                <span><?= $prices['iPhoneSE']['16Gb']['space-gray']['price1'] ?></span> руб.
                             </div>
                         </div>
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="28">
                             <input type="hidden" name="prod_id" value="127">
-                            <a href="#add-basket" class="add-basket fancybox"
-                               vallink="/apple/web/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png">Добавить
-                                в
-                                корзину</a>
-                            <a href="#bay-click" class="bay-click fancybox">Купить в 1 клик</a>
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
                     </div>
                 </div>
@@ -1769,26 +1737,47 @@ $this->title = 'My Yii Application';
     </div>
 </footer>
 </div>
+
 <div id="bay-click" class="popup">
-    <div class="name">Купить в 1 клик</div>
-    <div class="info">
-        <div style="color:#0581ea;">
-            <span class="model"></span>
+    <a class="close-popup" onclick="$('#bay-click').bPopup().close();"><b></b></a>
+
+    <div class="bay-popup">
+        <div class="div-left">
+            <img src="/apple/web/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png" class="iphone-img"
+                 style="max-height: 300px; margin-bottom: 20px;"/>
         </div>
-        Цена: <span class="price"></span> руб.
+        <div class="div-right">
+            <div class="cat-item-name"> iPhone 4 8Gb</div>
+            <br>
+            <div class="cat-item-text">
+                Торопитесь! Скидка до конца недели.
+                Гарантия 1 год. Бесплатный тест-драйв.
+                При заказе сегодня Вы получите купон для дополнительной скидки.
+            </div>
+
+            <div style="text-align: center; margin-top: 20px;">
+                Итоговая сумма:<br>
+                <span class="cat-item-old-price"
+                      style="font-size: 18px; text-decoration: line-through">17 999 руб.</span>
+                <span class="cat-item-new-price" style="font-size: 30px; ">12 999</span>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        <div class="second-part">
+            <div class="grid-4 text-center">
+                <form id="order_form" action="#" method="POST">
+                    <input name="prod" value="" type="hidden"/>
+                    <input class="input-name" name="name" type="text" placeholder="Ваше имя:"/>
+                    <input class="input-phone" name="phone" type="text" placeholder="+7 (___) ___-__-__"/>
+                    <input name="prod" value="" type="hidden"/>
+                    <button>Заказать сейчас</button>
+                </form>
+            </div>
+        </div>
     </div>
-    <form id="order_form" action="#" method="POST">
-        <input class="input-name" name="name" type="text" placeholder="Ваше имя:"/>
-        <input class="input-phone" name="phone" type="text" placeholder="+7 (___) ___-__-__"/>
-        <input name="prod" value="" type="hidden"/>
-        <!--        <label><input type="checkbox" name="rules"/>Я согласен с <a target="_blank" class="ofert" href="-->
-        <!--">публичной офертой</a></label>-->
-        <!--        <label><input type="checkbox" name="rules"/>Я согласен с <a target="_blank" onclick="location.href='/oft'" href="-->
-        <!--">публичной офертой</a></label>-->
-        <button>Купить в 1 клик</button>
-        <!--        <button disabled="disabled">Купить в 1 клик</button>-->
-    </form>
 </div>
+
 
 <!--<div id="pack-set-iphone5s" class="popup pack-set">-->
 <!--    <div class="name">Комплектация</div>-->

@@ -6,16 +6,16 @@ use Yii;
 use yii\behaviors\TimestampBehavior;
 
 /**
- * This is the model class for table "reviews".
+ * This is the model class for table "purchase".
  *
- * @property integer $r_id
+ * @property integer $p_id
  * @property string $name
  * @property string $tel
- * @property string $review
+ * @property string $prod
  * @property integer $created_at
  * @property integer $updated_at
  */
-class Reviews extends \yii\db\ActiveRecord
+class Purchase extends \yii\db\ActiveRecord
 {
 	public function behaviors()
 	{
@@ -24,12 +24,12 @@ class Reviews extends \yii\db\ActiveRecord
 		];
 	}
 
-	/**
+    /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return 'reviews';
+        return 'purchase';
     }
 
     /**
@@ -38,9 +38,9 @@ class Reviews extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['name', 'tel', 'review'], 'required'],
+            [['name', 'tel', 'prod'], 'required'],
             [['created_at', 'updated_at'], 'integer'],
-            [['name', 'tel', 'review'], 'string', 'max' => 255],
+            [['name', 'tel', 'prod'], 'string', 'max' => 255],
         ];
     }
 
@@ -50,10 +50,10 @@ class Reviews extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'r_id' => 'R ID',
+            'p_id' => 'P ID',
             'name' => 'Name',
             'tel' => 'Tel',
-            'review' => 'Review',
+            'prod' => 'Prod',
             'created_at' => 'Created At',
             'updated_at' => 'Updated At',
         ];

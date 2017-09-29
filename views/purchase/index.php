@@ -6,7 +6,7 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Reviews';
+$this->title = 'Purchases';
 $this->params['breadcrumbs'][] = $this->title;
 \app\assets\BootstrapAsset::register($this);
 ?>
@@ -16,17 +16,17 @@ $this->params['breadcrumbs'][] = $this->title;
 			<?= Html::encode($this->title) ?>
         </div>
         <p>
-            <!--			--><? //= Html::a('Create Reviews', ['create'], ['class' => 'btn btn-success']) ?>
+			<?= Html::a('Create Purchase', ['create'], ['class' => 'btn btn-success']) ?>
         </p>
 		<?= GridView::widget([
 			'dataProvider' => $dataProvider,
 			'columns' => [
 				['class' => 'yii\grid\SerialColumn'],
 
-				'r_id',
+				'p_id',
 				'name',
 				'tel',
-				'review',
+				'prod',
 				[
 					'attribute' => 'created_at',
 					'value' => function ($model, $index, $widget) {
@@ -39,6 +39,5 @@ $this->params['breadcrumbs'][] = $this->title;
 				['class' => 'yii\grid\ActionColumn'],
 			],
 		]); ?>
-
     </div>
 </section>

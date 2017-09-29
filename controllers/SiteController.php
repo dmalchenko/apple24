@@ -86,14 +86,25 @@ class SiteController extends Controller {
 			28 => 'iPhoneSE',
 		];
 
+		$colors = [
+			'Серебристый' => 'silver',
+			'Золотистый' => 'gold',
+			'Черный' => 'black',
+			'Черный оникс' => 'jet-black',
+			'Красный' => 'red',
+			'Розовое золото' => 'rose-gold',
+			'Серый космос' => 'space-gray',
+		];
+
 		$sizeId = $sizes[intval(Yii::$app->request->post('sizeId'))];
 		$category = $categories[intval(Yii::$app->request->post('category'))];
+		$color = $colors[Yii::$app->request->post('colorName')];
 		$response = [
-			'price1' => $prices[$category][$sizeId]['price1'],
-			'price2' => $prices[$category][$sizeId]['price2'],
+			'price1' => $prices[$category][$sizeId][$color]['price1'],
+			'price2' => $prices[$category][$sizeId][$color]['price2'],
 			'cat' => intval(Yii::$app->request->post('category')),
-			'prodId' => 123,
-			'sef' => 'sdasdad',
+			'prodId' => $prices[$category][$sizeId][$color]['id'],
+			'sef' => 'sef',
 		];
 		echo json_encode($response);
 		exit;
@@ -111,7 +122,7 @@ class SiteController extends Controller {
 
 		$model = new LoginForm();
 		if ($model->load(Yii::$app->request->post()) && $model->login()) {
-			return $this->goBack();
+			return $this->redirect('admin');
 		}
 		return $this->render('login', [
 			'model' => $model,
@@ -180,12 +191,20 @@ class SiteController extends Controller {
 		return $this->render('questions');
 	}
 
+	public function actionThanks() {
+		return $this->render('thanks');
+	}
+
 	public function actionContact() {
 		return $this->render('contact');
 	}
 
 	public function actionOfferta() {
 		return $this->render('offerta');
+	}
+
+	public function actionAdmin() {
+		return $this->render('admin');
 	}
 
 }
