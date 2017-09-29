@@ -26,8 +26,8 @@ class PurchaseController extends Controller {
 		}
 		$purchase = new Purchase();
 		$purchase->tel = urldecode($arr['phone']);
-		$purchase->name = $arr['name'];
-		$purchase->prod = $arr['prodName'];
+		$purchase->name = urldecode($arr['name']);
+		$purchase->prod = urldecode($arr['prodName']);
 		$purchase->save();
 		echo json_encode($purchase->save());
 		exit;
@@ -89,6 +89,7 @@ class PurchaseController extends Controller {
 	public function actionIndex() {
 		$dataProvider = new ActiveDataProvider([
 			'query' => Purchase::find(),
+			'sort'=> ['defaultOrder' => ['created_at' => SORT_DESC]]
 		]);
 
 		return $this->render('index', [

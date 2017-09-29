@@ -48,6 +48,7 @@ class ReviewsController extends Controller
     {
         $dataProvider = new ActiveDataProvider([
             'query' => Reviews::find(),
+			'sort'=> ['defaultOrder' => ['created_at' => SORT_DESC]]
         ]);
 
         return $this->render('index', [

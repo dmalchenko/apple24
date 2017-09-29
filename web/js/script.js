@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    var basePath = '/apple/web';
+
 	/* прячем первый блок */
 	/*$(window).scroll(function() {
 		if ($(this).scrollTop() > 5) {
@@ -12,7 +14,7 @@ $(document).ready(function () {
 	});*/
 
 	$('.down').click(function() {
-		$('html, body').animate({scrollTop: $('.main_block').actual( 'height' )}, 300);
+		$('html, body').animate({scrollTop: ($('.main_block').actual( 'height' ) + 50)}, 300);
 	});
 
 
@@ -200,7 +202,7 @@ $(document).ready(function () {
 		$.ajax({
 			type: 'POST',
 			dataType: 'json',
-			url: '/apple/web/purchase/get-info',
+			url: basePath + '/purchase/get-info',
 			data: {
 				id: $(this).parent().find('input[name="prod_id"]').val(),
                 _csrf: csrfToken
@@ -273,7 +275,7 @@ $(document).ready(function () {
 			$.ajax({
 				type: 'POST',
 				dataType: 'json',
-                url: '/apple/web/purchase/accept',
+                url: basePath + '/purchase/accept',
                 data: {
                     data: $(this).serialize(),
                     prod: $('.popup').find(".cat-item-name").html(),
@@ -298,7 +300,7 @@ $(document).ready(function () {
 						// 	}
 						// });
 					}
-					document.location.href = "/apple/web/thanks";
+					document.location.href = basePath + "/thanks";
 				}
 			});
 		};
@@ -374,7 +376,7 @@ $(document).ready(function () {
 			$(this).find("[name=phone]").addClass("error");
 		}
 		if ($(this).find(".error").length < 1) {
-            document.location.href = "/apple/web/review-raw?name=" + $(this).find("[name=name]").val() + "&tel=" + $(this).find("[name=phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
+            document.location.href = basePath + "/review-raw?name=" + $(this).find("[name=name]").val() + "&tel=" + $(this).find("[name=phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
         }
 	});
 
@@ -391,7 +393,7 @@ $(document).ready(function () {
 			$(this).find("[name=input-phone]").addClass("error");
 		}
 		if ($(this).find(".error").length < 1) {
-            document.location.href = "/apple/web/review-raw?name=" + $(this).find("[name=input-name]").val() + "&tel=" + $(this).find("[name=input-phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
+            document.location.href = basePath + "/review-raw?name=" + $(this).find("[name=input-name]").val() + "&tel=" + $(this).find("[name=input-phone]").val() + "&text=" + $(this).find("[name=rev_text]").val();
         }
 	});
 
@@ -537,24 +539,22 @@ function dinamPhones(attr) {
                     _csrf : csrfToken
 				},
 				success: function(result){
-					if(result.prodId) {
-						if (attr) {
-							window.location.href = '/' + result.sef + '/';
-						} else {
-							$('#phone-' + category).find('.price').show();
-							$('#phone-' + category).find('.buttons').show();
+                    var phoneCat = $('#phone-' + category);
+                    if(result.prodId) {
+                        if (attr) {
+                            window.location.href = '/' + result.sef + '/';
+                        } else {
+							phoneCat.find('.price').show();
+							phoneCat.find('.buttons').show();
+							phoneCat.find('input[name="prod_id"]').val(result.prodId);
+							phoneCat.find('.sale-price span').text(result.price1);
+							phoneCat.find('.standart-price span').text(result.price2);
 
-							$('#phone-' + result.cat).find('input[name="prod_id"]').val(result.prodId);
-							//         $('.price_' + result.cat).fadeIn();
-							//
-							$('#phone-' + result.cat).find('.sale-price span').text(result.price1);
-							$('#phone-' + result.cat).find('.standart-price span').text(result.price2);
-
-							$('#phone-' + category).find('.buttons').fadeIn();
+							phoneCat.find('.buttons').fadeIn();
 						}
 					} else {
-						$('#phone-' + category).find('.price').fadeOut();
-						$('#phone-' + category).find('.buttons').fadeOut();
+						phoneCat.find('.price').fadeOut();
+						phoneCat.find('.buttons').fadeOut();
 					}
 				}
 			});

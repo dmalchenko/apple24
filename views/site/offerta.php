@@ -612,8 +612,10 @@ $this->title = 'Публичная оферта';
 	</div>
 </section>
 <footer>
-	<div class="container">
-		<?= Yii::$app->params['shopName']; ?>
-		</br>
-	</div>
+    <div class="container">
+        <p class="pull-left"><?= Yii::$app->params['shopName']; ?></p>
+        <p class="pull-center"><?= date('Y'); ?> г.</p>
+        <p class="pull-right"><?= Yii::$app->params['address']; ?></p>
+        <br>
+    </div>
 </footer>

@@ -34,6 +34,23 @@ $this->params['breadcrumbs'][] = $this->title;
 						return $date;
 					}
 				],
+				[
+					'attribute' => 'review_type',
+					'value' => function ($model, $index, $widget) {
+						switch ($model->review_type) {
+							case 1:
+								$txt = 'отзыв';
+								break;
+							case 2:
+								$txt = 'вопрос';
+								break;
+							default:
+								$txt = '***';
+								break;
+						}
+						return $txt;
+					}
+				],
 				// 'updated_at',
 
 				['class' => 'yii\grid\ActionColumn'],

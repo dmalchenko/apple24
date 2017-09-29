@@ -44,19 +44,19 @@ AppAsset::register($this);
                 <span></span>
                 <span></span>
             </div>
-            <a href="/apple/web/" class="logo"></a>
+            <a href="<?= \yii\helpers\Url::to('@web'); ?>" class="logo"></a>
             <ul class="burger-menu">
                 <li>
-                    <a class="scrollto cat" href="<?= $path?>/#catalog">Каталог</a>
+                    <a class="scrollto cat" href="<?= $path?>/#catalog-id">Каталог</a>
                     <ul class="mobile_category_opened">
-                        <li><a href="#phone-3" class="active  scrollto">iPhone 5S</a></li>
-                        <li><a href="#phone-5" class="active  scrollto">iPhone 6</a></li>
-                        <li><a href="#phone-6" class="active  scrollto">iPhone 6 plus</a></li>
-                        <li><a href="#phone-7" class="active  scrollto">iPhone 6S</a></li>
-                        <li><a href="#phone-26" class="active  scrollto">iPhone 6S plus</a></li>
-                        <li><a href="#phone-25" class="active  scrollto">iPhone 7</a></li>
-                        <li><a href="#phone-27" class="active  scrollto">iPhone 7 plus</a></li>
-                        <li><a href="#phone-28" class="active  scrollto">iPhone SE</a></li>
+                        <li><a href="<?= $path?>#phone-7" class="active  scrollto">iPhone 7</a></li>
+                        <li><a href="<?= $path?>#phone-7-plus" class="active  scrollto">iPhone 7 plus</a></li>
+                        <li><a href="<?= $path?>#phone-SE" class="active  scrollto">iPhone SE</a></li>
+                        <li><a href="<?= $path?>#phone-6s" class="active  scrollto">iPhone 6S</a></li>
+                        <li><a href="<?= $path?>#phone-6s-plus" class="active  scrollto">iPhone 6S plus</a></li>
+                        <li><a href="<?= $path?>#phone-6" class="active  scrollto">iPhone 6</a></li>
+                        <li><a href="<?= $path?>#phone-6-plus" class="active  scrollto">iPhone 6 plus</a></li>
+                        <li><a href="<?= $path?>#phone-5s" class="active  scrollto">iPhone 5S</a></li>
                     </ul>
                 </li>
                 <li><a class="scrollto" href="<?= $path?>/#guaranty">Гарантия</a></li>
@@ -67,7 +67,7 @@ AppAsset::register($this);
                 <li><a href="<?= $path?>/otzyvy">Отзывы</a></li>
                 <li><a href="<?= $path?>/contact">Контакты</a></li>
             </ul>
-            <div class="phone"><a href="tel: +7 (499) 705-03-88"><span class="lptracker_phone">+7 (499) 705-03-88</span></a>
+            <div class="phone"><span class="lptracker_phone">+7 (499) 705-03-88</span>
             </div>
 
         </div>

@@ -76,14 +76,14 @@ class SiteController extends Controller {
 		];
 
 		$categories = [
-			3 => 'iPhone5s',
-			5 => 'iPhone6',
-			6 => 'iPhone6plus',
-			7 => 'iPhone6s',
-			26 => 'iPhone6sPlus',
-			25 => 'iPhone7',
-			27 => 'iPhone7plus',
-			28 => 'iPhoneSE',
+			'5s' => 'iPhone5s',
+			'6' => 'iPhone6',
+			'6-plus' => 'iPhone6plus',
+			'6s' => 'iPhone6s',
+			'6s-plus' => 'iPhone6sPlus',
+			'7' => 'iPhone7',
+			'7-plus' => 'iPhone7plus',
+			'SE' => 'iPhoneSE',
 		];
 
 		$colors = [
@@ -97,7 +97,7 @@ class SiteController extends Controller {
 		];
 
 		$sizeId = $sizes[intval(Yii::$app->request->post('sizeId'))];
-		$category = $categories[intval(Yii::$app->request->post('category'))];
+		$category = $categories[Yii::$app->request->post('category')];
 		$color = $colors[Yii::$app->request->post('colorName')];
 		$response = [
 			'price1' => $prices[$category][$sizeId][$color]['price1'],
@@ -179,12 +179,23 @@ class SiteController extends Controller {
 		$review->name = Yii::$app->request->get('name');
 		$review->tel = Yii::$app->request->get('tel');
 		$review->review = Yii::$app->request->get('text');
+		$review->review_type = 1;
 		$review->save();
-		return $this->redirect('questions');
+		return $this->redirect('review');
 	}
 
 	public function actionReview() {
 		return $this->render('review');
+	}
+
+	public function actionQuestionsRaw() {
+		$review = new Reviews();
+		$review->name = Yii::$app->request->get('name');
+		$review->tel = Yii::$app->request->get('tel');
+		$review->review = Yii::$app->request->get('text');
+		$review->review_type = 2;
+		$review->save();
+		return $this->redirect('questions');
 	}
 
 	public function actionQuestions() {
@@ -205,6 +216,16 @@ class SiteController extends Controller {
 
 	public function actionAdmin() {
 		return $this->render('admin');
+	}
+
+	public function actionViewer($id) {
+		$data = require __DIR__ . '/../config/news.php';;
+
+		return $this->render('viewer', [
+			'title' => $data[$id]['title'],
+			'date' => $data[$id]['date'],
+			'text' => $data[$id]['text'],
+		]);
 	}
 
 }

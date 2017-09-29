@@ -12,6 +12,7 @@ use yii\behaviors\TimestampBehavior;
  * @property string $name
  * @property string $tel
  * @property string $review
+ * @property integer $review_type
  * @property integer $created_at
  * @property integer $updated_at
  */

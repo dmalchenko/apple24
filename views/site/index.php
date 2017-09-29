@@ -17,71 +17,72 @@ $this->title = 'Apple';
                         Бесплатный тест-драйв.
                     </div>
                     <div class="clr"></div>
-                    <a class="down" href="#">Купить со скидкой</a>
+                    <a class="down" href="#catalog">Купить со скидкой</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<section class="content_block" id="catalog">
+<section class="content_block" id="catalog" name="catalog">
     <div class="container first">
-        <div class="name">
+        <div class="name" id="catalog-id">
             Каталог продукции
-            <div class="name-child">Скидки от 10 до 40%. Успей купить по акции.</div>
+            <div class="name-child">Скидки до конца недели. Успей купить по акции.</div>
         </div>
         <div class="select-phone">
-            <a href="#phone-3" class="block scrollto">
-                <img src="/apple/web/uploads/category/x250/260ec7360e0d0049e0ba29ec356b6324.jpg" alt="Купить iPhone 5S"
-                     title="Купить iPhone 5S"/>
-                <span>iPhone 5S</span>
-                от <?= $prices['iPhone5s']['16Gb']['space-gray']['price1'] ?> руб.
-            </a>
-            <a href="#phone-5" class="block scrollto">
-                <img src="/apple/web/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
-                     title="Купить iPhone 6"/>
-                <span>iPhone 6</span>
-                от <?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?> руб.
-            </a>
-            <a href="#phone-6" class="block scrollto">
-                <img src="/apple/web/uploads/category/x250/1479ebb99f8f7b44114f5674d8b3ee41.jpg"
-                     alt="Купить iPhone 6 plus"
-                     title="Купить iPhone 6 plus"/>
-                <span>iPhone 6 plus</span>
-                от <?= $prices['iPhone6plus']['16Gb']['space-gray']['price1'] ?> руб.
-            </a>
             <a href="#phone-7" class="block scrollto">
-                <img src="/apple/web/uploads/category/x250/ca4dae544f8ae4afb53199cbc1eae718.jpg" alt="Купить iPhone 6S"
+                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/bbad48acb74d77cd7587c46fa1b332fb.jpg" alt="Купить iPhone 7"
+                     title="Купить iPhone 7"/>
+                <span>iPhone 7</span>
+                от <?= $prices['iPhone7']['32Gb']['jet-black']['price1'] ?> руб.
+            </a>
+            <a href="#phone-7-plus" class="block scrollto">
+                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/c2176883977d9bdd03041770ef31cde6.jpg"
+                     alt="Купить iPhone 7 plus"
+                     title="Купить iPhone 7 plus"/>
+                <span>iPhone 7 plus</span>
+                от <?= $prices['iPhone7plus']['32Gb']['jet-black']['price1'] ?> руб.
+            </a>
+            <a href="#phone-SE" class="block scrollto">
+                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/1e702de4369bb2567f349ca4dfd3bf35.jpg" alt="Купить iPhone SE"
+                     title="Купить iPhone SE"/>
+                <span>iPhone SE</span>
+                от <?= $prices['iPhoneSE']['16Gb']['space-gray']['price1'] ?> руб.
+            </a>
+            <a href="#phone-6s" class="block scrollto">
+                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/ca4dae544f8ae4afb53199cbc1eae718.jpg" alt="Купить iPhone 6S"
                      title="Купить iPhone 6S"/>
                 <span>iPhone 6S</span>
                 от <?= $prices['iPhone6s']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
-            <a href="#phone-26" class="block scrollto">
-                <img src="/apple/web/uploads/category/x250/4317c2894aafa3a058208477e276fb55.jpg"
+            <a href="#phone-6s-plus" class="block scrollto">
+                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/4317c2894aafa3a058208477e276fb55.jpg"
                      alt="Купить iPhone 6S plus"
                      title="Купить iPhone 6S plus"/>
                 <span>iPhone 6S plus</span>
                 от <?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
-            <a href="#phone-25" class="block scrollto">
-                <img src="/apple/web/uploads/category/x250/bbad48acb74d77cd7587c46fa1b332fb.jpg" alt="Купить iPhone 7"
-                     title="Купить iPhone 7"/>
-                <span>iPhone 7</span>
-                от <?= $prices['iPhone7']['32Gb']['space-gray']['price1'] ?> руб.
+            <a href="#phone-6" class="block scrollto">
+                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
+                title="Купить iPhone 6"/>
+                <span>iPhone 6</span>
+                от <?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
-            <a href="#phone-27" class="block scrollto">
-                <img src="/apple/web/uploads/category/x250/c2176883977d9bdd03041770ef31cde6.jpg"
-                     alt="Купить iPhone 7 plus"
-                     title="Купить iPhone 7 plus"/>
-                <span>iPhone 7 plus</span>
-                от <?= $prices['iPhone7plus']['32Gb']['space-gray']['price1'] ?> руб.
+            <a href="#phone-6-plus" class="block scrollto">
+                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/1479ebb99f8f7b44114f5674d8b3ee41.jpg"
+                     alt="Купить iPhone 6 plus"
+                title="Купить iPhone 6 plus"/>
+                <span>iPhone 6 plus</span>
+                от <?= $prices['iPhone6plus']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
-            <a href="#phone-28" class="block scrollto">
-                <img src="/apple/web/uploads/category/x250/1e702de4369bb2567f349ca4dfd3bf35.jpg" alt="Купить iPhone SE"
-                     title="Купить iPhone SE"/>
-                <span>iPhone SE</span>
-                от <?= $prices['iPhoneSE']['16Gb']['space-gray']['price1'] ?> руб.
+            <a href="#phone-5s" class="block scrollto">
+                <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/category/x250/260ec7360e0d0049e0ba29ec356b6324.jpg" alt="Купить iPhone 5S"
+                     title="Купить iPhone 5S"/>
+                <span>iPhone 5S</span>
+                от <?= $prices['iPhone5s']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
+
         </div>
     </div>
 
@@ -89,849 +90,26 @@ $this->title = 'Apple';
         <div class="phone-name">
             <div class="container">
                 <ul>
-                    <li><a href="#phone-3" class="active  scrollto">iPhone 5S</a></li>
-                    <li><a href="#phone-5" class="active  scrollto">iPhone 6</a></li>
-                    <li><a href="#phone-6" class="active  scrollto">iPhone 6 plus</a></li>
-                    <li><a href="#phone-7" class="active  scrollto">iPhone 6S</a></li>
-                    <li><a href="#phone-26" class="active  scrollto">iPhone 6S plus</a></li>
-                    <li><a href="#phone-25" class="active  scrollto">iPhone 7</a></li>
-                    <li><a href="#phone-27" class="active  scrollto">iPhone 7 plus</a></li>
-                    <li><a href="#phone-28" class="active  scrollto">iPhone SE</a></li>
+                    <li><a href="#phone-7" class="active  scrollto">iPhone 7</a></li>
+                    <li><a href="#phone-7-plus" class="active  scrollto">iPhone 7 plus</a></li>
+                    <li><a href="#phone-SE" class="active  scrollto">iPhone SE</a></li>
+                    <li><a href="#phone-6s" class="active  scrollto">iPhone 6S</a></li>
+                    <li><a href="#phone-6s-plus" class="active  scrollto">iPhone 6S plus</a></li>
+                    <li><a href="#phone-6" class="active  scrollto">iPhone 6</a></li>
+                    <li><a href="#phone-6-plus" class="active  scrollto">iPhone 6 plus</a></li>
+                    <li><a href="#phone-5s" class="active  scrollto">iPhone 5S</a></li>
                 </ul>
             </div>
         </div>
-
-        <div class="background-block phone" id="phone-3">
-            <div class="container" id="iphone-5s">
-                <div class="block-phone">
-                    <div class="left-side">
-                        <div class="model">
-                            <a href="#phone-3">iPhone 5 <span>s</span></a>
-                        </div>
-                        <div class="image">
-                            <img src="/apple/web/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png"
-                                 alt="Купить iPhone 5S 16Gb space-gray" title="Купить iPhone 5S 16Gb space-gray"/>
-                        </div>
-                        <div class="info-phone">
-                            <ul>
-                                <li><a href="#pack-set-iphone5s" data-cat_id="3"
-                                       class="pack-set fancybox">Комплектация</a>
-                                </li>
-                                <li><a href="#characteristics-iphone5s" data-cat_id="3"
-                                       class="characteristics_d fancybox">Характеристики</a></li>
-                            </ul>
-                            <div class="characteristics_hidden">
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Связь</a></dt>
-                                        <dd style="display:block;">
-                                            <ul>
-                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
-                                                <li>Диапазоны UMTS : 850, 900, 1900, 2100</li>
-                                                <li>Диапазоны LTE : 1, 2, 3, 5, 7, 8, 20</li>
-                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
-                                                <li>Bluetooth : 4.0</li>
-                                                <li>Wi-Fi (802.11) : a, b , g , n</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Дисплей</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип дисплея : IPS</li>
-                                                <li>Диагональ дисплея (дюйм) : 4</li>
-                                                <li>Разрешение дисплея (пикс) : 1136x640</li>
-                                                <li>Количество цветов дисплея : 16 млн.</li>
-                                                <li>Сенсорный дисплей : да</li>
-                                                <li>Тип сенсорного дисплея : емкостный</li>
-                                                <li>Поддержка Multitouch : да</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Питание</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип аккумулятора : Литий-ионный</li>
-                                                <li>Емкость аккумулятора (мАч) : 1560</li>
-                                                <li>Время разговора (ч) : 10</li>
-                                                <li>Время ожидания (ч) : 250</li>
-                                                <li>Воспроизведение музыки (ч) : 40</li>
-                                                <li>Воспроизведение видео (ч) : 10</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Процессор</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Процессор : Apple A7</li>
-                                                <li>Кол-во ядер : 2</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Фотокамера</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Основная камера (Мп) : 8</li>
-                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
-                                                <li>Автофокус : да</li>
-                                                <li>Вспышка : светодиодная</li>
-                                                <li>Видеозапись : да</li>
-                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
-                                                <li>Частота кадров видеосъемки : 30</li>
-                                                <li>Фронтальная камера (Мп) : 1.2</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип SIM-карты : nano-SIM</li>
-                                                <li>Высота (мм) : 123.8</li>
-                                                <li>Ширина (мм) : 58.6</li>
-                                                <li>Толщина (мм) : 7.6</li>
-                                                <li>Вес (г) : 112</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-side">
-                        <div class="select-color">
-                            <div class="label-name">Цвет</div>
-                            <div class="color-block space-gray selected" data-param-color="Серый космос"
-                                 valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png">
-                                <div style="position:relative;">
-                                    <span style="background: #898989" class="color_item"></span>
-                                </div>
-                                <span>Серый космос</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/54df1c26da769a7dbd0839392b23f459.png">
-                                <div style="position:relative;">
-                                    <span style="background: #e9e9e9" class="color_item"></span>
-                                </div>
-                                <span>Серебристый</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/2941fb5bad32548698de90719c717a7c.png">
-                                <div style="position:relative;">
-                                    <span style="background: #f4bf88" class="color_item"></span>
-                                </div>
-                                <span>Золотистый</span>
-                            </div>
-                        </div>
-                        <div class="select-memory">
-                            <div class="label-name">Объем памяти</div>
-                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
-                                16 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="3" valsmemory="" valmemory="">
-                                32 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
-                                64 ГБ
-                            </div>
-                        </div>
-                        <div class="price">
-                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
-                                тест-драйв.
-                            </div>
-                            <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone5s']['16Gb']['space-gray']['price2'] ?></span> руб.
-                            </div>
-                            <div class="sale-price">
-                                <span><?= $prices['iPhone5s']['16Gb']['space-gray']['price1'] ?></span> руб.
-                            </div>
-                        </div>
-                        <div class="buttons">
-                            <input type="hidden" name="category_id" value="3">
-                            <input type="hidden" name="prod_id" value="1">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="background-block phone" id="phone-5">
-            <div class="container" id="iphone-6">
-                <div class="block-phone">
-                    <div class="left-side">
-                        <div class="model">
-                            <a href="#phone-5">iPhone 6 </a>
-                        </div>
-                        <div class="image">
-                            <img src="/apple/web/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png"
-                                 alt="Купить iPhone 6 16Gb space-gray" title="Купить iPhone 6 16Gb space-gray"/>
-                        </div>
-                        <div class="info-phone">
-                            <ul>
-                                <li><a href="#pack-set-iphone5s" data-cat_id="5"
-                                       class="pack-set fancybox">Комплектация</a>
-                                </li>
-                                <li><a href="#characteristics-iphone5s" data-cat_id="5"
-                                       class="characteristics_d fancybox">Характеристики</a></li>
-                            </ul>
-                            <div class="characteristics_hidden">
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Связь</a></dt>
-                                        <dd style="display:block;">
-                                            <ul>
-                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
-                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
-                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26,
-                                                    28, 29
-                                                </li>
-                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
-                                                <li>Bluetooth : 4.0</li>
-                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
-                                                <li>NFC : да</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Дисплей</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип дисплея : Retina HD</li>
-                                                <li>Диагональ дисплея (дюйм) : 4.7</li>
-                                                <li>Разрешение дисплея (пикс) : 1920&times;1080</li>
-                                                <li>Количество цветов дисплея : 16 млн.</li>
-                                                <li>Сенсорный дисплей : да</li>
-                                                <li>Тип сенсорного дисплея : емкостный</li>
-                                                <li>Поддержка Multitouch : да</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Питание</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип аккумулятора : Литий-ионный</li>
-                                                <li>Время разговора в сети 3G (ч) : 14</li>
-                                                <li>Время ожидания (ч) : 250</li>
-                                                <li>Воспроизведение музыки (ч) : 50</li>
-                                                <li>Воспроизведение видео (ч) : 11</li>
-                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
-                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Процессор</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Процессор : Apple A8 + сопроцессор M8</li>
-                                                <li>Частота процессора (МГц) : 1400</li>
-                                                <li>Кол-во ядер : 2</li>
-                                                <li>Видеочип : PowerVR GX6650</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Фотокамера</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Основная камера (Мп) : 8</li>
-                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
-                                                <li>Стабилизация изображения : цифровая</li>
-                                                <li>Автофокус : да</li>
-                                                <li>Вспышка : да</li>
-                                                <li>Видеозапись : да</li>
-                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
-                                                <li>Частота кадров видеосъемки : 60</li>
-                                                <li>Фронтальная камера (Мп) : 1.2</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип SIM-карты : nano-SIM</li>
-                                                <li>Высота (мм) : 138.1</li>
-                                                <li>Ширина (мм) : 67</li>
-                                                <li>Толщина (мм) : 6.9</li>
-                                                <li>Вес (г) : 129</li>
-                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-side">
-                        <div class="select-color">
-                            <div class="label-name">Цвет</div>
-                            <div class="color-block space-gray selected" data-param-color="Серый космос"
-                                 valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png">
-                                <div style="position:relative;">
-                                    <span style="background: #898989" class="color_item"></span>
-                                </div>
-                                <span>Серый космос</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/9bf680f1f20e4a31b46b51e2ff2e6ab0.png">
-                                <div style="position:relative;">
-                                    <span style="background: #e9e9e9" class="color_item"></span>
-                                </div>
-                                <span>Серебристый</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/91a8089b025fd99688efff2bb86c5567.png">
-                                <div style="position:relative;">
-                                    <span style="background: #f4bf88" class="color_item"></span>
-                                </div>
-                                <span>Золотистый</span>
-                            </div>
-                        </div>
-                        <div class="select-memory">
-                            <div class="label-name">Объем памяти</div>
-                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
-                                16 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
-                                64 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
-                                128 ГБ
-                            </div>
-                        </div>
-                        <div class="price">
-                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
-                                тест-драйв.
-                            </div>
-                            <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6']['16Gb']['space-gray']['price2'] ?></span> руб.
-                            </div>
-                            <div class="sale-price">
-                                <span><?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?></span> руб.
-                            </div>
-                        </div>
-                        <div class="buttons">
-                            <input type="hidden" name="category_id" value="5">
-                            <input type="hidden" name="prod_id" value="4">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="background-block phone" id="phone-6">
-            <div class="container" id="iphone-6plus">
-                <div class="block-phone">
-                    <div class="left-side">
-                        <div class="model">
-                            <a href="#phone-6">iPhone 6 plus</a>
-                        </div>
-                        <div class="image">
-                            <img src="/apple/web/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png"
-                                 alt="Купить iPhone 6 plus 16Gb space-gray"
-                                 title="Купить iPhone 6 plus 16Gb space-gray"/>
-                        </div>
-                        <div class="info-phone">
-                            <ul>
-                                <li><a href="#pack-set-iphone5s" data-cat_id="6"
-                                       class="pack-set fancybox">Комплектация</a>
-                                </li>
-                                <li><a href="#characteristics-iphone5s" data-cat_id="6"
-                                       class="characteristics_d fancybox">Характеристики</a></li>
-                            </ul>
-                            <div class="characteristics_hidden">
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Связь</a></dt>
-                                        <dd style="display:block;">
-                                            <ul>
-                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
-                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
-                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26,
-                                                    28, 29
-                                                </li>
-                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
-                                                <li>Bluetooth : 4.0</li>
-                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
-                                                <li>NFC : да</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Дисплей</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип дисплея : Retina HD</li>
-                                                <li>Диагональ дисплея (дюйм) : 5.5</li>
-                                                <li>Количество цветов дисплея : 16 млн.</li>
-                                                <li>Сенсорный дисплей : да</li>
-                                                <li>Тип сенсорного дисплея : емкостный</li>
-                                                <li>Поддержка Multitouch : да</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Питание</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип аккумулятора : Литий-ионный</li>
-                                                <li>Время разговора в сети 3G (ч) : 14</li>
-                                                <li>Время ожидания (ч) : 250</li>
-                                                <li>Воспроизведение музыки (ч) : 50</li>
-                                                <li>Воспроизведение видео (ч) : 11</li>
-                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
-                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Процессор</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Процессор : Apple A8 + сопроцессор M8</li>
-                                                <li>Частота процессора (МГц) : 1400</li>
-                                                <li>Кол-во ядер : 2</li>
-                                                <li>Видеочип : PowerVR GX6650</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Фотокамера</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Основная камера (Мп) : 8</li>
-                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
-                                                <li>Стабилизация изображения : цифровая</li>
-                                                <li>Автофокус : да</li>
-                                                <li>Вспышка : да</li>
-                                                <li>Видеозапись : да</li>
-                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
-                                                <li>Частота кадров видеосъемки : 60</li>
-                                                <li>Фронтальная камера (Мп) : 1.2</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип SIM-карты : nano-SIM</li>
-                                                <li>Высота (мм) : 158.1</li>
-                                                <li>Ширина (мм) : 77.8</li>
-                                                <li>Толщина (мм) : 7.1</li>
-                                                <li>Вес (г) : 172</li>
-                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-side">
-                        <div class="select-color">
-                            <div class="label-name">Цвет</div>
-                            <div class="color-block space-gray selected" data-param-color="Серый космос"
-                                 valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png">
-                                <div style="position:relative;">
-                                    <span style="background: #898989" class="color_item"></span>
-                                </div>
-                                <span>Серый космос</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/c5a1e653c1e91cdff1d1c83074a6a962.png">
-                                <div style="position:relative;">
-                                    <span style="background: #e9e9e9" class="color_item"></span>
-                                </div>
-                                <span>Серебристый</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/8f45d6e170ee17bd13b8f0f027b6e767.png">
-                                <div style="position:relative;">
-                                    <span style="background: #f4bf88" class="color_item"></span>
-                                </div>
-                                <span>Золотистый</span>
-                            </div>
-                        </div>
-                        <div class="select-memory">
-                            <div class="label-name">Объем памяти</div>
-                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
-                                16 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
-                                64 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
-                                128 ГБ
-                            </div>
-                        </div>
-                        <div class="price">
-                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
-                                тест-драйв.
-                            </div>
-                            <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6plus']['16Gb']['space-gray']['price2'] ?></span> руб.
-                            </div>
-                            <div class="sale-price">
-                                <span><?= $prices['iPhone6plus']['16Gb']['space-gray']['price1'] ?></span> руб.
-                            </div>
-                        </div>
-                        <div class="buttons">
-                            <input type="hidden" name="category_id" value="6">
-                            <input type="hidden" name="prod_id" value="48">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="background-block phone" id="phone-7">
-            <div class="container" id="iphone-6s">
-                <div class="block-phone">
-                    <div class="left-side">
-                        <div class="model">
-                            <a href="#phone-7">iPhone 6 <span>s</span></a>
-                        </div>
-                        <div class="image">
-                            <img src="/apple/web/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png"
-                                 alt="Купить iPhone 6S 16Gb space-gray" title="Купить iPhone 6S 16Gb space-gray"/>
-                        </div>
-                        <div class="info-phone">
-                            <ul>
-                                <li><a href="#pack-set-iphone5s" data-cat_id="7"
-                                       class="pack-set fancybox">Комплектация</a>
-                                </li>
-                                <li><a href="#characteristics-iphone5s" data-cat_id="7"
-                                       class="characteristics_d fancybox">Характеристики</a></li>
-                            </ul>
-                            <div class="characteristics_hidden">
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Связь</a></dt>
-                                        <dd style="display:block;">
-                                            <ul>
-                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
-                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
-                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25,
-                                                    26, 27, 28, 29, 30, 38, 39, 40, 41
-                                                </li>
-                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
-                                                <li>Bluetooth : 4.2</li>
-                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
-                                                <li>NFC : да</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Дисплей</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип дисплея : Retina HD с технологией 3D Touch</li>
-                                                <li>Диагональ дисплея (дюйм) : 4.7</li>
-                                                <li>Разрешение дисплея (пикс) : 1334x750</li>
-                                                <li>Количество цветов дисплея : 16 млн.</li>
-                                                <li>Сенсорный дисплей : да</li>
-                                                <li>Тип сенсорного дисплея : емкостный</li>
-                                                <li>Поддержка Multitouch : да</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Питание</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип аккумулятора : Литий-ионный</li>
-                                                <li>Время разговора в сети 3G (ч) : 14</li>
-                                                <li>Время ожидания (ч) : 240</li>
-                                                <li>Воспроизведение музыки (ч) : 50</li>
-                                                <li>Воспроизведение видео (ч) : 11</li>
-                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
-                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Процессор</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Процессор : Apple A9 + сопроцессор M9</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Фотокамера</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Основная камера (Мп) : 12</li>
-                                                <li>Разрешение фотосъемки (пикс) : 4000 x 3000</li>
-                                                <li>Стабилизация изображения : цифровая</li>
-                                                <li>Автофокус : да</li>
-                                                <li>Вспышка : True Tone</li>
-                                                <li>Видеозапись : да</li>
-                                                <li>Разрешение видеосъемки (пикс) : 3840 x 2160</li>
-                                                <li>Частота кадров видеосъемки : 30</li>
-                                                <li>Фронтальная камера (Мп) : 5</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип SIM-карты : nano-SIM</li>
-                                                <li>Высота (мм) : 138.3</li>
-                                                <li>Ширина (мм) : 67.1</li>
-                                                <li>Толщина (мм) : 7.1</li>
-                                                <li>Вес (г) : 143</li>
-                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-side">
-                        <div class="select-color">
-                            <div class="label-name">Цвет</div>
-                            <div class="color-block space-gray selected" data-param-color="Серый космос"
-                                 valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png">
-                                <div style="position:relative;">
-                                    <span style="background: #898989" class="color_item"></span>
-                                </div>
-                                <span>Серый космос</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/9bdf7bd0b2b58fad292125edb081b642.png">
-                                <div style="position:relative;">
-                                    <span style="background: #e9e9e9" class="color_item"></span>
-                                </div>
-                                <span>Серебристый</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/dbd11d8ea228cd4faf2120530640d8fe.png">
-                                <div style="position:relative;">
-                                    <span style="background: #f4bf88" class="color_item"></span>
-                                </div>
-                                <span>Золотистый</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/a2d00ed0aa3683a6be6bb25525710113.png">
-                                <div style="position:relative;">
-                                    <span style="background: #f0c8c2" class="color_item"></span>
-                                </div>
-                                <span>Розовое золото</span>
-                            </div>
-                        </div>
-                        <div class="select-memory">
-                            <div class="label-name">Объем памяти</div>
-                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
-                                16 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
-                                64 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
-                                128 ГБ
-                            </div>
-                        </div>
-                        <div class="price">
-                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
-                                тест-драйв.
-                            </div>
-                            <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6s']['16Gb']['space-gray']['price2'] ?></span> руб.
-                            </div>
-                            <div class="sale-price">
-                                <span><?= $prices['iPhone6s']['16Gb']['space-gray']['price1'] ?></span> руб.
-                            </div>
-                        </div>
-                        <div class="buttons">
-                            <input type="hidden" name="category_id" value="7">
-                            <input type="hidden" name="prod_id" value="57">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="background-block phone" id="phone-26">
-            <div class="container" id="iphone-6splus">
-                <div class="block-phone">
-                    <div class="left-side">
-                        <div class="model">
-                            <a href="#phone-26">iPhone 6 <span>s</span> plus</a>
-                        </div>
-                        <div class="image">
-                            <img src="/apple/web/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png"
-                                 alt="Купить iPhone 6S plus 16Gb space-gray"
-                                 title="Купить iPhone 6S plus 16Gb space-gray"/>
-                        </div>
-                        <div class="info-phone">
-                            <ul>
-                                <li><a href="#pack-set-iphone5s" data-cat_id="26"
-                                       class="pack-set fancybox">Комплектация</a>
-                                </li>
-                                <li><a href="#characteristics-iphone5s" data-cat_id="26"
-                                       class="characteristics_d fancybox">Характеристики</a></li>
-                            </ul>
-                            <div class="characteristics_hidden">
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Связь</a></dt>
-                                        <dd style="display:block;">
-                                            <ul>
-                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
-                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
-                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25,
-                                                    26, 27, 28, 29, 30, 38, 39, 40, 41
-                                                </li>
-                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
-                                                <li>Bluetooth : 4.2</li>
-                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
-                                                <li>NFC : да</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Дисплей</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип дисплея : Retina HD с технологией 3D Touch</li>
-                                                <li>Диагональ дисплея (дюйм) : 5.5</li>
-                                                <li>Количество цветов дисплея : 16 млн.</li>
-                                                <li>Сенсорный дисплей : да</li>
-                                                <li>Тип сенсорного дисплея : емкостный</li>
-                                                <li>Поддержка Multitouch : да</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Питание</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип аккумулятора : Литий-ионный</li>
-                                                <li>Время разговора в сети 3G (ч) : 14</li>
-                                                <li>Время ожидания (ч) : 240</li>
-                                                <li>Воспроизведение музыки (ч) : 50</li>
-                                                <li>Воспроизведение видео (ч) : 11</li>
-                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
-                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-
-                                <div class="characteristics-block">
-                                    <dl class="accordions">
-                                        <dt><a href="">Процессор</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Процессор : Apple A9 + сопроцессор M9</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Фотокамера</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Основная камера (Мп) : 12</li>
-                                                <li>Разрешение фотосъемки (пикс) : 4000 x 3000</li>
-                                                <li>Стабилизация изображения : цифровая</li>
-                                                <li>Автофокус : да</li>
-                                                <li>Вспышка : True Tone</li>
-                                                <li>Видеозапись : да</li>
-                                                <li>Разрешение видеосъемки (пикс) : 3840 x 2160</li>
-                                                <li>Частота кадров видеосъемки : 30</li>
-                                                <li>Фронтальная камера (Мп) : 5</li>
-                                            </ul>
-                                        </dd>
-                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
-                                        <dd>
-                                            <ul>
-                                                <li>Тип SIM-карты : nano-SIM</li>
-                                                <li>Высота (мм) : 158.2</li>
-                                                <li>Ширина (мм) : 77.9</li>
-                                                <li>Толщина (мм) : 7.3</li>
-                                                <li>Вес (г) : 192</li>
-                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
-                                            </ul>
-                                        </dd>
-                                    </dl>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-side">
-                        <div class="select-color">
-                            <div class="label-name">Цвет</div>
-                            <div class="color-block space-gray selected" data-param-color="Серый космос"
-                                 valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png">
-                                <div style="position:relative;">
-                                    <span style="background: #898989" class="color_item"></span>
-                                </div>
-                                <span>Серый космос</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/9440e220070656eecefce03537bf6b3e.png">
-                                <div style="position:relative;">
-                                    <span style="background: #e9e9e9" class="color_item"></span>
-                                </div>
-                                <span>Серебристый</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/f558a002ec5b0be13119a9be31951a78.png">
-                                <div style="position:relative;">
-                                    <span style="background: #f4bf88" class="color_item"></span>
-                                </div>
-                                <span>Золотистый</span>
-                            </div>
-                            <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
-                                 valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/28c2aaa6b6c825059e4fc6300b599aa4.png">
-                                <div style="position:relative;">
-                                    <span style="background: #f0c8c2" class="color_item"></span>
-                                </div>
-                                <span>Розовое золото</span>
-                            </div>
-                        </div>
-                        <div class="select-memory">
-                            <div class="label-name">Объем памяти</div>
-                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
-                                16 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
-                                64 ГБ
-                            </div>
-                            <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
-                                128 ГБ
-                            </div>
-                        </div>
-                        <div class="price">
-                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
-                                тест-драйв.
-                            </div>
-                            <div class="standart-price" id="price">
-                                <span><?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price2'] ?></span> руб.
-                            </div>
-                            <div class="sale-price">
-                                <span><?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price1'] ?></span> руб.
-                            </div>
-                        </div>
-                        <div class="buttons">
-                            <input type="hidden" name="category_id" value="26">
-                            <input type="hidden" name="prod_id" value="69">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="background-block phone" id="phone-25">
             <div class="container" id="iphone-7">
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="#phone-25">iPhone 7 </a>
+                            <a href="#phone-7">iPhone 7 </a>
                         </div>
                         <div class="image">
-                            <img src="/apple/web/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png"
+                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png"
                                  alt="Купить iPhone 7 32Gb jet black" title="Купить iPhone 7 32Gb jet black"/>
                         </div>
                         <div class="info-phone">
@@ -1031,7 +209,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Черный оникс"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png">
                                 <div style="position:relative;">
                                     <span style="background: #000000" class="color_item"></span>
                                 </div>
@@ -1039,7 +217,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Черный" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/cf0b9c2b5ea3c588d96d1d125aa621d6.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/cf0b9c2b5ea3c588d96d1d125aa621d6.png">
                                 <div style="position:relative;">
                                     <span style="background: #a3a3a3" class="color_item"></span>
                                 </div>
@@ -1047,7 +225,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/44d5d775acd267b5d60da2b8903548ea.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/44d5d775acd267b5d60da2b8903548ea.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -1055,7 +233,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/b0ba5944f9110ccb52f8d72b750e2c08.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/b0ba5944f9110ccb52f8d72b750e2c08.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -1063,7 +241,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/1cea16a59fd0755f8549b2bb6a6858cb.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/1cea16a59fd0755f8549b2bb6a6858cb.png">
                                 <div style="position:relative;">
                                     <span style="background: #f0c8c2" class="color_item"></span>
                                 </div>
@@ -1071,7 +249,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Красный" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/6aa59bb599842285e1279f0a4e97e015.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/6aa59bb599842285e1279f0a4e97e015.png">
                                 <div style="position:relative;">
                                     <span style="background: #f00" class="color_item"></span>
                                 </div>
@@ -1102,7 +280,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="buttons">
-                            <input type="hidden" name="category_id" value="25">
+                            <input type="hidden" name="category_id" value="7">
                             <input type="hidden" name="prod_id" value="173">
                             <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
@@ -1110,15 +288,15 @@ $this->title = 'Apple';
                 </div>
             </div>
         </div>
-        <div class="background-block phone" id="phone-27">
+        <div class="background-block phone" id="phone-7-plus">
             <div class="container" id="iphone-7plus">
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="#phone-27">iPhone 7 plus</a>
+                            <a href="#phone-7-plus">iPhone 7 plus</a>
                         </div>
                         <div class="image">
-                            <img src="/apple/web/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png"
+                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png"
                                  alt="Купить iPhone 7 plus 32Gb jet black"
                                  title="Купить iPhone 7 plus 32Gb jet black"/>
                         </div>
@@ -1219,7 +397,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Черный оникс"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/e067b5dc7bab409193c97da5327b283b.png">
                                 <div style="position:relative;">
                                     <span style="background: #000000" class="color_item"></span>
                                 </div>
@@ -1227,7 +405,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Черный" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/a0d3b22fff1ef72ad1511d0c204c21e8.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/a0d3b22fff1ef72ad1511d0c204c21e8.png">
                                 <div style="position:relative;">
                                     <span style="background: #a3a3a3" class="color_item"></span>
                                 </div>
@@ -1235,7 +413,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/73adff69d8b26937f42efe74fe443295.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/73adff69d8b26937f42efe74fe443295.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -1243,7 +421,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/c98580c4d5c8078963532dd9c3adec65.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/c98580c4d5c8078963532dd9c3adec65.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -1251,7 +429,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/35a574c4b31b7967abc42ea6a9acdee6.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/35a574c4b31b7967abc42ea6a9acdee6.png">
                                 <div style="position:relative;">
                                     <span style="background: #f0c8c2" class="color_item"></span>
                                 </div>
@@ -1259,7 +437,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Красный" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/ecd3091fbbe2756d403c6bec58755601.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/ecd3091fbbe2756d403c6bec58755601.png">
                                 <div style="position:relative;">
                                     <span style="background: #f00" class="color_item"></span>
                                 </div>
@@ -1290,7 +468,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="buttons">
-                            <input type="hidden" name="category_id" value="27">
+                            <input type="hidden" name="category_id" value="7-plus">
                             <input type="hidden" name="prod_id" value="174">
                             <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
@@ -1298,15 +476,15 @@ $this->title = 'Apple';
                 </div>
             </div>
         </div>
-        <div class="background-block phone" id="phone-28">
+        <div class="background-block phone" id="phone-SE">
             <div class="container" id="iphone-se">
                 <div class="block-phone">
                     <div class="left-side">
                         <div class="model">
-                            <a href="#phone-28">iPhone <span>se</span></a>
+                            <a href="#phone-SE">iPhone <span>se</span></a>
                         </div>
                         <div class="image">
-                            <img src="/apple/web/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png"
+                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png"
                                  alt="Купить iPhone SE 16Gb space-gray" title="Купить iPhone SE 16Gb space-gray"/>
                         </div>
                         <div class="info-phone">
@@ -1409,7 +587,7 @@ $this->title = 'Apple';
                             <div class="label-name">Цвет</div>
                             <div class="color-block space-gray selected" data-param-color="Серый космос"
                                  valsprice="15359" valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/264300e9e67db3753c329affebd75aa4.png">
                                 <div style="position:relative;">
                                     <span style="background: #898989" class="color_item"></span>
                                 </div>
@@ -1417,7 +595,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/88ec47566646454062f4dac05471f460.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/88ec47566646454062f4dac05471f460.png">
                                 <div style="position:relative;">
                                     <span style="background: #e9e9e9" class="color_item"></span>
                                 </div>
@@ -1425,7 +603,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/5fd01cab94005f7e7ff42f2204870695.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/5fd01cab94005f7e7ff42f2204870695.png">
                                 <div style="position:relative;">
                                     <span style="background: #f4bf88" class="color_item"></span>
                                 </div>
@@ -1433,7 +611,7 @@ $this->title = 'Apple';
                             </div>
                             <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
                                  valprice="12799" valcolor="space-gray"
-                                 vallink="/apple/web/uploads/params/sources/b53dd2ec60e8f008a26d553813776e99.png">
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/b53dd2ec60e8f008a26d553813776e99.png">
                                 <div style="position:relative;">
                                     <span style="background: #f0c8c2" class="color_item"></span>
                                 </div>
@@ -1461,8 +639,830 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="buttons">
-                            <input type="hidden" name="category_id" value="28">
+                            <input type="hidden" name="category_id" value="SE">
                             <input type="hidden" name="prod_id" value="127">
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-block phone" id="phone-6s">
+            <div class="container" id="iphone-6s">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#phone-6s">iPhone 6 <span>s</span></a>
+                        </div>
+                        <div class="image">
+                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png"
+                                 alt="Купить iPhone 6S 16Gb space-gray" title="Купить iPhone 6S 16Gb space-gray"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="7"
+                                       class="pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="7"
+                                       class="characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25,
+                                                    26, 27, 28, 29, 30, 38, 39, 40, 41
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.2</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD с технологией 3D Touch</li>
+                                                <li>Диагональ дисплея (дюйм) : 4.7</li>
+                                                <li>Разрешение дисплея (пикс) : 1334x750</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 240</li>
+                                                <li>Воспроизведение музыки (ч) : 50</li>
+                                                <li>Воспроизведение видео (ч) : 11</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A9 + сопроцессор M9</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 12</li>
+                                                <li>Разрешение фотосъемки (пикс) : 4000 x 3000</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : True Tone</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 3840 x 2160</li>
+                                                <li>Частота кадров видеосъемки : 30</li>
+                                                <li>Фронтальная камера (Мп) : 5</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 138.3</li>
+                                                <li>Ширина (мм) : 67.1</li>
+                                                <li>Толщина (мм) : 7.1</li>
+                                                <li>Вес (г) : 143</li>
+                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+                            <div class="label-name">Цвет</div>
+                            <div class="color-block space-gray selected" data-param-color="Серый космос"
+                                 valsprice="15359" valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/3334604c66895e390c6a0e715ee178e2.png">
+                                <div style="position:relative;">
+                                    <span style="background: #898989" class="color_item"></span>
+                                </div>
+                                <span>Серый космос</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/9bdf7bd0b2b58fad292125edb081b642.png">
+                                <div style="position:relative;">
+                                    <span style="background: #e9e9e9" class="color_item"></span>
+                                </div>
+                                <span>Серебристый</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/dbd11d8ea228cd4faf2120530640d8fe.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f4bf88" class="color_item"></span>
+                                </div>
+                                <span>Золотистый</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/a2d00ed0aa3683a6be6bb25525710113.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f0c8c2" class="color_item"></span>
+                                </div>
+                                <span>Розовое золото</span>
+                            </div>
+                        </div>
+                        <div class="select-memory">
+                            <div class="label-name">Объем памяти</div>
+                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
+                                16 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
+                                64 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
+                                128 ГБ
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
+                                тест-драйв.
+                            </div>
+                            <div class="standart-price" id="price">
+                                <span><?= $prices['iPhone6s']['16Gb']['space-gray']['price2'] ?></span> руб.
+                            </div>
+                            <div class="sale-price">
+                                <span><?= $prices['iPhone6s']['16Gb']['space-gray']['price1'] ?></span> руб.
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <input type="hidden" name="category_id" value="6s">
+                            <input type="hidden" name="prod_id" value="57">
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-block phone" id="phone-6s-plus">
+            <div class="container" id="iphone-6splus">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#phone-6s-plus">iPhone 6 <span>s</span> plus</a>
+                        </div>
+                        <div class="image">
+                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png"
+                                 alt="Купить iPhone 6S plus 16Gb space-gray"
+                                 title="Купить iPhone 6S plus 16Gb space-gray"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="26"
+                                       class="pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="26"
+                                       class="characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25,
+                                                    26, 27, 28, 29, 30, 38, 39, 40, 41
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.2</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD с технологией 3D Touch</li>
+                                                <li>Диагональ дисплея (дюйм) : 5.5</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 240</li>
+                                                <li>Воспроизведение музыки (ч) : 50</li>
+                                                <li>Воспроизведение видео (ч) : 11</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A9 + сопроцессор M9</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 12</li>
+                                                <li>Разрешение фотосъемки (пикс) : 4000 x 3000</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : True Tone</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 3840 x 2160</li>
+                                                <li>Частота кадров видеосъемки : 30</li>
+                                                <li>Фронтальная камера (Мп) : 5</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 158.2</li>
+                                                <li>Ширина (мм) : 77.9</li>
+                                                <li>Толщина (мм) : 7.3</li>
+                                                <li>Вес (г) : 192</li>
+                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+                            <div class="label-name">Цвет</div>
+                            <div class="color-block space-gray selected" data-param-color="Серый космос"
+                                 valsprice="15359" valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/21edb494ca9917cff2b39bc2c7280352.png">
+                                <div style="position:relative;">
+                                    <span style="background: #898989" class="color_item"></span>
+                                </div>
+                                <span>Серый космос</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/9440e220070656eecefce03537bf6b3e.png">
+                                <div style="position:relative;">
+                                    <span style="background: #e9e9e9" class="color_item"></span>
+                                </div>
+                                <span>Серебристый</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/f558a002ec5b0be13119a9be31951a78.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f4bf88" class="color_item"></span>
+                                </div>
+                                <span>Золотистый</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/28c2aaa6b6c825059e4fc6300b599aa4.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f0c8c2" class="color_item"></span>
+                                </div>
+                                <span>Розовое золото</span>
+                            </div>
+                        </div>
+                        <div class="select-memory">
+                            <div class="label-name">Объем памяти</div>
+                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
+                                16 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
+                                64 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
+                                128 ГБ
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
+                                тест-драйв.
+                            </div>
+                            <div class="standart-price" id="price">
+                                <span><?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price2'] ?></span> руб.
+                            </div>
+                            <div class="sale-price">
+                                <span><?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price1'] ?></span> руб.
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <input type="hidden" name="category_id" value="6s-plus">
+                            <input type="hidden" name="prod_id" value="69">
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-block phone" id="phone-6">
+            <div class="container" id="iphone-6">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#phone-6">iPhone 6 </a>
+                        </div>
+                        <div class="image">
+                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png"
+                                 alt="Купить iPhone 6 16Gb space-gray" title="Купить iPhone 6 16Gb space-gray"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="5"
+                                       class="pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="5"
+                                       class="characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26,
+                                                    28, 29
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.0</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD</li>
+                                                <li>Диагональ дисплея (дюйм) : 4.7</li>
+                                                <li>Разрешение дисплея (пикс) : 1920&times;1080</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 250</li>
+                                                <li>Воспроизведение музыки (ч) : 50</li>
+                                                <li>Воспроизведение видео (ч) : 11</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A8 + сопроцессор M8</li>
+                                                <li>Частота процессора (МГц) : 1400</li>
+                                                <li>Кол-во ядер : 2</li>
+                                                <li>Видеочип : PowerVR GX6650</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : да</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
+                                                <li>Частота кадров видеосъемки : 60</li>
+                                                <li>Фронтальная камера (Мп) : 1.2</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 138.1</li>
+                                                <li>Ширина (мм) : 67</li>
+                                                <li>Толщина (мм) : 6.9</li>
+                                                <li>Вес (г) : 129</li>
+                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+                            <div class="label-name">Цвет</div>
+                            <div class="color-block space-gray selected" data-param-color="Серый космос"
+                                 valsprice="15359" valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/2b6f133cfe89a38bd54d8740498e2320.png">
+                                <div style="position:relative;">
+                                    <span style="background: #898989" class="color_item"></span>
+                                </div>
+                                <span>Серый космос</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/9bf680f1f20e4a31b46b51e2ff2e6ab0.png">
+                                <div style="position:relative;">
+                                    <span style="background: #e9e9e9" class="color_item"></span>
+                                </div>
+                                <span>Серебристый</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/91a8089b025fd99688efff2bb86c5567.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f4bf88" class="color_item"></span>
+                                </div>
+                                <span>Золотистый</span>
+                            </div>
+                        </div>
+                        <div class="select-memory">
+                            <div class="label-name">Объем памяти</div>
+                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
+                                16 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
+                                64 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
+                                128 ГБ
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
+                                тест-драйв.
+                            </div>
+                            <div class="standart-price" id="price">
+                                <span><?= $prices['iPhone6']['16Gb']['space-gray']['price2'] ?></span> руб.
+                            </div>
+                            <div class="sale-price">
+                                <span><?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?></span> руб.
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <input type="hidden" name="category_id" value="6">
+                            <input type="hidden" name="prod_id" value="4">
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-block phone" id="phone-6-plus">
+            <div class="container" id="iphone-6plus">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#phone-6-plus">iPhone 6 plus</a>
+                        </div>
+                        <div class="image">
+                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png"
+                                 alt="Купить iPhone 6 plus 16Gb space-gray"
+                                 title="Купить iPhone 6 plus 16Gb space-gray"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="6"
+                                       class="pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="6"
+                                       class="characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26,
+                                                    28, 29
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.0</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD</li>
+                                                <li>Диагональ дисплея (дюйм) : 5.5</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 250</li>
+                                                <li>Воспроизведение музыки (ч) : 50</li>
+                                                <li>Воспроизведение видео (ч) : 11</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A8 + сопроцессор M8</li>
+                                                <li>Частота процессора (МГц) : 1400</li>
+                                                <li>Кол-во ядер : 2</li>
+                                                <li>Видеочип : PowerVR GX6650</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : да</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
+                                                <li>Частота кадров видеосъемки : 60</li>
+                                                <li>Фронтальная камера (Мп) : 1.2</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 158.1</li>
+                                                <li>Ширина (мм) : 77.8</li>
+                                                <li>Толщина (мм) : 7.1</li>
+                                                <li>Вес (г) : 172</li>
+                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+                            <div class="label-name">Цвет</div>
+                            <div class="color-block space-gray selected" data-param-color="Серый космос"
+                                 valsprice="15359" valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/b334f2f7b29600789fac2ea872f428a2.png">
+                                <div style="position:relative;">
+                                    <span style="background: #898989" class="color_item"></span>
+                                </div>
+                                <span>Серый космос</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/c5a1e653c1e91cdff1d1c83074a6a962.png">
+                                <div style="position:relative;">
+                                    <span style="background: #e9e9e9" class="color_item"></span>
+                                </div>
+                                <span>Серебристый</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/8f45d6e170ee17bd13b8f0f027b6e767.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f4bf88" class="color_item"></span>
+                                </div>
+                                <span>Золотистый</span>
+                            </div>
+                        </div>
+                        <div class="select-memory">
+                            <div class="label-name">Объем памяти</div>
+                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
+                                16 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
+                                64 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
+                                128 ГБ
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
+                                тест-драйв.
+                            </div>
+                            <div class="standart-price" id="price">
+                                <span><?= $prices['iPhone6plus']['16Gb']['space-gray']['price2'] ?></span> руб.
+                            </div>
+                            <div class="sale-price">
+                                <span><?= $prices['iPhone6plus']['16Gb']['space-gray']['price1'] ?></span> руб.
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <input type="hidden" name="category_id" value="6-plus">
+                            <input type="hidden" name="prod_id" value="48">
+                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-block phone" id="phone-5s">
+            <div class="container" id="iphone-5s">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#phone-5s">iPhone 5 <span>s</span></a>
+                        </div>
+                        <div class="image">
+                            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png"
+                                 alt="Купить iPhone 5S 16Gb space-gray" title="Купить iPhone 5S 16Gb space-gray"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="3"
+                                       class="pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="3"
+                                       class="characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 5, 7, 8, 20</li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.0</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : IPS</li>
+                                                <li>Диагональ дисплея (дюйм) : 4</li>
+                                                <li>Разрешение дисплея (пикс) : 1136x640</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Емкость аккумулятора (мАч) : 1560</li>
+                                                <li>Время разговора (ч) : 10</li>
+                                                <li>Время ожидания (ч) : 250</li>
+                                                <li>Воспроизведение музыки (ч) : 40</li>
+                                                <li>Воспроизведение видео (ч) : 10</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A7</li>
+                                                <li>Кол-во ядер : 2</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : светодиодная</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
+                                                <li>Частота кадров видеосъемки : 30</li>
+                                                <li>Фронтальная камера (Мп) : 1.2</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 123.8</li>
+                                                <li>Ширина (мм) : 58.6</li>
+                                                <li>Толщина (мм) : 7.6</li>
+                                                <li>Вес (г) : 112</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+                            <div class="label-name">Цвет</div>
+                            <div class="color-block space-gray selected" data-param-color="Серый космос"
+                                 valsprice="15359" valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png">
+                                <div style="position:relative;">
+                                    <span style="background: #898989" class="color_item"></span>
+                                </div>
+                                <span>Серый космос</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/54df1c26da769a7dbd0839392b23f459.png">
+                                <div style="position:relative;">
+                                    <span style="background: #e9e9e9" class="color_item"></span>
+                                </div>
+                                <span>Серебристый</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/2941fb5bad32548698de90719c717a7c.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f4bf88" class="color_item"></span>
+                                </div>
+                                <span>Золотистый</span>
+                            </div>
+                        </div>
+                        <div class="select-memory">
+                            <div class="label-name">Объем памяти</div>
+                            <div class="memory-block selected" data-size-id="2" valsmemory="" valmemory="">
+                                16 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="3" valsmemory="" valmemory="">
+                                32 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="4" valsmemory="" valmemory="">
+                                64 ГБ
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
+                                тест-драйв.
+                            </div>
+                            <div class="standart-price" id="price">
+                                <span><?= $prices['iPhone5s']['16Gb']['space-gray']['price2'] ?></span> руб.
+                            </div>
+                            <div class="sale-price">
+                                <span><?= $prices['iPhone5s']['16Gb']['space-gray']['price1'] ?></span> руб.
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <input type="hidden" name="category_id" value="5s">
+                            <input type="hidden" name="prod_id" value="1">
                             <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
                         </div>
                     </div>
@@ -1622,35 +1622,6 @@ $this->title = 'Apple';
             </dl>
         </div>
     </div>
-    <div id="map"></div>
-    <script>
-        function initMap() {
-            var customMapType = new google.maps.StyledMapType([], {
-                name: 'map'
-            });
-            var customMapTypeId = 'custom_style';
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 16,
-                zoomControl: false,
-
-                center: new google.maps.LatLng(55.838967, 37.653970),
-                mapTypeControlOptions: {
-                    mapTypeIds: []
-                }
-            });
-            var marker = new google.maps.Marker({
-                map: map,
-                position: new google.maps.LatLng(55.838967, 37.653970),
-                icon: '/apple/web/images/map-icon.png',
-            });
-
-            map.mapTypes.set(customMapTypeId, customMapType);
-            map.setMapTypeId(customMapTypeId);
-
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0b3I2YrKGz0t60VRkeMBRcY0xFqf99EE&signed_in=true&callback=initMap"
-            async defer></script>
 </section>
 
 <script>
@@ -1678,72 +1649,23 @@ $this->title = 'Apple';
         }
     }
     dinamPhones(false);
-</script><!-- Yandex.Metrika counter -->
-<script type="text/javascript"> (function (d, w, c) {
-        (w[c] = w[c] || []).push(function () {
-            try {
-                w.yaCounter45609294 = new Ya.Metrika({
-                    id: 45609294,
-                    clickmap: true,
-                    trackLinks: true,
-                    accurateTrackBounce: true,
-                    webvisor: true,
-                    trackHash: true
-                });
-            } catch (e) {
-            }
-        });
-        var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () {
-            n.parentNode.insertBefore(s, n);
-        };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else {
-            f();
-        }
-    })(document, window, "yandex_metrika_callbacks"); </script>
-<noscript>
-    <div><img src="https://mc.yandex.ru/watch/45609294" style="position:absolute; left:-9999px;" alt=""/></div>
-</noscript> <!-- /Yandex.Metrika counter -->
-<!--<script async type="text/javascript">function loadscript(e, t) {-->
-<!--        var n = document.createElement("script");-->
-<!--        n.src = "//lptracker.net.ru/" + e;-->
-<!--        n.onreadystatechange = t;-->
-<!--        n.onload = t;-->
-<!--        document.head.appendChild(n);-->
-<!--        return 1-->
-<!--    }-->
-<!--    var init_lstats = function () {-->
-<!--        lstats.site_id = 42082;-->
-<!--        lstats.vk_catched = true;-->
-<!--        lstats.referer()-->
-<!--    };-->
-<!--    var jquery_lstats = function () {-->
-<!--        jQstat.noConflict();-->
-<!--        loadscript("stats.js", init_lstats)-->
-<!--    };-->
-<!--    loadscript("jquery-1.10.2.min.js", jquery_lstats);</script>-->
-<!--<link rel="stylesheet" href="https://cdn.callbackkiller.com/widget/cbk.css">-->
-<!--<script type="text/javascript"-->
-<!--        src="https://cdn.callbackkiller.com/widget/cbk.js?wcb_code=ca1c0efa648be74ca523ac2c8317c1dc" charset="UTF-8"-->
-<!--        async></script>-->
+</script>
 <footer>
     <div class="container">
-		<?= Yii::$app->params['shopName']; ?>
-        </br>
+        <p class="pull-left"><?= Yii::$app->params['shopName']; ?></p>
+        <p class="pull-center"><?= date('Y'); ?> г.</p>
+        <p class="pull-right"><?= Yii::$app->params['address']; ?></p>
+        <br>
     </div>
 </footer>
-</div>
+
 
 <div id="bay-click" class="popup">
     <a class="close-popup" onclick="$('#bay-click').bPopup().close();"><b></b></a>
 
     <div class="bay-popup">
         <div class="div-left">
-            <img src="/apple/web/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png" class="iphone-img"
+            <img src="<?= \yii\helpers\Url::to('@web'); ?>/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png" class="iphone-img"
                  style="max-height: 300px; margin-bottom: 20px;"/>
         </div>
         <div class="div-right">

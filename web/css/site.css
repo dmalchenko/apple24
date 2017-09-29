@@ -2892,3 +2892,16 @@ section.content_block .thk-img img {
     line-height: 30px;
     margin-top: 20px;
 }
+.pull-left, .pull-right, .pull-center {
+    float: left; /* Обтекание справа */
+    width: 33%; /* Ширина текстового блока */
+    text-align: left;
+}
+
+.pull-center {
+    text-align: center;
+}
+
+.pull-right {
+    text-align: right; /* Выравнивание по правому краю */
+}

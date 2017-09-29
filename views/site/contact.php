@@ -13,14 +13,14 @@ $this->title = 'Контакты';
 <section class="content_block pager">
     <div class="container">
         <div class="speedbar">
-            <a href="/apple/web/">Главная</a><i></i> <span>Контакты</span>
+            <a href="<?= \yii\helpers\Url::to('@web'); ?>/">Главная</a><i></i> <span>Контакты</span>
         </div>
         <div class="name">Контакты</div>
         <div class="contact-block">
             <div class="left">
                 <div class="block">
                     <div class="icon ico_1"></div>
-                    г. Москва, ул. Докукина, д. 8, стр. 2
+                    <?= Yii::$app->params['address']; ?>
                 </div>
                 <div class="block">
                     <div class="icon ico_2"></div>
@@ -32,7 +32,7 @@ $this->title = 'Контакты';
                 </div>
                 <div class="block">
                     <div class="icon ico_4"></div>
-                    <a href="/apple/web/offerta" target="_blank">Публичная оферта</a>
+                    <a href="<?= \yii\helpers\Url::to('@web'); ?>/offerta" target="_blank">Публичная оферта</a>
                 </div>
             </div>
             <div class="right">
@@ -73,7 +73,7 @@ $this->title = 'Контакты';
             var marker = new google.maps.Marker({
                 map: map,
                 position: new google.maps.LatLng(55.838967, 37.653970),
-                icon: '/apple/web/images/map-icon.png',
+                icon: '<?= \yii\helpers\Url::to('@web'); ?>/images/map-icon.png',
             });
 
             map.mapTypes.set(customMapTypeId, customMapType);
@@ -86,7 +86,9 @@ $this->title = 'Контакты';
 </section>
 <footer>
     <div class="container">
-		<?= Yii::$app->params['shopName']; ?>
-        </br>
+        <p class="pull-left"><?= Yii::$app->params['shopName']; ?></p>
+        <p class="pull-center"><?= date('Y'); ?> г.</p>
+        <p class="pull-right"><?= Yii::$app->params['address']; ?></p>
+        <br>
     </div>
 </footer>
