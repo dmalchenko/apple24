@@ -282,7 +282,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="7">
                             <input type="hidden" name="prod_id" value="173">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -470,7 +470,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="7-plus">
                             <input type="hidden" name="prod_id" value="174">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -641,7 +641,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="SE">
                             <input type="hidden" name="prod_id" value="127">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -810,7 +810,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="6s">
                             <input type="hidden" name="prod_id" value="57">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -979,7 +979,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="6s-plus">
                             <input type="hidden" name="prod_id" value="69">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -1143,7 +1143,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="6">
                             <input type="hidden" name="prod_id" value="4">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -1307,7 +1307,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="6-plus">
                             <input type="hidden" name="prod_id" value="48">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -1463,7 +1463,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="5s">
                             <input type="hidden" name="prod_id" value="1">
-                            <a href="#bay-click" class="bay-click fancybox">Заказать сейчас</a>
+                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -1834,7 +1834,7 @@ $this->title = 'Apple';
         Цена: <span class="price"></span> руб.
     </div>
 
-    <a href="http://apple24.online/cart/" class="order-button">Оформить заказ</a>
+    <a href="http://apple-com.pro/cart/" class="order-button">Оформить заказ</a>
     <div class="closefancy" onclick="$.fancybox.close()">Продолжить покупки</div>
     <div class="clr"></div>
 
@@ -1856,3 +1856,31 @@ $this->title = 'Apple';
 <!--    _rc('create', 'RC-96552641146-2');-->
 <!--    _rc('send', 'pageView');-->
 <!--</script>-->
+<!— Yandex.Metrika counter —>
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter46128996 = new Ya.Metrika({
+                    id:46128996,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/46128996" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!— /Yandex.Metrika counter —>

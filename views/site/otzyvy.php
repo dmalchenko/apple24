@@ -186,7 +186,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     <img alt="" title="" src="/uploads/reviews/x100/be4b94610b4e0a6d4f9d39c65163b79b.jpg">
                 </div>
                 <div class="text">Очень рада, что такие магазины еще остались! Цена, сервис, скорость, вежливость. Это
-                    про apple 24 online. Большое человеческое спасибо Вам за заказ и бонус!
+                    про apple-com.pro. Большое человеческое спасибо Вам за заказ и бонус!
                 </div>
                 <div class="author">Марина Кукрычева</div>
                 <div class="date">10.11.2015</div>

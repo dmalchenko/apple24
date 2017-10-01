@@ -30,6 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
 						$date = date('Y-m-d H:i:s', ($model->created_at));
 						return $date;
 					}
+
 				],
 				[
 					'attribute' => 'review_type',

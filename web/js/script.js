@@ -12,7 +12,7 @@ $(document).ready(function () {
 	});*/
 
 	$('.down').click(function() {
-		$('html, body').animate({scrollTop: ($('.main_block').actual( 'height' ) + 50)}, 300);
+		$('html, body').animate({scrollTop: ($('.main_block').actual( 'height' ) - 20)}, 300);
 	});
 
 
@@ -84,7 +84,7 @@ $(document).ready(function () {
                     if ($(window).width() <= 1185) {
                     	var offs = target.offset().top -20;
 					} else {
-                        var offs = target.offset().top -80;
+                        var offs = target.offset().top -100;
 					}
 					$('html,body').animate({
 					scrollTop: offs
@@ -256,7 +256,11 @@ $(document).ready(function () {
 
 	// $("[name=phone]").mask("+7 (999) 999-99-99");
 	// $("[name=input-phone]").mask("+7 (999) 999-99-99");
-	$('input[name=phone], input[name="input-phone"]').inputmask("+7 (999) 999-99-99");
+    if ($(window).width() > 1185) {
+        $('input[name=phone], input[name="input-phone"]').inputmask("+7 (999) 999-99-99");
+    } else {
+        $('input[name=phone], input[name="input-phone"]').attr("placeholder", "Телефон:");
+	}
 
 	$("#order_form").submit(function (event) {
 		event.preventDefault()
