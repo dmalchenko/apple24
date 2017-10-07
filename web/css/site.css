@@ -2903,7 +2903,7 @@ section.content_block .thk-img img {
 }
 .pull-left, .pull-right, .pull-center {
     float: left; /* Обтекание справа */
-    width: 33%; /* Ширина текстового блока */
+    width: 100%; /* Ширина текстового блока */
     text-align: left;
 }
 

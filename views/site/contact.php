@@ -86,9 +86,7 @@ $this->title = 'Контакты';
 </section>
 <footer>
     <div class="container">
-        <p class="pull-left"><?= Yii::$app->params['address']; ?></p>
         <p class="pull-center"><?= Yii::$app->params['shopName']; ?></p>
-        <p class="pull-right"><?= Yii::$app->params['tel']; ?></p>
         <br>
     </div>
 </footer>
