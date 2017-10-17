@@ -65,7 +65,7 @@ AppAsset::register($this);
                 <li><a class="scrollto" href="/#guaranty">Гарантия</a></li>
                 <!--<li><a class="scrollto" href="/#press-block">О нас</a></li>-->
                 <li><a class="scrollto" href="/#delivery">Доставка и оплата</a></li>
-                <li><a href="/news">Новости</a></li>
+<!--                <li><a href="/news">Новости</a></li>-->
                 <!--<li><a href="http://apple-com.pro/list/">Стат</a></li>-->
                 <li><a href="/otzyvy">Отзывы</a></li>
                 <li><a href="/contact">Контакты</a></li>

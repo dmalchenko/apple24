@@ -1080,7 +1080,7 @@ section.content_block .delivery-block:after {
     position:absolute;
     top:0;
     bottom:0;
-    background: url(../images/delivery_img.jpg) no-repeat 50% center;
+    background: url(../images/delivery_img.jpg) no-repeat 1% center;
     content:'';
 }
 section.content_block .delivery-block .left-side {
