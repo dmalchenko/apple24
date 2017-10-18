@@ -16,6 +16,7 @@ $this->title = 'Apple';
             <div class="block">
                 <div class="centered">
                     <div class="clr"></div>
+                    <div class="iph"></div>
                     <a class="down" href="#catalog">Купить со скидкой</a>
                 </div>
             </div>
@@ -25,8 +26,8 @@ $this->title = 'Apple';
 
 <section class="content_block" id="catalog" name="catalog">
     <div class="container first">
-        <div class="name" id="catalog-id">
-            Каталог продукции
+        <div class="name">
+            <div id="catalog-id">Каталог продукции</div>
             <div class="name-child">Скидки до конца недели. Успей купить по акции.</div>
         </div>
         <div class="select-phone">
@@ -64,14 +65,14 @@ $this->title = 'Apple';
             </a>
             <a href="#phone-6" class="block scrollto">
                 <img src="/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
-                title="Купить iPhone 6"/>
+                     title="Купить iPhone 6"/>
                 <span>iPhone 6</span>
                 от <?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
             <a href="#phone-6-plus" class="block scrollto">
                 <img src="/uploads/category/x250/1479ebb99f8f7b44114f5674d8b3ee41.jpg"
                      alt="Купить iPhone 6 plus"
-                title="Купить iPhone 6 plus"/>
+                     title="Купить iPhone 6 plus"/>
                 <span>iPhone 6 plus</span>
                 от <?= $prices['iPhone6plus']['16Gb']['space-gray']['price1'] ?> руб.
             </a>
@@ -86,20 +87,6 @@ $this->title = 'Apple';
     </div>
 
     <div class="phone-list">
-        <div class="phone-name">
-            <div class="container">
-                <ul>
-                    <li><a href="#phone-7" class="active  scrollto">iPhone 7</a></li>
-                    <li><a href="#phone-7-plus" class="active  scrollto">iPhone 7 plus</a></li>
-                    <li><a href="#phone-SE" class="active  scrollto">iPhone SE</a></li>
-                    <li><a href="#phone-6s" class="active  scrollto">iPhone 6S</a></li>
-                    <li><a href="#phone-6s-plus" class="active  scrollto">iPhone 6S plus</a></li>
-                    <li><a href="#phone-6" class="active  scrollto">iPhone 6</a></li>
-                    <li><a href="#phone-6-plus" class="active  scrollto">iPhone 6 plus</a></li>
-                    <li><a href="#phone-5s" class="active  scrollto">iPhone 5S</a></li>
-                </ul>
-            </div>
-        </div>
         <div class="background-block phone" id="phone-7">
             <div class="container" id="iphone-7">
                 <div class="block-phone">
@@ -281,7 +268,8 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="7">
                             <input type="hidden" name="prod_id" value="173">
-                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -469,7 +457,8 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="7-plus">
                             <input type="hidden" name="prod_id" value="174">
-                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -640,7 +629,8 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="SE">
                             <input type="hidden" name="prod_id" value="127">
-                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -809,7 +799,8 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="6s">
                             <input type="hidden" name="prod_id" value="57">
-                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -978,7 +969,8 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="6s-plus">
                             <input type="hidden" name="prod_id" value="69">
-                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -1142,7 +1134,8 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="6">
                             <input type="hidden" name="prod_id" value="4">
-                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -1306,7 +1299,8 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="6-plus">
                             <input type="hidden" name="prod_id" value="48">
-                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -1462,7 +1456,8 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="5s">
                             <input type="hidden" name="prod_id" value="1">
-                            <a href="#bay-click" class="bay-click fancybox" onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
                         </div>
                     </div>
                 </div>
@@ -1474,73 +1469,140 @@ $this->title = 'Apple';
     </div>
     <div class="advantage-block">
         <div class="container">
-            <div class="name">Почему мы?</div>
+            <div class="name">Официальный магазин техники Apple</div>
+            <div id="od1" style="margin-top:60px; font-family: 'Myriad Set Pro';
+             font-size: 18px; padding-left: 180px; display: ;"
+                 class="wow slideInLeft">
+                <div style="float: left; width: 33%;">
+                    <div style="float: left;"><img src="/images/icons/181508.svg" class="icon1"/></div>
+                    <div style="float: left; margin-left: 10px; font-weight: ; text-align: left;">
+                        <div style="text-decoration:  ; display: inline-block; border-bottom: 1px dotted #444;">Адрес
+                        </div>
+                        <div style="margin-top: 8px; font-weight: 200; line-height: 23px;">
+                            <div>г. Москва,</div>
+                            <div>16-я Парковая, д.26</div>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="block ico_1">Акции с&nbsp;максимальными скидками</div>
+                <div style="float: left; width: 33%;">
+                    <div style="float: left;"><img src="/images/icons/121872.svg" class="icon1"/></div>
+                    <div style="float: left; margin-left: 10px; font-weight: ; text-align: left;">
+                        <div style="display: inline-block; border-bottom: 1px dotted #444;">Время работы</div>
+                        <div style="margin-top: 8px; font-weight: 200; line-height: 23px;">
+                            <div>Пн - СБ,</div>
+                            <div>с 10:00 до 20:00</div>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="block ico_2">Гарантия лучшей цены</div>
+                <div style="float: left; width: 33%;">
+                    <div style="float: left;"><img src="/images/icons/181553.svg" class="icon1"/></div>
+                    <div style="float: left; margin-left: 10px; font-weight: ; text-align: left;">
+                        <div style="display: inline-block; border-bottom: 1px dotted #444;">Гарантия</div>
+                        <div style="margin-top: 8px; font-weight: 200; line-height: 23px;">
+                            <div></div>
+                            <div>Срок гарантии - 1 год</div>
+                        </div>
+                    </div>
+                </div>
 
-            <div class="block ico_4">Гарантия - 1 год</div>
+                <div style="clear: both; "></div>
 
-            <div class="block ico_5">Доставка в день оформления заказа</div>
+                <div style="margin-top:60px; font-family: 'Myriad Set Pro'; font-size: 18px; padding-left: ;">
+                    <div style="float: left; width: 33%;">
+                        <div style="float: left;"><img src="/images/icons/181580.svg" class="icon1"/></div>
+                        <div style="float: left; margin-left: 10px; font-weight: ; text-align: left;">
+                            <div style="display: inline-block; border-bottom: 1px dotted #444;">Доставка</div>
+                            <div style="margin-top: 8px; font-weight: 200; line-height: 23px;">
+                                <div>Срочная доставка</div>
+                                <div>по Москве и МО</div>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="block ico_3">Компетентные менеджеры и курьеры</div>
-        </div>
+                    <div style="float: left; width: 33%;">
+                        <div style="float: left;"><img src="/images/icons/181517.svg" class="icon1"/></div>
+                        <div style="float: left; margin-left: 10px; font-weight: ; text-align: left;">
+                            <div style="text-decoration:  ; display: inline-block; border-bottom: 1px dotted #444;">
+                                Подарки
+                            </div>
+                            <div style="margin-top: 8px; font-weight: 200; line-height: 23px;">
+                                <div>Постоянным клиентам</div>
+                            </div>
+                        </div>
+                    </div>
 
-        <div class="clr">&nbsp;</div>
-    </div>
-    <div class="guarantee-block" id="guaranty">
-        <div class="container">
-            <div class="centered">
-                <div class="name">Гарантия на продукцию</div>
-                <strong>С момента покупки устройства Вы получаете гарантийное обслуживание - 1 год.</strong>
-
-                <p>Покупая технику Apple в нашем магазине, Вы можете быть спокойны за свое устройство. Вся продукция
-                    отвечает международным требования охраны окружающей среды, безопасности и здоровья человека, а
-                    так же соответствует всем регламентам мобильной техники.&nbsp;</p>
+                    <div style="float: left; width: 33%;">
+                        <div style="float: left;"><img src="/images/icons/154410.svg" class="icon1"/></div>
+                        <div style="float: left; margin-left: 10px; font-weight: ; text-align: left;">
+                            <div style="text-decoration:  ; display: inline-block; border-bottom: 1px dotted #444;">
+                                Скидка
+                            </div>
+                            <div style="margin-top: 8px; font-weight: 200; line-height: 23px;">
+                                <div>Скидки до 20%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="clr">&nbsp;</div>
         </div>
     </div>
+    <!--    <div class="guarantee-block" id="guaranty">-->
+    <div class="guarantee-block" id="guaranty">
+        <div class="content">
+            <div id="header3" class="module-header">Гарантия - 1 год</div>
+
+            <div class="gar">
+
+                <div class="left-side">
+                    <div class="title-delivery1">Закон о защите прав потребителей</div>
+                    <div class="text-delivery1">
+                        Если за 14 дней Вы обнаружите какую-либо неисправность, мы
+                        <div>любезно вернем Вам деньги без скандалов и головной боли.</div>
+                        Единственное требование - сохранение товарного вида.
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="title-delivery2">Расширенная гарантия – 1 год</div>
+                    <div class="text-delivery2">
+                        Если в течение 1 года смартфон сломается - специалисты
+                        <div> отремонтируют его бесплатно. Вы просто приезжаете</div>
+                        с телефоном и гарантийным талоном в сервисный центр.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+
     <div id="delivery">
         <div class="name">Доставка в день заказа</div>
         <div class="delivery-block">
             <div class="container">
-                <div class="pull-right">
-                    <div class="block"> Экспресс-доставка за 3 часа</div>
-                    <div class="block"> В любое время с 09:00 до 22:00</div>
-                    <div class="block"> бесплатная доставка по Москве</div>
-                    <div class="block"> Курьер поможет активировать iPhone</div>
-                    <div class="block"> Всегда есть сдача</div>
+                <div class="dil">
+                    <ul>
+                        <li><span class="dil-span"></span>Экспресс-доставка за 3 часа</li>
+                        <li><span class="dil-span"></span>В любое время с 09:00 до 22:00</li>
+                        <li><span class="dil-span"></span><b>Бесплатная доставка по Москве</b></li>
+                        <li><span class="dil-span"></span>Курьер поможет активировать iPhone</li>
+                        <li><span class="dil-span"></span>Всегда есть сдача</li>
+                    </ul>
                 </div>
             </div>
+        </div>
+        <div class="del-img">
+            <img src="/images/delivery_img.jpg" alt="">
         </div>
     </div>
 </section>
 
 <script>
-    $('.phone-name').addClass('original').clone().insertAfter('.phone-name').addClass('cloned').css('position', 'fixed').css('top', '0').css('margin-top', '0').css('z-index', '500').removeClass('original').hide();
-    scrollIntervalID = setInterval(stickIt, 10);
-    function stickIt() {
-
-        var orgElementPos = $('.original').offset();
-        orgElementTop = orgElementPos.top;
-
-        if ($(window).scrollTop() >= (orgElementTop)) {
-            // scrolled past the original position; now only show the cloned, sticky element.
-
-            // Cloned element should always have same left position and width as original element.
-            orgElement = $('.original');
-            coordsOrgElement = orgElement.offset();
-            leftOrgElement = coordsOrgElement.left;
-            widthOrgElement = orgElement.css('width');
-            $('.cloned').css('left', leftOrgElement + 'px').css('top', 50).css('width', widthOrgElement).show();
-            $('.original').css('visibility', 'hidden');
-        } else {
-            // not scrolled past the menu; only show the original menu.
-            $('.cloned').hide();
-            $('.original').css('visibility', 'visible');
-        }
-    }
     dinamPhones(false);
 </script>
 
@@ -1552,12 +1614,11 @@ $this->title = 'Apple';
                 <li><a href="#catalogue">Каталог</a></li>
                 <li><a href="#guaranty">Гарантия и поддержка</a></li>
                 <li><a href="#delivery">Доставка</a></li>
-                <li><a href="http://apple-store.sale/otzyvy-apple-store-sale/">Отзывы</a></li>
-                <li><a href="http://apple-store.sale/contacts/">Контакты</a></li>
+                <li><a href="/otzyvy">Отзывы</a></li>
+                <li><a href="/contact">Контакты</a></li>
             </ul>
         </div>
-
-        <div class="col-md-12 col-lg-1 flag"><img src="/themes/site/img/rus.png"/> <span>Россия</span></div>
+        <div class="col-md-12 col-lg-1 flag"><img src="/images/icons/rus.png"/> <span>Россия</span></div>
 </footer>
 
 
@@ -1565,24 +1626,11 @@ $this->title = 'Apple';
     <a class="close-popup" onclick="$('#bay-click').bPopup().close();"><b></b></a>
 
     <div class="bay-popup">
-        <div class="div-left">
-            <img src="/uploads/params/sources/82d0991b724dfcac04976a416640a20d.png" class="iphone-img"
-                 style="max-height: 300px; margin-bottom: 20px;"/>
-        </div>
         <div class="div-right">
-            <div class="cat-item-name"> iPhone 4 8Gb</div>
-            <br>
-            <div class="cat-item-text">
-                Торопитесь! Скидка до конца недели.
-                Гарантия 1 год. Бесплатный тест-драйв.
-                При заказе сегодня Вы получите купон для дополнительной скидки.
-            </div>
-
+            <p class="buy-in-click-popup-title">Купить в 1 клик</p>
+            <p class="cat-item-name buy-in-click-popup-model">iPhone 6 16Gb space-gray</p>
             <div style="text-align: center; margin-top: 20px;">
-                Итоговая сумма:<br>
-                <span class="cat-item-old-price"
-                      style="font-size: 18px; text-decoration: line-through">17 999 руб.</span>
-                <span class="cat-item-new-price" style="font-size: 30px; ">12 999</span>
+                <span class="cat-item-new-price buy-in-click-popup-price ">12 999</span>
             </div>
         </div>
 
@@ -1594,7 +1642,7 @@ $this->title = 'Apple';
                     <input class="input-name" name="name" type="text" placeholder="Ваше имя:"/>
                     <input class="input-phone" name="phone" type="text" placeholder="+7 (___) ___-__-__"/>
                     <input name="prod" value="" type="hidden"/>
-                    <button>Заказать сейчас</button>
+                    <button class="btn-acc">Заказать сейчас</button>
                 </form>
             </div>
         </div>
@@ -1758,30 +1806,37 @@ $this->title = 'Apple';
 <!--    _rc('send', 'pageView');-->
 <!--</script>-->
 <!— Yandex.Metrika counter —>
-<script type="text/javascript" >
+<script type="text/javascript">
     (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
+        (w[c] = w[c] || []).push(function () {
             try {
                 w.yaCounter46128996 = new Ya.Metrika({
-                    id:46128996,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
+                    id: 46128996,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true
                 });
-            } catch(e) { }
+            } catch (e) {
+            }
         });
 
         var n = d.getElementsByTagName("script")[0],
             s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
+            f = function () {
+                n.parentNode.insertBefore(s, n);
+            };
         s.type = "text/javascript";
         s.async = true;
         s.src = "https://mc.yandex.ru/metrika/watch.js";
 
         if (w.opera == "[object Opera]") {
             d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
+        } else {
+            f();
+        }
     })(document, window, "yandex_metrika_callbacks");
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/46128996" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/46128996" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
 <!— /Yandex.Metrika counter —>
