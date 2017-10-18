@@ -2,7 +2,7 @@
 
 return [
     'adminEmail' => 'admin@example.com',
-	'shopName' => '© apple-com.pro',
-	'tel' => '+7 (499) 705-03-88',
-	'address' => ' г. Москва, ул. Докукина, д. 8, стр. 2',
+	'shopName' => '© Apple-com.pro',
+	'tel' => '+7 (495) 641-00-53',
+	'address' => ' г. Москва, ул. Спартаковская, д. 19, стр. 3А',
 ];

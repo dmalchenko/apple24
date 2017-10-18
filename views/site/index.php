@@ -31,30 +31,51 @@ $this->title = 'Apple';
             <div class="name-child">Скидки до конца недели. Успей купить по акции.</div>
         </div>
         <div class="select-phone">
+            <a href="#phone-8" class="block scrollto">
+                <img src="/uploads/category/x250/e4afb531eae718199cca4dae544f8abc.jpg" alt="Купить iPhone 8"
+                     title="Купить iPhone 8"/>
+                <span>iPhone 8</span>
+                от <?= $prices['iPhone8']['32Gb']['jet-black']['price1'] ?> руб.
+                <br><button class="btn-v">Выбрать</button>
+            </a>
+
+            <a href="#phone-8-plus" class="block scrollto">
+                <img src="/uploads/category/x250/e4afb531eae718199cca4dae544f8abc.jpg" alt="Купить iPhone 8 Plus"
+                     title="Купить iPhone 8 Plus"/>
+                <span>iPhone 8 Plus</span>
+                от <?= $prices['iPhone8Plus']['32Gb']['jet-black']['price1'] ?> руб.
+                <br><button class="btn-v">Выбрать</button>
+            </a>
+
             <a href="#phone-7" class="block scrollto">
                 <img src="/uploads/category/x250/bbad48acb74d77cd7587c46fa1b332fb.jpg" alt="Купить iPhone 7"
                      title="Купить iPhone 7"/>
                 <span>iPhone 7</span>
                 от <?= $prices['iPhone7']['32Gb']['jet-black']['price1'] ?> руб.
+                <br><button class="btn-v">Выбрать</button>
             </a>
+
             <a href="#phone-7-plus" class="block scrollto">
                 <img src="/uploads/category/x250/c2176883977d9bdd03041770ef31cde6.jpg"
                      alt="Купить iPhone 7 plus"
                      title="Купить iPhone 7 plus"/>
                 <span>iPhone 7 plus</span>
                 от <?= $prices['iPhone7plus']['32Gb']['jet-black']['price1'] ?> руб.
+                <br><button class="btn-v">Выбрать</button>
             </a>
             <a href="#phone-SE" class="block scrollto">
                 <img src="/uploads/category/x250/1e702de4369bb2567f349ca4dfd3bf35.jpg" alt="Купить iPhone SE"
                      title="Купить iPhone SE"/>
                 <span>iPhone SE</span>
                 от <?= $prices['iPhoneSE']['16Gb']['space-gray']['price1'] ?> руб.
+                <br><button class="btn-v">Выбрать</button>
             </a>
             <a href="#phone-6s" class="block scrollto">
                 <img src="/uploads/category/x250/ca4dae544f8ae4afb53199cbc1eae718.jpg" alt="Купить iPhone 6S"
                      title="Купить iPhone 6S"/>
                 <span>iPhone 6S</span>
                 от <?= $prices['iPhone6s']['16Gb']['space-gray']['price1'] ?> руб.
+                <br><button class="btn-v">Выбрать</button>
             </a>
             <a href="#phone-6s-plus" class="block scrollto">
                 <img src="/uploads/category/x250/4317c2894aafa3a058208477e276fb55.jpg"
@@ -62,12 +83,14 @@ $this->title = 'Apple';
                      title="Купить iPhone 6S plus"/>
                 <span>iPhone 6S plus</span>
                 от <?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price1'] ?> руб.
+                <br><button class="btn-v">Выбрать</button>
             </a>
             <a href="#phone-6" class="block scrollto">
                 <img src="/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
                      title="Купить iPhone 6"/>
                 <span>iPhone 6</span>
                 от <?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?> руб.
+                <br><button class="btn-v">Выбрать</button>
             </a>
             <a href="#phone-6-plus" class="block scrollto">
                 <img src="/uploads/category/x250/1479ebb99f8f7b44114f5674d8b3ee41.jpg"
@@ -75,18 +98,222 @@ $this->title = 'Apple';
                      title="Купить iPhone 6 plus"/>
                 <span>iPhone 6 plus</span>
                 от <?= $prices['iPhone6plus']['16Gb']['space-gray']['price1'] ?> руб.
+                <br><button class="btn-v">Выбрать</button>
             </a>
-            <a href="#phone-5s" class="block scrollto">
-                <img src="/uploads/category/x250/260ec7360e0d0049e0ba29ec356b6324.jpg" alt="Купить iPhone 5S"
-                     title="Купить iPhone 5S"/>
-                <span>iPhone 5S</span>
-                от <?= $prices['iPhone5s']['16Gb']['space-gray']['price1'] ?> руб.
-            </a>
-
         </div>
     </div>
 
     <div class="phone-list">
+        <div class="background-block phone" id="phone-8">
+            <div class="container" id="iphone-8">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#phone-8">iPhone 8 </a>
+                        </div>
+                        <div class="image">
+                            <img src="/uploads/params/sources/d99691a8f2bb8089b025f88eff6c5111.jpg"
+                                 alt="Купить iPhone 8 32Gb jet black" title="Купить iPhone 8 32Gb jet black"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="25"
+                                       class="pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="25"
+                                       class="characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25,
+                                                    26, 27, 28, 29, 30, 38, 39, 40, 41
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.2</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac,&nbsp;с технологией MIMO, 2.4
+                                                    ГГц, 5 ГГц
+                                                </li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD с технологией 3D Touch</li>
+                                                <li>Диагональ дисплея (дюйм) : 4.7</li>
+                                                <li>Разрешение дисплея (пикс) : 1334x750</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 240</li>
+                                                <li>Воспроизведение музыки (ч) : 40</li>
+                                                <li>Воспроизведение видео (ч) : 13</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A10 Fusion + сопроцессор движения M10</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 12, f/1.8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 4000 x 3000</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : True Tone</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 3840 x 2160</li>
+                                                <li>Частота кадров видеосъемки : 30</li>
+                                                <li>Фронтальная камера (Мп) : 5</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 138.3</li>
+                                                <li>Ширина (мм) : 671</li>
+                                                <li>Толщина (мм) : 7.1</li>
+                                                <li>Вес (г) : 138</li>
+                                                <li>Стандарт защиты: IP67</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+                            <div class="label-name">Цвет</div>
+<!--                            <div class="row">-->
+<!--                                <div class="">-->
+<!--                                    <div class="color-div active" data-param="Серый космос" id="black" data-number="1" data-param-color="Серый космос" data-product="3">-->
+<!--                                        <div class="color-img " style="background: #898989; "></div>-->
+<!--                                        <p>Серый космос</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-xs-12 col-md-4">-->
+<!--                                    <div class="color-div " data-param="Серебристый" id="black" data-number="2" data-param-color="Серебристый" data-product="3">-->
+<!--                                        <div class="color-img color-img-white" style="background: #e9e9e9; "></div>-->
+<!--                                        <p>Серебристый</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                                <div class="col-xs-12 col-md-4">-->
+<!--                                    <div class="color-div " data-param="Золотистый" id="black" data-number="3" data-param-color="Золотистый" data-product="3">-->
+<!--                                        <div class="color-img " style="background: #f4bf88; "></div>-->
+<!--                                        <p>Золотистый</p>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+
+                            <div class="color-block space-gray selected" data-param-color="Черный оникс"
+                                 valsprice="15359" valprice="12799" valcolor="space-gray"
+                                 vallink="/uploads/params/sources/c327be9244c42ebc982ade6574d7cd67.png">
+                                <div style="position:relative;">
+                                    <span style="background: #000000" class="color_item"></span>
+                                </div>
+                                <span>Черный оникс</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Черный" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="/uploads/params/sources/cf0b9c2b5ea3c588d96d1d125aa621d6.png">
+                                <div style="position:relative;">
+                                    <span style="background: #a3a3a3" class="color_item"></span>
+                                </div>
+                                <span>Черный</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="/uploads/params/sources/44d5d775acd267b5d60da2b8903548ea.png">
+                                <div style="position:relative;">
+                                    <span style="background: #e9e9e9" class="color_item"></span>
+                                </div>
+                                <span>Серебристый</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Золотистый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="/uploads/params/sources/b0ba5944f9110ccb52f8d72b750e2c08.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f4bf88" class="color_item"></span>
+                                </div>
+                                <span>Золотистый</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Розовое золото" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="/uploads/params/sources/1cea16a59fd0755f8549b2bb6a6858cb.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f0c8c2" class="color_item"></span>
+                                </div>
+                                <span>Розовое золото</span>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Красный" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="/uploads/params/sources/6aa59bb599842285e1279f0a4e97e015.png">
+                                <div style="position:relative;">
+                                    <span style="background: #f00" class="color_item"></span>
+                                </div>
+                                <span>Красный</span>
+                            </div>
+                        </div>
+                        <div class="select-memory">
+                            <div class="label-name">Объем памяти</div>
+                            <div class="memory-block selected" data-size-id="3" valsmemory="" valmemory="">
+                                32 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
+                                128 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="6" valsmemory="" valmemory="">
+                                256 ГБ
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="label-name">Торопитесь! Скидка до конца недели. Гарантия 1 год. Бесплатный
+                                тест-драйв.
+                            </div>
+                            <div class="standart-price" id="price">
+                                <span><?= $prices['iPhone7']['32Gb']['jet-black']['price2'] ?></span> руб.
+                            </div>
+                            <div class="sale-price">
+                                <span><?= $prices['iPhone7']['32Gb']['jet-black']['price1'] ?></span> руб.
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <input type="hidden" name="category_id" value="7">
+                            <input type="hidden" name="prod_id" value="173">
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Заказать сейчас </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="background-block phone" id="phone-7">
             <div class="container" id="iphone-7">
                 <div class="block-phone">

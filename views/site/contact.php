@@ -10,11 +10,8 @@ use yii\captcha\Captcha;
 
 $this->title = 'Контакты';
 ?>
-<section class="content_block pager">
+<section class="content_block bcontact">
     <div class="container">
-        <div class="speedbar">
-            <a href="/">Главная</a><i></i> <span>Контакты</span>
-        </div>
         <div class="name">Контакты</div>
         <div class="contact-block">
             <div class="left">
@@ -36,25 +33,11 @@ $this->title = 'Контакты';
                 </div>
             </div>
             <div class="right">
-                <form action="" id="contact_form">
-                    <div class="form-block">
-                        <div class="block">
-                            <input class="input-name" name="input-name" type="text" placeholder="Ваше имя:"/>
-                        </div>
-                        <div class="block">
-                            <input class="input-phone" name="input-phone" type="text" placeholder="Ваш телефон:"/>
-                        </div>
-                        <textarea name="rev_text" placeholder="Текст вашего вопроса:"></textarea>
-                        <div class="center">
-                            <!--                            <a href="" class="order-button">Отправить заявку</a>-->
-                            <button class="order-button"> Отправить заявку</button>
-                        </div>
-                    </div>
-                </form>
+                <div id="map"></div>
             </div>
         </div>
     </div>
-    <div id="map"></div>
+
     <script>
         function initMap() {
             var customMapType = new google.maps.StyledMapType([], {
@@ -84,9 +67,18 @@ $this->title = 'Контакты';
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0b3I2YrKGz0t60VRkeMBRcY0xFqf99EE&signed_in=true&callback=initMap"
             async defer></script>
 </section>
-<footer>
-    <div class="container">
-        <p class="pull-center"><?= Yii::$app->params['shopName']; ?></p>
-        <br>
-    </div>
+
+<footer class="container-fluid hidden-opacity visible animated fadeInDown full-visible">
+    <div class="row">
+        <div class="col-md-12 col-lg-3 copyright"><?= Yii::$app->params['shopName']; ?></div>
+        <div class="col-md-12 col-lg-8 footer-menu">
+            <ul class="bottom-menu">
+                <li><a href="/#catalogue">Каталог</a></li>
+                <li><a href="/#guaranty">Гарантия и поддержка</a></li>
+                <li><a href="/#delivery">Доставка</a></li>
+                <li><a href="/otzyvy">Отзывы</a></li>
+                <li><a href="/contact">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="col-md-12 col-lg-1 flag"><img src="/images/icons/rus.png"/> <span>Россия</span></div>
 </footer>
