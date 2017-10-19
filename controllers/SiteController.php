@@ -84,6 +84,8 @@ class SiteController extends Controller {
 			'7' => 'iPhone7',
 			'7-plus' => 'iPhone7plus',
 			'SE' => 'iPhoneSE',
+			'8' => 'iPhone8',
+			'8-plus' => 'iPhone8Plus',
 		];
 
 		$colors = [

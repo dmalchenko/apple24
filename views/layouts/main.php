@@ -52,6 +52,8 @@ AppAsset::register($this);
                 <li>
                     <a class="scrollto cat" href="/#catalog-id">Каталог</a>
                     <ul class="mobile_category_opened">
+                        <li><a href="/#phone-8" class="active  scrollto">iPhone 8</a></li>
+                        <li><a href="/#phone-8-plus" class="active  scrollto">iPhone 8 Plus</a></li>
                         <li><a href="/#phone-7" class="active  scrollto">iPhone 7</a></li>
                         <li><a href="/#phone-7-plus" class="active  scrollto">iPhone 7 plus</a></li>
                         <li><a href="/#phone-SE" class="active  scrollto">iPhone SE</a></li>
@@ -59,7 +61,6 @@ AppAsset::register($this);
                         <li><a href="/#phone-6s-plus" class="active  scrollto">iPhone 6S plus</a></li>
                         <li><a href="/#phone-6" class="active  scrollto">iPhone 6</a></li>
                         <li><a href="/#phone-6-plus" class="active  scrollto">iPhone 6 plus</a></li>
-                        <li><a href="/#phone-5s" class="active  scrollto">iPhone 5S</a></li>
                     </ul>
                 </li>
                 <li><a class="scrollto" href="/#guaranty">Гарантия</a></li>

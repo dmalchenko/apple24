@@ -167,7 +167,7 @@ header {
 }
 header .logo {
     position:absolute;
-    left:0;
+    left:114px;
     top:11px;
     width:26px;
     height:31px;
@@ -197,7 +197,7 @@ header ul li a:hover {
 }
 header .phone {
     position:absolute;
-    right: 70px;
+    right: 143px;
     top: 12px;
     font-family: 'myriad_set_promedium';
     font-size:22px;
@@ -402,11 +402,11 @@ header .cart-block .button:hover {
     width:225px;
     height:50px;
     border:1px solid transparent;
-    border-radius:50px;
+    border-radius:5px;
     text-align:center;
     line-height:48px;
     display:block;
-    margin: 65px auto 0 auto;
+    margin: 82px auto 0 auto;
     font-size:20px;
     box-sizing: border-box;
     cursor:pointer;
@@ -758,7 +758,7 @@ section.content_block .block-phone .right-side .price .label-name {
 }
 section.content_block .block-phone .right-side .select-color .color-block {
     float: left;
-    max-width: 13%;
+    max-width: 22%;
     width: 100%;
     text-align: center;
     color: #999999;
@@ -766,13 +766,18 @@ section.content_block .block-phone .right-side .select-color .color-block {
     font-size: 14px;
     margin: 0 3.3% 10px 0;
 }
+
+.select-color .color-block:nth-child(4) {
+    /*float:right !important;*/
+    /*margin-right: 200px !important;*/
+}
 section.content_block .block-phone .right-side .select-color .color-block.selected {
     border-color:#0581ea;
 }
 section.content_block .block-phone .right-side .select-color .color-block div {
     cursor:pointer;
     min-width:51px;
-    height:71px;
+    height:91px;
     border:1px solid #e6e6e6;
     border-radius:4px;
     position:relative;
@@ -834,7 +839,7 @@ section.content_block .block-phone .right-side .select-memory  {
 }
 section.content_block .block-phone .right-side .select-memory .memory-block {
     float:left;
-    width: 13%;
+    width: 23%;
     margin-right: 3%;
     cursor:pointer;
     min-width:51px;
@@ -857,7 +862,7 @@ section.content_block .block-phone .right-side .select-memory .memory-block.sele
     border-color:#0581ea;
 }
 section.content_block .block-phone .right-side .price {
-    margin: 0 0 51px 0;
+    margin: 0 0 20px 0;
     background:#f2f2f2;
     padding:20px;
     font-family: 'myriad_set_protext';
@@ -887,7 +892,7 @@ section.content_block .block-phone .right-side .buttons a, section.content_block
     margin-right:3%;
     border:1px solid transparent;
     background:#0581ea;
-    border-radius:60px;
+    border-radius:5px;
     height:48px;
     line-height:48px;
     text-align:center;
@@ -1087,9 +1092,9 @@ section.content_block .delivery-block {
 }
 
 .dil-span {
-    background: url("../images/icons/circle.png") no-repeat;
+    /*background: url("../images/icons/circle.png") no-repeat;*/
     height: 22px;
-    width: 40px;
+    width: 22px;
 
     display: block;
     float: left;
@@ -1713,7 +1718,7 @@ section.content_block .contact-block .right .form-block .order-button {
 }
 #map {
     width:100%;
-    height:300px;
+    height:350px;
 }
 footer {
     background:#282828;
@@ -1818,7 +1823,7 @@ section.content_block .form-block textarea {
     padding: 0 20px;
     height:48px;
     border:1px solid transparent;
-    border-radius:50px;
+    border-radius:5px;
     line-height:0;
     background:transparent;
     color:#fff;
@@ -2885,7 +2890,7 @@ section.content_block .thk-img img {
     height: 30px;
     left: 50%;
     display: block;
-    top: 50%;
+    top: 42%;
     margin-top: -16px;
     margin-left: -15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
@@ -3072,12 +3077,12 @@ footer {
     font-family: 'myriad_set_protext';
     font-style: normal;
     font-weight: 200;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 40px;
     height: 40px;
     padding-left: 40px;
     box-sizing: border-box;
-    margin-left: 34%;
+    margin-left: 45%;
     margin-bottom: 5px;
     text-align: left;
 }
@@ -3089,7 +3094,7 @@ footer {
     font-weight: 200;
     line-height: 23px;
     text-align: left;
-    margin-left: 34%;
+    margin-left: 45%;
 }
 
 .text-delivery2 {
@@ -3099,19 +3104,19 @@ footer {
     font-weight: 200;
     line-height: 23px;
     text-align: left;
-    margin-left: 20%;
+    margin-left: 13%;
 }
 
 .title-delivery2 {
     font-family: 'myriad_set_protext';
     font-style: normal;
     font-weight: 200;
-    font-size: 23px;
+    font-size: 22px;
     line-height: 40px;
     height: 40px;
     padding-left: 40px;
     box-sizing: border-box;
-    margin-left: 20%;
+    margin-left: 13%;
     margin-bottom: 5px;
     text-align: left;
     background: url(../images/icons/guard.png) left center no-repeat;
@@ -3206,6 +3211,36 @@ footer {
     margin-top: 10px;
 }
 
+.btn-v:hover {
+    background: #5576aa;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 27px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+}
+
+.btn-v:active {
+    background: #5576aa;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 27px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+}
+
 .color-div {
     color: #a9a9a9;
     text-align: center;
@@ -3222,4 +3257,34 @@ footer {
     width: 30px;
     height: 30px;
     margin: 10px auto;
+}
+
+.btn-k {
+    background: #ffffff;
+    border-radius: 5px;
+    color: #8c8c8c;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #8c8c8c;
+    padding: 5px 27px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+}
+
+.color-t {
+    margin: 66px auto 0 -53px;
+    width: 113px;
+    position: absolute;
+}
+
+.cont {
+    width: 100%;
+    height: 200px;
+    background-color: #fbfbfb;
+    text-align: center;
+    padding-top: 25px;
 }

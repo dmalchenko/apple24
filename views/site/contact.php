@@ -12,7 +12,9 @@ $this->title = 'Контакты';
 ?>
 <section class="content_block bcontact">
     <div class="container">
+        <br><br><br><br><br>
         <div class="name">Контакты</div>
+        <br><br><br><br><br>
         <div class="contact-block">
             <div class="left">
                 <div class="block">
@@ -26,10 +28,6 @@ $this->title = 'Контакты';
                 <div class="block">
                     <div class="icon ico_3"></div>
                     <span class="lptracker_phone"><?= Yii::$app->params['tel']; ?></span>
-                </div>
-                <div class="block">
-                    <div class="icon ico_4"></div>
-                    <a href="/offerta" target="_blank">Публичная оферта</a>
                 </div>
             </div>
             <div class="right">
@@ -47,15 +45,15 @@ $this->title = 'Контакты';
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 16,
                 zoomControl: false,
-
-                center: new google.maps.LatLng(55.838967, 37.653970),
+//55.774289, 37.676803
+                center: new google.maps.LatLng(55.774289, 37.676803),
                 mapTypeControlOptions: {
                     mapTypeIds: []
                 }
             });
             var marker = new google.maps.Marker({
                 map: map,
-                position: new google.maps.LatLng(55.838967, 37.653970),
+                position: new google.maps.LatLng(55.774289, 37.676803),
                 icon: '/images/map-icon.png',
             });
 
