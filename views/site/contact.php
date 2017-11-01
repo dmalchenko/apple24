@@ -23,7 +23,7 @@ $this->title = 'Контакты';
                 </div>
                 <div class="block">
                     <div class="icon ico_2"></div>
-                    Режим работы: 10:00 - 20:00
+                    Режим работы: 09:00 - 21:00
                 </div>
                 <div class="block">
                     <div class="icon ico_3"></div>
@@ -71,7 +71,7 @@ $this->title = 'Контакты';
         <div class="col-md-12 col-lg-3 copyright"><?= Yii::$app->params['shopName']; ?></div>
         <div class="col-md-12 col-lg-8 footer-menu">
             <ul class="bottom-menu">
-                <li><a href="/#catalogue">Каталог</a></li>
+                <li><a href="/#catalog">Каталог</a></li>
                 <li><a href="/#guaranty">Гарантия и поддержка</a></li>
                 <li><a href="/#delivery">Доставка</a></li>
                 <li><a href="/otzyvy">Отзывы</a></li>

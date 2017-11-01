@@ -48,7 +48,12 @@ AppAsset::register($this);
                 <span></span>
             </div>
             <a href="/" class="logo"></a>
+
             <ul class="burger-menu">
+                <li>
+                    <span class="limenu scrollto" style="display: block; color: #fff; font-size: 22px; margin-left: -114px; margin-top: -12px">Москва</span>
+                    <span class="limenu" style="display: block; color: #fff; font-size:12px; margin-left:-75px">ул. Спартаковская, 19</span>
+                </li>
                 <li>
                     <a class="scrollto cat" href="/#catalog-id">Каталог</a>
                     <ul class="mobile_category_opened">
@@ -71,7 +76,13 @@ AppAsset::register($this);
                 <li><a href="/otzyvy">Отзывы</a></li>
                 <li><a href="/contact">Контакты</a></li>
             </ul>
-            <div class="phone"><a href="tel:<?= Yii::$app->params['tel']; ?>"><span class="lptracker_phone"><?= Yii::$app->params['tel']; ?><span></a>
+            <div class="phone">
+                <p>
+                <a href="tel:<?= Yii::$app->params['tel']; ?>">
+                    <span class="lptracker_phone"><?= Yii::$app->params['tel']; ?></span>
+                </a></p>
+                <p style="margin-top: -12px;"><span class="lptracker_phone2">ПН-ВС 09:00 до 21:00</span>
+                </p>
             </div>
 
         </div>

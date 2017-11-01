@@ -6,7 +6,7 @@ use yii\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Админка';
+$this->title = 'Manager Panel';
 $this->params['breadcrumbs'][] = $this->title;
 \app\assets\BootstrapAsset::register($this);
 ?>
