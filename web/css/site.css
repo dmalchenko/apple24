@@ -2560,9 +2560,15 @@ section.content_block .thk-img img {
         padding:0;
     }
     section.content_block .block-phone .right-side .select-color .color-block,
-    section.content_block .block-phone .right-side .select-new .new-block,
     section.content_block .block-phone .right-side .select-memory .memory-block {
         max-width: 30%;
+        width:100%;
+        margin: 0 3.3% 10px 0;
+        box-sizing:border-box;
+    }
+
+    section.content_block .block-phone .right-side .select-new .new-block {
+        /*max-width: 30%;*/
         width:100%;
         margin: 0 3.3% 10px 0;
         box-sizing:border-box;
@@ -3352,28 +3358,28 @@ footer {
     margin-left: 33px;
 }
 
-section.content_block .block-phone .right-side .select-new .new-block.selected, section.content_block .block-phone .right-side .select-new .new-block:hover {
-    color: #000;
-    border-color: #0581ea;
-}
+/*section.content_block .block-phone .right-side .select-new .new-block.selected, section.content_block .block-phone .right-side .select-new .new-block:hover {*/
+    /*color: #000;*/
+    /*border-color: #0581ea;*/
+/*}*/
 
-section.content_block .block-phone .right-side .select-new .new-block {
-    float: left;
-    width: 23%;
-    margin-right: 3%;
-    cursor: pointer;
-    min-width: 51px;
-    line-height: 71px;
-    text-align: center;
-    color: #333333;
-    font-family: 'myriad_set_prothin';
-    font-size: 25px;
-    height: 71px;
-    border: 1px solid #e6e6e6;
-    border-radius: 4px;
-    position: relative;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
+/*section.content_block .block-phone .right-side .select-new .new-block {*/
+    /*float: left;*/
+    /*width: 23%;*/
+    /*margin-right: 3%;*/
+    /*cursor: pointer;*/
+    /*min-width: 51px;*/
+    /*line-height: 71px;*/
+    /*text-align: center;*/
+    /*color: #333333;*/
+    /*font-family: 'myriad_set_prothin';*/
+    /*font-size: 25px;*/
+    /*height: 71px;*/
+    /*border: 1px solid #e6e6e6;*/
+    /*border-radius: 4px;*/
+    /*position: relative;*/
+    /*-webkit-transition: all 0.3s ease-in-out;*/
+    /*-moz-transition: all 0.3s ease-in-out;*/
+    /*-o-transition: all 0.3s ease-in-out;*/
+    /*transition: all 0.3s ease-in-out;*/
+/*}*/
