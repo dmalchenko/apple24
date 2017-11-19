@@ -2232,44 +2232,44 @@ $this->title = 'Apple';
 <!--    _rc('send', 'pageView');-->
 <!--</script>-->
 <!-- Yandex.Metrika counter -->
-<!--<script type="text/javascript" >-->
-<!--    (function (d, w, c) {-->
-<!--        (w[c] = w[c] || []).push(function() {-->
-<!--            try {-->
-<!--                w.yaCounter46141605 = new Ya.Metrika({-->
-<!--                    id:46141605,-->
-<!--                    clickmap:true,-->
-<!--                    trackLinks:true,-->
-<!--                    accurateTrackBounce:true,-->
-<!--                    webvisor:true-->
-<!--                });-->
-<!--            } catch(e) { }-->
-<!--        });-->
-<!---->
-<!--        var n = d.getElementsByTagName("script")[0],-->
-<!--            s = d.createElement("script"),-->
-<!--            f = function () { n.parentNode.insertBefore(s, n); };-->
-<!--        s.type = "text/javascript";-->
-<!--        s.async = true;-->
-<!--        s.src = "https://mc.yandex.ru/metrika/watch.js";-->
-<!---->
-<!--        if (w.opera == "[object Opera]") {-->
-<!--            d.addEventListener("DOMContentLoaded", f, false);-->
-<!--        } else { f(); }-->
-<!--    })(document, window, "yandex_metrika_callbacks");-->
-<!--</script>-->
-<!--<noscript><div><img src="https://mc.yandex.ru/watch/46141605" style="position:absolute; left:-9999px;" alt="" /></div></noscript>-->
-<!--<!-- /Yandex.Metrika counter -->-->
-<!--<!-- Global site tag (gtag.js) - Google Analytics -->-->
-<!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109041953-1"></script>-->
-<!--<script>-->
-<!--  window.dataLayer = window.dataLayer || [];-->
-<!--  function gtag(){dataLayer.push(arguments);}-->
-<!--  gtag('js', new Date());-->
-<!---->
-<!--  gtag('config', 'UA-109041953-1');-->
-<!--</script>-->
-<!--<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">-->
-<!--<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=41d9a25bb69a5bf566a7dd3d59558e99" charset="UTF-8" async></script>-->
-<!--<link rel="stylesheet" href="https://cdn.callbackkiller.com/widget/cbk.css">-->
-<!--<script type="text/javascript" src="https://cdn.callbackkiller.com/widget/cbk.js?wcb_code=41d9a25bb69a5bf566a7dd3d59558e99" charset="UTF-8" async></script>-->
+<script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter46141605 = new Ya.Metrika({
+                    id:46141605,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/46141605" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109041953-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109041953-1');
+</script>
+<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=41d9a25bb69a5bf566a7dd3d59558e99" charset="UTF-8" async></script>
+<link rel="stylesheet" href="https://cdn.callbackkiller.com/widget/cbk.css">
+<script type="text/javascript" src="https://cdn.callbackkiller.com/widget/cbk.js?wcb_code=41d9a25bb69a5bf566a7dd3d59558e99" charset="UTF-8" async></script>
