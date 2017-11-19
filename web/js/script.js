@@ -166,6 +166,22 @@ $(document).ready(function () {
 		$this.parent().parent().find(".add-basket").attr('valmprice', String(totalprice).replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
 	});
 
+	/* выбор памяти */
+	$('.new-block').click(function() {
+		$this = $(this);
+        // var a = +$this.parent().parent().parent().find(".selected").attr('valsprice');
+        // var b = +$this.attr('valsmemory');
+        // var c = +$this.parent().parent().parent().find(".selected").attr('valprice');
+        // var d = +$this.attr('valmemory');
+		// var totalsprice = a+b;
+		// var totalprice = c+d;
+		// $this.parent().parent().find(".standart-price span").html(String(totalsprice).replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
+		// $this.parent().parent().find(".sale-price span").html(String(totalprice).replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
+		$this.addClass('selected').siblings().removeClass('selected');
+		// $this.parent().parent().find(".bay-click").attr('valmprice', String(totalprice).replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
+		// $this.parent().parent().find(".add-basket").attr('valmprice', String(totalprice).replace(/(\d)(?=(\d\d\d)+([^\d]|$))/g, '$1 '));
+	});
+
 	/* передаем данные в попапы */
 	// $('.bay-click, .add-basket').click(function(){
 	//     alert(12);
@@ -202,6 +218,8 @@ $(document).ready(function () {
         var buyImg = $(this).parent().parent().parent().find('img').attr('src');
         $('.popup').find(".div-left img").attr('src', buyImg);
         var csrfToken = $('meta[name="csrf-token"]').attr("content");
+        // phoneCat.find('.new-block.selected').data('state-id')
+		var isNew = $(this).parent().parent().find('.new-block.selected').data('state-id');
 		$.ajax({
 			type: 'POST',
 			dataType: 'json',
@@ -211,12 +229,18 @@ $(document).ready(function () {
                 _csrf: csrfToken
             },
             success: function (result) {
+				var name = ' NEW';
+				if (isNew == 1) {
+                    result.price1 = result.price3;
+                    result.price2 = result.price4;
+                    var name = ' USED';
+				}
 				$('.popup').find(".cat-item-new-price").html(result.price1);
 				$('.popup').find(".cat-item-old-price").html(result.price2);
-                $('.popup').find(".cat-item-name").html(result.name);
+                $('.popup').find(".cat-item-name").html(result.name + name);
 				$('.popup').find("input[name='prod']").val(result.id);
 			}
-		});
+		}, isNew);
 	});
 
 	/* функция корзины */
@@ -534,6 +558,13 @@ function dinamPhones(attr) {
 			returnChanngePage(colorName, sizeId, category);
 		});
 
+		$('.new-block').on('click', function () {
+			var colorName = $(this).parent().parent().find('.color-block.selected').data('param-color');
+            var sizeId = $(this).parent().parent().find('.memory-block.selected').data('size-id');
+			var category = $(this).parent().parent().parent().find('input[name="category_id"]').val();
+			returnChanngePage(colorName, sizeId, category);
+		});
+
 		function returnChanngePage(colorName, sizeId, category) {
 			$('#phone-' + category).find('.buttons').fadeOut();
             var csrfToken = $('meta[name="csrf-token"]').attr("content");
@@ -553,6 +584,10 @@ function dinamPhones(attr) {
                         if (attr) {
                             window.location.href = '/' + result.sef + '/';
                         } else {
+                        	if (phoneCat.find('.new-block.selected').data('state-id') == 1) {
+                                result.price1 = result.price3;
+                                result.price2 = result.price4;
+							};
 							phoneCat.find('.price').show();
 							phoneCat.find('.buttons').show();
 							phoneCat.find('input[name="prod_id"]').val(result.prodId);

@@ -86,6 +86,7 @@ class SiteController extends Controller {
 			'SE' => 'iPhoneSE',
 			'8' => 'iPhone8',
 			'8-plus' => 'iPhone8Plus',
+			'x' => 'iPhoneX',
 		];
 
 		$colors = [
@@ -102,8 +103,10 @@ class SiteController extends Controller {
 		$category = $categories[Yii::$app->request->post('category')];
 		$color = $colors[Yii::$app->request->post('colorName')];
 		$response = [
-			'price1' => $prices[$category][$sizeId][$color]['price1'],
-			'price2' => $prices[$category][$sizeId][$color]['price2'],
+			'price1' => isset($prices[$category][$sizeId][$color]['price1']) ? $prices[$category][$sizeId][$color]['price1'] : '',
+			'price2' => isset($prices[$category][$sizeId][$color]['price2']) ? $prices[$category][$sizeId][$color]['price2'] : '',
+			'price3' => isset($prices[$category][$sizeId][$color]['price3']) ? $prices[$category][$sizeId][$color]['price3'] : '',
+			'price4' => isset($prices[$category][$sizeId][$color]['price4']) ? $prices[$category][$sizeId][$color]['price4'] : '',
 			'cat' => intval(Yii::$app->request->post('category')),
 			'prodId' => $prices[$category][$sizeId][$color]['id'],
 			'sef' => 'sef',

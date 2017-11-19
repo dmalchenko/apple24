@@ -46,8 +46,10 @@ class PurchaseController extends Controller {
 							if ($color['id'] == $id) {
 								$result = [
 									'id' => $id,
-									'price1' => sprintf('%s руб.', $color['price1']),
-									'price2' => sprintf('%s руб.', $color['price2']),
+									'price1' => sprintf('%s руб.', isset($color['price1']) ? $color['price1'] : 0),
+									'price2' => sprintf('%s руб.', isset($color['price2']) ? $color['price2'] : 0),
+									'price3' => sprintf('%s руб.', isset($color['price3']) ? $color['price3'] : 0),
+									'price4' => sprintf('%s руб.', isset($color['price2']) ? $color['price4'] : 0),
 									'name' => $model['name'] . " $capacityId $colorId"
 								];
 							}

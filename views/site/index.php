@@ -20,6 +20,7 @@ $this->title = 'Apple';
                         <p>Купить iPhone со скидкой</p>
                         <p>Бесплатная доставка за 2 часа</p>
                         <p>Защитное стекло и чехол в подарок</p>
+                        <a class="down" href="#catalog">Смотрите каталог</a>
                     </div>
                 </div>
             </div>
@@ -34,6 +35,15 @@ $this->title = 'Apple';
             <div class="name-child">Выберите свой iPhone</div>
         </div>
         <div class="select-phone">
+            <a href="#phone-x" class="block scrollto">
+                <img src="/uploads/category/x250/x2.jpg" alt="Купить iPhone X"
+                     title="Купить iPhone X" style="height: 247px;"/>
+                <span>iPhone X</span>
+                от <?= $prices['iPhoneX']['64Gb']['space-gray']['price1'] ?> руб.
+                <br>
+                <button class="btn-v">Купить</button>
+            </a>
+
             <a href="#phone-8" class="block scrollto">
                 <img src="/uploads/category/x250/e4afb531eae718199cca4dae544f8abc.jpg" alt="Купить iPhone 8"
                      title="Купить iPhone 8"/>
@@ -98,7 +108,7 @@ $this->title = 'Apple';
             <a href="#phone-6" class="block scrollto">
                 <img src="/uploads/category/x250/0977c2303bfb87e76473cfa2638dc56c.jpg" alt="Купить iPhone 6"
                      title="Купить iPhone 6"/>
-                <span>iPhone 6</span>
+                <span>iPhone 6</span>x
                 от <?= $prices['iPhone6']['16Gb']['space-gray']['price1'] ?> руб.
                 <br>
                 <button class="btn-v">Купить</button>
@@ -116,6 +126,160 @@ $this->title = 'Apple';
     </div>
 
     <div class="phone-list">
+        <div class="background-block phone" id="phone-x">
+            <div class="container" id="iphone-8">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#phone-x">iPhone X </a>
+                        </div>
+                        <div class="image">
+                            <img src="/uploads/params/sources/x4.jpg"
+                                 alt="Купить iPhone X 64Gb space gray" title="Купить iPhone X 64Gb space gray"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="25"
+                                       class="btn-k pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="25"
+                                       class="btn-k characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25,
+                                                    26, 27, 28, 29, 30, 38, 39, 40, 41
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.2</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac,&nbsp;с технологией MIMO, 2.4
+                                                    ГГц, 5 ГГц
+                                                </li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD с технологией 3D Touch</li>
+                                                <li>Диагональ дисплея (дюйм) : 4.7</li>
+                                                <li>Разрешение дисплея (пикс) : 1334x750</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 240</li>
+                                                <li>Воспроизведение музыки (ч) : 40</li>
+                                                <li>Воспроизведение видео (ч) : 13</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A10 Fusion + сопроцессор движения M10</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 12, f/1.8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 4000 x 3000</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : True Tone</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 3840 x 2160</li>
+                                                <li>Частота кадров видеосъемки : 30</li>
+                                                <li>Фронтальная камера (Мп) : 5</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 138.3</li>
+                                                <li>Ширина (мм) : 671</li>
+                                                <li>Толщина (мм) : 7.1</li>
+                                                <li>Вес (г) : 138</li>
+                                                <li>Стандарт защиты: IP67</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+                            <div class="label-name">Цвет</div>
+                            <div class="color-block space-gray selected" data-param-color="Серый космос"
+                                 valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="/uploads/params/sources/x4.jpg">
+                                <div style="position:relative;">
+                                    <span style="background: #a3a3a3" class="color_item"></span>
+                                    <span class="color-t">Серый космос</span>
+                                </div>
+                            </div>
+                            <div class="color-block space-gray" data-param-color="Серебристый" valsprice="15359"
+                                 valprice="12799" valcolor="space-gray"
+                                 vallink="/uploads/params/sources/x3.jpg">
+                                <div style="position:relative;">
+                                    <span style="background: #e9e9e9" class="color_item"></span>
+                                    <span class="color-t">Серебристый</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="select-memory">
+                            <div class="label-name">Объем памяти</div>
+                            <div class="memory-block selected" data-size-id="4" valsmemory="" valmemory="">
+                                64 ГБ
+                            </div>
+                            <div class="memory-block" data-size-id="6" valsmemory="" valmemory="">
+                                256 ГБ
+                            </div>
+                        </div>
+                        <div class="price">
+                            <div class="label-name">Доставка за 2 часа. Защитное стекло и чехол в подарок!
+                            </div>
+                            <div class="standart-price" id="price">
+                                <span><?= $prices['iPhoneX']['64Gb']['space-gray']['price2'] ?></span> руб.
+                            </div>
+                            <div class="sale-price">
+                                <span><?= $prices['iPhoneX']['64Gb']['space-gray']['price1'] ?></span> руб.
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <input type="hidden" name="category_id" value="x">
+                            <input type="hidden" name="prod_id" value="191">
+                            <a href="#bay-click" class="bay-click fancybox"
+                               onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="background-block phone" id="phone-8">
             <div class="container" id="iphone-8">
                 <div class="block-phone">
@@ -607,6 +771,15 @@ $this->title = 'Apple';
                                 256 ГБ
                             </div>
                         </div>
+                        <div class="select-new">
+                            <div class="label-name">Состояние</div>
+                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
+                            </div>
+                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                                Восстановленный
+                            </div>
+                        </div>
                         <div class="price">
                             <div class="label-name">Доставка за 2 часа. Защитное стекло и чехол в подарок!
                             </div>
@@ -795,6 +968,15 @@ $this->title = 'Apple';
                                 256 ГБ
                             </div>
                         </div>
+                        <div class="select-new">
+                            <div class="label-name">Состояние</div>
+                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
+                            </div>
+                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                                Восстановленный
+                            </div>
+                        </div>
                         <div class="price">
                             <div class="label-name">Доставка за 2 часа. Защитное стекло и чехол в подарок!
                             </div>
@@ -966,6 +1148,15 @@ $this->title = 'Apple';
                                 64 ГБ
                             </div>
                         </div>
+                        <div class="select-new">
+                            <div class="label-name">Состояние</div>
+                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
+                            </div>
+                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                                Восстановленный
+                            </div>
+                        </div>
                         <div class="price">
                             <div class="label-name">Доставка за 2 часа. Защитное стекло и чехол в подарок!
                             </div>
@@ -1133,6 +1324,15 @@ $this->title = 'Apple';
                             </div>
                             <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
                                 128 ГБ
+                            </div>
+                        </div>
+                        <div class="select-new">
+                            <div class="label-name">Состояние</div>
+                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
+                            </div>
+                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                                Восстановленный
                             </div>
                         </div>
                         <div class="price">
@@ -1304,6 +1504,15 @@ $this->title = 'Apple';
                                 128 ГБ
                             </div>
                         </div>
+                        <div class="select-new">
+                            <div class="label-name">Состояние</div>
+                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
+                            </div>
+                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                                Восстановленный
+                            </div>
+                        </div>
                         <div class="price">
                             <div class="label-name">Доставка за 2 часа. Защитное стекло и чехол в подарок!
                             </div>
@@ -1468,6 +1677,15 @@ $this->title = 'Apple';
                                 128 ГБ
                             </div>
                         </div>
+                        <div class="select-new">
+                            <div class="label-name">Состояние</div>
+                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
+                            </div>
+                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                                Восстановленный
+                            </div>
+                        </div>
                         <div class="price">
                             <div class="label-name">Доставка за 2 часа. Защитное стекло и чехол в подарок!
                             </div>
@@ -1630,6 +1848,15 @@ $this->title = 'Apple';
                             </div>
                             <div class="memory-block" data-size-id="5" valsmemory="" valmemory="">
                                 128 ГБ
+                            </div>
+                        </div>
+                        <div class="select-new">
+                            <div class="label-name">Состояние</div>
+                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
+                            </div>
+                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                                Восстановленный
                             </div>
                         </div>
                         <div class="price">
@@ -2005,44 +2232,44 @@ $this->title = 'Apple';
 <!--    _rc('send', 'pageView');-->
 <!--</script>-->
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter46141605 = new Ya.Metrika({
-                    id:46141605,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/46141605" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109041953-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-109041953-1');
-</script>
-<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
-<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=41d9a25bb69a5bf566a7dd3d59558e99" charset="UTF-8" async></script>
-<link rel="stylesheet" href="https://cdn.callbackkiller.com/widget/cbk.css">
-<script type="text/javascript" src="https://cdn.callbackkiller.com/widget/cbk.js?wcb_code=41d9a25bb69a5bf566a7dd3d59558e99" charset="UTF-8" async></script>
+<!--<script type="text/javascript" >-->
+<!--    (function (d, w, c) {-->
+<!--        (w[c] = w[c] || []).push(function() {-->
+<!--            try {-->
+<!--                w.yaCounter46141605 = new Ya.Metrika({-->
+<!--                    id:46141605,-->
+<!--                    clickmap:true,-->
+<!--                    trackLinks:true,-->
+<!--                    accurateTrackBounce:true,-->
+<!--                    webvisor:true-->
+<!--                });-->
+<!--            } catch(e) { }-->
+<!--        });-->
+<!---->
+<!--        var n = d.getElementsByTagName("script")[0],-->
+<!--            s = d.createElement("script"),-->
+<!--            f = function () { n.parentNode.insertBefore(s, n); };-->
+<!--        s.type = "text/javascript";-->
+<!--        s.async = true;-->
+<!--        s.src = "https://mc.yandex.ru/metrika/watch.js";-->
+<!---->
+<!--        if (w.opera == "[object Opera]") {-->
+<!--            d.addEventListener("DOMContentLoaded", f, false);-->
+<!--        } else { f(); }-->
+<!--    })(document, window, "yandex_metrika_callbacks");-->
+<!--</script>-->
+<!--<noscript><div><img src="https://mc.yandex.ru/watch/46141605" style="position:absolute; left:-9999px;" alt="" /></div></noscript>-->
+<!--<!-- /Yandex.Metrika counter -->-->
+<!--<!-- Global site tag (gtag.js) - Google Analytics -->-->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109041953-1"></script>-->
+<!--<script>-->
+<!--  window.dataLayer = window.dataLayer || [];-->
+<!--  function gtag(){dataLayer.push(arguments);}-->
+<!--  gtag('js', new Date());-->
+<!---->
+<!--  gtag('config', 'UA-109041953-1');-->
+<!--</script>-->
+<!--<link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">-->
+<!--<script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=41d9a25bb69a5bf566a7dd3d59558e99" charset="UTF-8" async></script>-->
+<!--<link rel="stylesheet" href="https://cdn.callbackkiller.com/widget/cbk.css">-->
+<!--<script type="text/javascript" src="https://cdn.callbackkiller.com/widget/cbk.js?wcb_code=41d9a25bb69a5bf566a7dd3d59558e99" charset="UTF-8" async></script>-->
