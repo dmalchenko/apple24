@@ -271,7 +271,7 @@ $this->title = 'Apple';
                         </div>
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="x">
-                            <input type="hidden" name="prod_id" value="191">
+                            <input type="hidden" name="prod_id" value="192">
                             <a href="#bay-click" class="bay-click fancybox"
                                onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
                         </div>
@@ -773,11 +773,11 @@ $this->title = 'Apple';
                         </div>
                         <div class="select-new">
                             <div class="label-name">Состояние</div>
-                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
-                                Новый
-                            </div>
-                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                            <div class="new-block selected" data-state-id="1" valsmemory="" valmemory="">
                                 Восстановленный
+                            </div>
+                            <div class="new-block" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
                             </div>
                         </div>
                         <div class="price">
@@ -970,11 +970,11 @@ $this->title = 'Apple';
                         </div>
                         <div class="select-new">
                             <div class="label-name">Состояние</div>
-                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
-                                Новый
-                            </div>
-                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                            <div class="new-block selected" data-state-id="1" valsmemory="" valmemory="">
                                 Восстановленный
+                            </div>
+                            <div class="new-block" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
                             </div>
                         </div>
                         <div class="price">
@@ -1150,11 +1150,11 @@ $this->title = 'Apple';
                         </div>
                         <div class="select-new">
                             <div class="label-name">Состояние</div>
-                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
-                                Новый
-                            </div>
-                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                            <div class="new-block selected" data-state-id="1" valsmemory="" valmemory="">
                                 Восстановленный
+                            </div>
+                            <div class="new-block" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
                             </div>
                         </div>
                         <div class="price">
@@ -1328,11 +1328,11 @@ $this->title = 'Apple';
                         </div>
                         <div class="select-new">
                             <div class="label-name">Состояние</div>
-                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
-                                Новый
-                            </div>
-                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                            <div class="new-block selected" data-state-id="1" valsmemory="" valmemory="">
                                 Восстановленный
+                            </div>
+                            <div class="new-block" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
                             </div>
                         </div>
                         <div class="price">
@@ -1506,11 +1506,11 @@ $this->title = 'Apple';
                         </div>
                         <div class="select-new">
                             <div class="label-name">Состояние</div>
-                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
-                                Новый
-                            </div>
-                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                            <div class="new-block selected" data-state-id="1" valsmemory="" valmemory="">
                                 Восстановленный
+                            </div>
+                            <div class="new-block" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
                             </div>
                         </div>
                         <div class="price">
@@ -1679,11 +1679,11 @@ $this->title = 'Apple';
                         </div>
                         <div class="select-new">
                             <div class="label-name">Состояние</div>
-                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
-                                Новый
-                            </div>
-                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                            <div class="new-block selected" data-state-id="1" valsmemory="" valmemory="">
                                 Восстановленный
+                            </div>
+                            <div class="new-block" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
                             </div>
                         </div>
                         <div class="price">
@@ -1852,11 +1852,11 @@ $this->title = 'Apple';
                         </div>
                         <div class="select-new">
                             <div class="label-name">Состояние</div>
-                            <div class="new-block selected" data-state-id="0" valsmemory="" valmemory="">
-                                Новый
-                            </div>
-                            <div class="new-block" data-state-id="1" valsmemory="" valmemory="">
+                            <div class="new-block selected" data-state-id="1" valsmemory="" valmemory="">
                                 Восстановленный
+                            </div>
+                            <div class="new-block" data-state-id="0" valsmemory="" valmemory="">
+                                Новый
                             </div>
                         </div>
                         <div class="price">

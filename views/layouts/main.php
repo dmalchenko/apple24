@@ -57,6 +57,7 @@ AppAsset::register($this);
                 <li>
                     <a class="scrollto cat" href="/#catalog-id">Каталог</a>
                     <ul class="mobile_category_opened">
+                        <li><a href="/#phone-x" class="active  scrollto">iPhone X</a></li>
                         <li><a href="/#phone-8" class="active  scrollto">iPhone 8</a></li>
                         <li><a href="/#phone-8-plus" class="active  scrollto">iPhone 8 Plus</a></li>
                         <li><a href="/#phone-7" class="active  scrollto">iPhone 7</a></li>
