@@ -220,6 +220,7 @@ $(document).ready(function () {
         var csrfToken = $('meta[name="csrf-token"]').attr("content");
         // phoneCat.find('.new-block.selected').data('state-id')
 		var isNew = $(this).parent().parent().find('.new-block.selected').data('state-id');
+		var isNew2 = $(this).hasClass('newp');
 		$.ajax({
 			type: 'POST',
 			dataType: 'json',
@@ -229,11 +230,14 @@ $(document).ready(function () {
                 _csrf: csrfToken
             },
             success: function (result) {
-				var name = ' NEW';
-				if (isNew == 1) {
+				var name = ' REF';
+				if (isNew == 0) {
                     result.price1 = result.price3;
                     result.price2 = result.price4;
-                    var name = ' USED';
+                    var name = ' NEW';
+				}
+				if (isNew2) {
+                    var name = ' NEW';
 				}
 				$('.popup').find(".cat-item-new-price").html(result.price1);
 				$('.popup').find(".cat-item-old-price").html(result.price2);
@@ -584,7 +588,7 @@ function dinamPhones(attr) {
                         if (attr) {
                             window.location.href = '/' + result.sef + '/';
                         } else {
-                        	if (phoneCat.find('.new-block.selected').data('state-id') == 1) {
+                        	if (phoneCat.find('.new-block.selected').data('state-id') == 0) {
                                 result.price1 = result.price3;
                                 result.price2 = result.price4;
 							};

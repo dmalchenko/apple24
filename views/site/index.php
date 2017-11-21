@@ -272,7 +272,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="x">
                             <input type="hidden" name="prod_id" value="192">
-                            <a href="#bay-click" class="bay-click fancybox"
+                            <a href="#bay-click" class="bay-click fancybox newp"
                                onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
                         </div>
                     </div>
@@ -434,7 +434,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="8">
                             <input type="hidden" name="prod_id" value="180">
-                            <a href="#bay-click" class="bay-click fancybox"
+                            <a href="#bay-click" class="bay-click fancybox newp"
                                onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
                         </div>
                     </div>
@@ -596,7 +596,7 @@ $this->title = 'Apple';
                         <div class="buttons">
                             <input type="hidden" name="category_id" value="8-plus">
                             <input type="hidden" name="prod_id" value="186">
-                            <a href="#bay-click" class="bay-click fancybox"
+                            <a href="#bay-click" class="bay-click fancybox newp"
                                onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
                         </div>
                     </div>
