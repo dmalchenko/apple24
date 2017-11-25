@@ -52,7 +52,7 @@ AppAsset::register($this);
             <ul class="burger-menu">
                 <li>
                     <span class="limenu scrollto" style="display: block; color: #fff; font-size: 22px; margin-left: -114px; margin-top: -12px">Москва</span>
-                    <span class="limenu" style="display: block; color: #fff; font-size:12px; margin-left:-75px">ул. Спартаковская, 19</span>
+                    <span class="limenu" style="display: block; color: #fff; font-size:12px; margin-left:-75px">ул. Садовническая, 5</span>
                 </li>
                 <li>
                     <a class="scrollto cat" href="/#catalog-id">Каталог</a>
