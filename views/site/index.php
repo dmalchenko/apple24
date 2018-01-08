@@ -17,10 +17,10 @@ $this->title = 'Apple';
                 <div class="centered">
                     <div class="clr"></div>
                     <div class="iph">
-                        <p>Акция! Черная пятница!</p>
-                        <p>Купить iPhone со скидкой 27%</p>						
+                        <p>Купите iPhone со скидкой 21%</p>						
                         <p>Официальная гарантия 1 год</p>
                         <p>Бесплатная доставка за 2 часа</p>
+                        <p>Защитное стекло и чехол в подарок</p>
                         <a class="down" href="#catalog">Смотрите каталог</a>
                     </div>
                 </div>
@@ -260,7 +260,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhoneX']['64Gb']['space-gray']['price2'] ?></span> руб.
@@ -421,7 +421,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhone8']['64Gb']['space-gray']['price2'] ?></span> руб.
@@ -582,7 +582,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhone8Plus']['64Gb']['space-gray']['price2'] ?></span> руб.
@@ -779,7 +779,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhone7']['32Gb']['jet-black']['price2'] ?></span> руб.
@@ -976,7 +976,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhone7plus']['32Gb']['jet-black']['price2'] ?></span> руб.
@@ -1156,7 +1156,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhoneSE']['16Gb']['space-gray']['price2'] ?></span> руб.
@@ -1334,7 +1334,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhone6s']['16Gb']['space-gray']['price2'] ?></span> руб.
@@ -1512,7 +1512,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhone6sPlus']['16Gb']['space-gray']['price2'] ?></span> руб.
@@ -1685,7 +1685,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhone6']['16Gb']['space-gray']['price2'] ?></span> руб.
@@ -1858,7 +1858,7 @@ $this->title = 'Apple';
                             </div>
                         </div>
                         <div class="price">
-                            <div class="label-name">Черная пятница! Успей купить со скидкой 27%
+                            <div class="label-name">Только сегодня! Успей купить со скидкой 21%
                             </div>
                             <div class="standart-price" id="price">
                                 <span><?= $prices['iPhone6plus']['16Gb']['space-gray']['price2'] ?></span> руб.
