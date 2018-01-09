@@ -123,6 +123,60 @@ $this->title = 'Apple';
                 <br>
                 <button class="btn-v">Купить</button>
             </a>
+            <a href="#app-watch-s1" class="block scrollto">
+                <div class="ph-block">
+                    <img src="/uploads/params/sources/s1.jpg"
+                         alt="Купить iPhone 6 plus"
+                         title="Купить iPhone 6 plus"/>
+                </div>
+                <span>Apple Watch S1</span>
+                от <?= $prices['S1'][' '][' ']['price1'] ?> руб.
+                <br>
+                <button class="btn-v">Купить</button>
+            </a>
+            <a href="#app-watch-s2" class="block scrollto">
+                <div class="ph-block">
+                    <img src="/uploads/params/sources/s2.jpg"
+                         alt="Купить iPhone 6 plus"
+                         title="Купить iPhone 6 plus"/>
+                </div>
+                <span>Apple Watch S2</span>
+                от <?= $prices['S2'][' '][' ']['price1'] ?> руб.
+                <br>
+                <button class="btn-v">Купить</button>
+            </a>
+            <a href="#app-watch-s3" class="block scrollto">
+                <div class="ph-block">
+                    <img src="/uploads/params/sources/s3.jpg"
+                         alt="Купить iPhone 6 plus"
+                         title="Купить iPhone 6 plus"/>
+                </div>
+                <span>Apple Watch S3</span>
+                от <?= $prices['S3'][' '][' ']['price1'] ?> руб.
+                <br>
+                <button class="btn-v">Купить</button>
+            </a>
+            <a href="#app-ipad10" class="block scrollto">
+                <div class="ph-block">
+                    <img src="/uploads/params/sources/ipad12.jpg"
+                         alt="Купить iPhone 6 plus"
+                         title="Купить iPhone 6 plus"/></div>
+                <span>Apple iPad 12.9</span>
+                от <?= $prices['ipad12'][' '][' ']['price1'] ?> руб.
+                <br>
+                <button class="btn-v">Купить</button>
+            </a>
+            <a href="#app-ipad12" class="block scrollto">
+                <div class="ph-block">
+                    <img src="/uploads/params/sources/ipad10.jpg"
+                         alt="Купить iPhone 6 plus"
+                         title="Купить iPhone 6 plus"/>
+                </div>
+                <span>Apple iPad 10.5</span>
+                от <?= $prices['ipad10'][' '][' ']['price1'] ?> руб.
+                <br>
+                <button class="btn-v">Купить</button>
+            </a>
         </div>
     </div>
 
@@ -153,7 +207,8 @@ $this->title = 'Apple';
                                         <dd style="display:block;">
                                             <ul>
                                                 <li>FDD-LTE (диапазоны 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20,
-												    25, 26, 28, 29, 30, 66)</li>
+                                                    25, 26, 28, 29, 30, 66)
+                                                </li>
                                                 <li>TD-LTE (диапазоны 34, 38, 39, 40, 41)</li>
                                                 <li>TD-SCDMA 1900 (F), 2000 (A)</li>
                                                 <li>CDMA EV-DO Rev. A (800, 1900, 2100 МГц)</li>
@@ -174,7 +229,9 @@ $this->title = 'Apple';
                                                 <li>Дисплей True Tone</li>
                                                 <li>Дисплей с расширенным цветовым охватом (P3)</li>
                                                 <li>Олеофобное покрытие, устойчивое к появлению следов от пальцев</li>
-                                                <li>Поддержка одновременного отображения нескольких языков и наборов символов</li>
+                                                <li>Поддержка одновременного отображения нескольких языков и наборов
+                                                    символов
+                                                </li>
                                             </ul>
                                         </dd>
                                         <dt><a href="">Питание</a></dt>
@@ -186,7 +243,9 @@ $this->title = 'Apple';
                                                 <li>Воспроизведение видео по беспроводной сети: до 13 часов</li>
                                                 <li>Воспроизведение аудио по беспроводной сети: до 60 часов</li>
                                                 <li>Возможность быстрой подзарядки: 50% заряда за 30 минут</li>
-                                                <li>Беспроводная зарядка (поддерживаются зарядные устройства стандарта Qi10)</li>
+                                                <li>Беспроводная зарядка (поддерживаются зарядные устройства стандарта
+                                                    Qi10)
+                                                </li>
                                             </ul>
                                         </dd>
                                     </dl>
@@ -306,7 +365,8 @@ $this->title = 'Apple';
                                         <dd style="display:block;">
                                             <ul>
                                                 <li>FDD-LTE (диапазоны 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20,
-												    25, 26, 28, 29, 30, 66)</li>
+                                                    25, 26, 28, 29, 30, 66)
+                                                </li>
                                                 <li>TD-LTE (диапазоны 34, 38, 39, 40, 41)</li>
                                                 <li>TD-SCDMA 1900 (F), 2000 (A)</li>
                                                 <li>CDMA EV-DO Rev. A (800, 1900, 2100 МГц)</li>
@@ -327,7 +387,9 @@ $this->title = 'Apple';
                                                 <li>Дисплей True Tone</li>
                                                 <li>Дисплей с расширенным цветовым охватом (P3)</li>
                                                 <li>Олеофобное покрытие, устойчивое к появлению следов от пальцев</li>
-                                                <li>Поддержка одновременного отображения нескольких языков и наборов символов</li>
+                                                <li>Поддержка одновременного отображения нескольких языков и наборов
+                                                    символов
+                                                </li>
                                             </ul>
                                         </dd>
                                         <dt><a href="">Питание</a></dt>
@@ -339,7 +401,9 @@ $this->title = 'Apple';
                                                 <li>Воспроизведение видео по беспроводной сети: до 13 часов</li>
                                                 <li>Воспроизведение аудио по беспроводной сети: до 60 часов</li>
                                                 <li>Возможность быстрой подзарядки: 50% заряда за 30 минут</li>
-                                                <li>Беспроводная зарядка (поддерживаются зарядные устройства стандарта Qi10)</li>
+                                                <li>Беспроводная зарядка (поддерживаются зарядные устройства стандарта
+                                                    Qi10)
+                                                </li>
                                             </ul>
                                         </dd>
                                     </dl>
@@ -467,7 +531,8 @@ $this->title = 'Apple';
                                         <dd style="display:block;">
                                             <ul>
                                                 <li>FDD-LTE (диапазоны 1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20,
-												    25, 26, 28, 29, 30, 66)</li>
+                                                    25, 26, 28, 29, 30, 66)
+                                                </li>
                                                 <li>TD-LTE (диапазоны 34, 38, 39, 40, 41)</li>
                                                 <li>TD-SCDMA 1900 (F), 2000 (A)</li>
                                                 <li>CDMA EV-DO Rev. A (800, 1900, 2100 МГц)</li>
@@ -488,7 +553,9 @@ $this->title = 'Apple';
                                                 <li>Дисплей True Tone</li>
                                                 <li>Дисплей с расширенным цветовым охватом (P3)</li>
                                                 <li>Олеофобное покрытие, устойчивое к появлению следов от пальцев</li>
-                                                <li>Поддержка одновременного отображения нескольких языков и наборов символов</li>
+                                                <li>Поддержка одновременного отображения нескольких языков и наборов
+                                                    символов
+                                                </li>
                                             </ul>
                                         </dd>
                                         <dt><a href="">Питание</a></dt>
@@ -500,7 +567,9 @@ $this->title = 'Apple';
                                                 <li>Воспроизведение видео по беспроводной сети: до 13 часов</li>
                                                 <li>Воспроизведение аудио по беспроводной сети: до 60 часов</li>
                                                 <li>Возможность быстрой подзарядки: 50% заряда за 30 минут</li>
-                                                <li>Беспроводная зарядка (поддерживаются зарядные устройства стандарта Qi10)</li>
+                                                <li>Беспроводная зарядка (поддерживаются зарядные устройства стандарта
+                                                    Qi10)
+                                                </li>
                                             </ul>
                                         </dd>
                                     </dl>
@@ -1877,7 +1946,636 @@ $this->title = 'Apple';
                 </div>
             </div>
         </div>
+        <div class="background-block phone" id="apple-watch-s1">
+            <div class="container" id="app-watch-s1">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#apple-watch-s1">Apple watch S1</a>
+                        </div>
+                        <div class="image">
+                            <img src="/uploads/params/sources/s12.jpg"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="6"
+                                       class="btn-k pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="6"
+                                       class="btn-k characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26,
+                                                    28, 29
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.0</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD</li>
+                                                <li>Диагональ дисплея (дюйм) : 5.5</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 250</li>
+                                                <li>Воспроизведение музыки (ч) : 50</li>
+                                                <li>Воспроизведение видео (ч) : 11</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
 
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A8 + сопроцессор M8</li>
+                                                <li>Частота процессора (МГц) : 1400</li>
+                                                <li>Кол-во ядер : 2</li>
+                                                <li>Видеочип : PowerVR GX6650</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : да</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
+                                                <li>Частота кадров видеосъемки : 60</li>
+                                                <li>Фронтальная камера (Мп) : 1.2</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 158.1</li>
+                                                <li>Ширина (мм) : 77.8</li>
+                                                <li>Толщина (мм) : 7.1</li>
+                                                <li>Вес (г) : 172</li>
+                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+
+                            <div class="price">
+                                <div class="label-name">Только сегодня! Успей купить со скидкой 21%
+                                </div>
+                                <div class="standart-price" id="price">
+                                    <span>25000</span> руб.
+                                </div>
+                                <div class="sale-price">
+                                    <span>20000</span> руб.
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <input type="hidden" name="category_id" value="6-plus">
+                                <input type="hidden" name="prod_id" value="200">
+                                <a href="#bay-click" class="bay-click fancybox newp"
+                                   onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-block phone" id="apple-watch-s2">
+            <div class="container" id="app-watch-s2">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#apple-watch-s2">Apple watch S2</a>
+                        </div>
+                        <div class="image">
+                            <img src="/uploads/params/sources/s12.jpg"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="6"
+                                       class="btn-k pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="6"
+                                       class="btn-k characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26,
+                                                    28, 29
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.0</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD</li>
+                                                <li>Диагональ дисплея (дюйм) : 5.5</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 250</li>
+                                                <li>Воспроизведение музыки (ч) : 50</li>
+                                                <li>Воспроизведение видео (ч) : 11</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A8 + сопроцессор M8</li>
+                                                <li>Частота процессора (МГц) : 1400</li>
+                                                <li>Кол-во ядер : 2</li>
+                                                <li>Видеочип : PowerVR GX6650</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : да</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
+                                                <li>Частота кадров видеосъемки : 60</li>
+                                                <li>Фронтальная камера (Мп) : 1.2</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 158.1</li>
+                                                <li>Ширина (мм) : 77.8</li>
+                                                <li>Толщина (мм) : 7.1</li>
+                                                <li>Вес (г) : 172</li>
+                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+
+                            <div class="price">
+                                <div class="label-name">Только сегодня! Успей купить со скидкой 21%
+                                </div>
+                                <div class="standart-price" id="price">
+                                    <span>30000</span> руб.
+                                </div>
+                                <div class="sale-price">
+                                    <span>25000</span> руб.
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <input type="hidden" name="category_id" value="6-plus">
+                                <input type="hidden" name="prod_id" value="201">
+                                <a href="#bay-click" class="bay-click fancybox newp"
+                                   onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-block phone" id="apple-watch-s3">
+            <div class="container" id="app-watch-s3">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#apple-watch-s3">Apple watch S3</a>
+                        </div>
+                        <div class="image">
+                            <img src="/uploads/params/sources/s33.jpg"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="6"
+                                       class="btn-k pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="6"
+                                       class="btn-k characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26,
+                                                    28, 29
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.0</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD</li>
+                                                <li>Диагональ дисплея (дюйм) : 5.5</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 250</li>
+                                                <li>Воспроизведение музыки (ч) : 50</li>
+                                                <li>Воспроизведение видео (ч) : 11</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A8 + сопроцессор M8</li>
+                                                <li>Частота процессора (МГц) : 1400</li>
+                                                <li>Кол-во ядер : 2</li>
+                                                <li>Видеочип : PowerVR GX6650</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : да</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
+                                                <li>Частота кадров видеосъемки : 60</li>
+                                                <li>Фронтальная камера (Мп) : 1.2</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 158.1</li>
+                                                <li>Ширина (мм) : 77.8</li>
+                                                <li>Толщина (мм) : 7.1</li>
+                                                <li>Вес (г) : 172</li>
+                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+
+                            <div class="price">
+                                <div class="label-name">Только сегодня! Успей купить со скидкой 21%
+                                </div>
+                                <div class="standart-price" id="price">
+                                    <span>31000</span> руб.
+                                </div>
+                                <div class="sale-price">
+                                    <span>26000</span> руб.
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <input type="hidden" name="category_id" value="6-plus">
+                                <input type="hidden" name="prod_id" value="202">
+                                <a href="#bay-click" class="bay-click fancybox newp"
+                                   onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-block phone" id="apple-ipad12">
+            <div class="container" id="app-ipad12">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#apple-ipad12">Apple iPad 12.9</a>
+                        </div>
+                        <div class="image">
+                            <img src="/uploads/params/sources/ipad1012.jpg"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="6"
+                                       class="btn-k pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="6"
+                                       class="btn-k characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26,
+                                                    28, 29
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.0</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD</li>
+                                                <li>Диагональ дисплея (дюйм) : 5.5</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 250</li>
+                                                <li>Воспроизведение музыки (ч) : 50</li>
+                                                <li>Воспроизведение видео (ч) : 11</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A8 + сопроцессор M8</li>
+                                                <li>Частота процессора (МГц) : 1400</li>
+                                                <li>Кол-во ядер : 2</li>
+                                                <li>Видеочип : PowerVR GX6650</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : да</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
+                                                <li>Частота кадров видеосъемки : 60</li>
+                                                <li>Фронтальная камера (Мп) : 1.2</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 158.1</li>
+                                                <li>Ширина (мм) : 77.8</li>
+                                                <li>Толщина (мм) : 7.1</li>
+                                                <li>Вес (г) : 172</li>
+                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+
+                            <div class="price">
+                                <div class="label-name">Только сегодня! Успей купить со скидкой 21%
+                                </div>
+                                <div class="standart-price" id="price">
+                                    <span>60000</span> руб.
+                                </div>
+                                <div class="sale-price">
+                                    <span>55500</span> руб.
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <input type="hidden" name="category_id" value="6-plus">
+                                <input type="hidden" name="prod_id" value="203">
+                                <a href="#bay-click" class="bay-click fancybox newp"
+                                   onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-block phone" id="apple-ipad10">
+            <div class="container" id="app-ipad10">
+                <div class="block-phone">
+                    <div class="left-side">
+                        <div class="model">
+                            <a href="#apple-ipad10">Apple iPad 10.5</a>
+                        </div>
+                        <div class="image">
+                            <img src="/uploads/params/sources/ipad1012.jpg"/>
+                        </div>
+                        <div class="info-phone">
+                            <ul>
+                                <li><a href="#pack-set-iphone5s" data-cat_id="6"
+                                       class="btn-k pack-set fancybox">Комплектация</a>
+                                </li>
+                                <li><a href="#characteristics-iphone5s" data-cat_id="6"
+                                       class="btn-k characteristics_d fancybox">Характеристики</a></li>
+                            </ul>
+                            <div class="characteristics_hidden">
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Связь</a></dt>
+                                        <dd style="display:block;">
+                                            <ul>
+                                                <li>Диапазоны GSM : 850, 900, 1800, 1900</li>
+                                                <li>Диапазоны UMTS : 850, 900, 1700, 1900, 2100</li>
+                                                <li>Диапазоны LTE : 1, 2, 3, 4, 5, 7, 8, 13, 17, 18, 19, 20, 25, 26,
+                                                    28, 29
+                                                </li>
+                                                <li>Доступ в Интернет : GPRS , EDGE , 3G , 4G</li>
+                                                <li>Bluetooth : 4.0</li>
+                                                <li>Wi-Fi (802.11) : a, b , g , n , ac</li>
+                                                <li>NFC : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Дисплей</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип дисплея : Retina HD</li>
+                                                <li>Диагональ дисплея (дюйм) : 5.5</li>
+                                                <li>Количество цветов дисплея : 16 млн.</li>
+                                                <li>Сенсорный дисплей : да</li>
+                                                <li>Тип сенсорного дисплея : емкостный</li>
+                                                <li>Поддержка Multitouch : да</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Питание</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип аккумулятора : Литий-ионный</li>
+                                                <li>Время разговора в сети 3G (ч) : 14</li>
+                                                <li>Время ожидания (ч) : 250</li>
+                                                <li>Воспроизведение музыки (ч) : 50</li>
+                                                <li>Воспроизведение видео (ч) : 11</li>
+                                                <li>Время работы в интернете через сотовую сеть (ч) : 10</li>
+                                                <li>Время работы в интернете через Wi-Fi (ч) : 11</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+
+                                <div class="characteristics-block">
+                                    <dl class="accordions">
+                                        <dt><a href="">Процессор</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Процессор : Apple A8 + сопроцессор M8</li>
+                                                <li>Частота процессора (МГц) : 1400</li>
+                                                <li>Кол-во ядер : 2</li>
+                                                <li>Видеочип : PowerVR GX6650</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Фотокамера</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Основная камера (Мп) : 8</li>
+                                                <li>Разрешение фотосъемки (пикс) : 3248 x 2448</li>
+                                                <li>Стабилизация изображения : цифровая</li>
+                                                <li>Автофокус : да</li>
+                                                <li>Вспышка : да</li>
+                                                <li>Видеозапись : да</li>
+                                                <li>Разрешение видеосъемки (пикс) : 1920 x 1080</li>
+                                                <li>Частота кадров видеосъемки : 60</li>
+                                                <li>Фронтальная камера (Мп) : 1.2</li>
+                                            </ul>
+                                        </dd>
+                                        <dt><a href="">Тип корпуса/SIM карта</a></dt>
+                                        <dd>
+                                            <ul>
+                                                <li>Тип SIM-карты : nano-SIM</li>
+                                                <li>Высота (мм) : 158.1</li>
+                                                <li>Ширина (мм) : 77.8</li>
+                                                <li>Толщина (мм) : 7.1</li>
+                                                <li>Вес (г) : 172</li>
+                                                <li>Материал корпуса : алюминий, нерж. сталь</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="select-color">
+
+                            <div class="price">
+                                <div class="label-name">Только сегодня! Успей купить со скидкой 21%
+                                </div>
+                                <div class="standart-price" id="price">
+                                    <span>50000</span> руб.
+                                </div>
+                                <div class="sale-price">
+                                    <span>44500</span> руб.
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <input type="hidden" name="category_id" value="6-plus">
+                                <input type="hidden" name="prod_id" value="204">
+                                <a href="#bay-click" class="bay-click fancybox newp"
+                                   onclick="yaCounter46128996.reachGoal('ORDER'); return true;">Купить сейчас </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <br>
     <div id="press-block">
